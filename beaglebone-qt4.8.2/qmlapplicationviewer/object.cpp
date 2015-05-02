@@ -16,7 +16,7 @@ QString Object::getPreviousImage()
     //return "http://www.vesta-tab.com/jo/getImage.php?id="+QString::number(state);
     //return "file:///home/jo/vesta/IMAGES/"+QString::number(state)+".jpg";
 
-    return "file://"+imagesName[state];
+    return "file:"+imagesName[state];
 }
 
 QString Object::getNextImage()
@@ -33,5 +33,5 @@ QString Object::getNextImage()
     //qDebug() << "state="+QString::number(state);
 
 
-    return "file://"+imagesName[state];
+    return "file:"+imagesName[state];
 }

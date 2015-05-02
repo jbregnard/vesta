@@ -47,15 +47,16 @@ void Downloader::replyFinished (QNetworkReply *reply)
 
 
 
-        QDir::setCurrent("/home/jo/vesta/IMAGES/");
+        QDir::setCurrent("./IMAGES");
 
+        //qDebug() << QDir::currentPath();
 
         for(i=0;i<nbMessage;i++)
         {
             //image = imagePath.absolutePath()+ "/" + "1.jpg"; //QString(messageId[i])
             image.setFileName(QString::number(messageId[i]) + ".jpg");
 
-            imagesName[i]="/home/jo/vesta/IMAGES/" + image.fileName();
+            imagesName[i]=QDir::currentPath() + "/" + image.fileName();
 
             //qDebug() << imagesName[i];
 

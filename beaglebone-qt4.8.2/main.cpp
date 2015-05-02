@@ -29,7 +29,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     viewer.setOrientation(QmlApplicationViewer::ScreenOrientationAuto);
     //viewer.setMainQmlFile("qrc:/main.qml");
-    viewer.setSource(QUrl("qrc:/qml/test3/main.qml"));
+    viewer.setSource(QUrl("qrc:/qml/BBB/main.qml"));
     viewer.showFullScreen();
 
     return app->exec();

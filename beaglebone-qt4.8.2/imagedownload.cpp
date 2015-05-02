@@ -30,7 +30,12 @@ void imageDownload::replyFinished (QNetworkReply *reply)
     }
     else
     {
-        QFile *file = new QFile("/home/jo/vesta/IMAGES/" + image_name + ".jpg");
+
+        QFile *file = new QFile(QDir::currentPath() + "/" + image_name + ".jpg");
+
+
+
+
         if(file->open(QFile::WriteOnly))
         {
             file->write(reply->readAll());

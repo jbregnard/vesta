@@ -18,7 +18,7 @@ Rectangle {
         anchors.bottomMargin: 10
         anchors.top: parent.top
         anchors.topMargin: 10
-        source: "file:///home/jo/vesta/IMAGES/1.jpg"
+        source: "file:IMAGES/vesta.png"
     }
 
     Rectangle {
