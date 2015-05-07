@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GND Pin=ANT2-1
+Removed Pin From Net: NetName=NetANT 1_0 Pin=C5-2
+Removed Pin From Net: NetName=NetANT2_0 Pin=C17-2
+Removed Member From Class: ClassName=Vesta_cape_wifi Member=ANT 1
+Change Component Comment : Designator=ANT2 Old Comment=U.FL-R-SMT ANT2 New Comment=U.FL-R-SMT
+Added Component: Designator=ANT1(U.FL-R-SMT)
+Added Pin To Net: NetName=NetANT2_0 Pin=ANT1-1
+Added Pin To Net: NetName=GND Pin=ANT1-2
+Added Pin To Net: NetName=GND Pin=ANT1-2
+Added Pin To Net: NetName=GND Pin=ANT1-2
+Added Pin To Net: NetName=GND Pin=ANT1-2
+Added Pin To Net: NetName=NetANT 1_0 Pin=ANT2-1
+Added Pin To Net: NetName=NetANT2_0 Pin=C5-2
+Added Pin To Net: NetName=NetANT 1_0 Pin=C17-2
+Change Net Name : Old Net Name=NetANT 1_0 New Net Name=NetANT2_1
+Change Net Name : Old Net Name=NetANT2_0 New Net Name=NetANT1_1
+Added Member To Class: ClassName=Vesta_cape_wifi Member=Component ANT1 U.FL-R-SMT
