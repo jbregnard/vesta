@@ -60,6 +60,7 @@ void Downloader::replyFinished (QNetworkReply *reply)
 
             //qDebug() << imagesName[i];
 
+
             if(!image.exists())
             {
                 qDebug() << "No image called" << image.fileName();
