@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=VCC Pin=* accelerometer1-1
+Removed Pin From Net: NetName=Net* accelerometer1_2 Pin=* accelerometer1-2
+Removed Pin From Net: NetName=I2C2_SCL_ACC Pin=* accelerometer1-4
+Removed Pin From Net: NetName=GND Pin=* accelerometer1-5
+Removed Pin From Net: NetName=I2C2_SDA_ACC Pin=* accelerometer1-6
+Removed Pin From Net: NetName=ACC_SAO Pin=* accelerometer1-7
+Removed Pin From Net: NetName=ACC_INT2 Pin=* accelerometer1-9
+Removed Pin From Net: NetName=GND Pin=* accelerometer1-10
+Removed Pin From Net: NetName=ACC_INT1 Pin=* accelerometer1-11
+Removed Pin From Net: NetName=GND Pin=* accelerometer1-12
+Removed Pin From Net: NetName=VCC Pin=* accelerometer1-14
+Removed Pin From Net: NetName=VCC Pin=C3-2
+Removed Pin From Net: NetName=Net* accelerometer1_2 Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Pin From Net: NetName=ACC_SAO Pin=HDR2-23-M-P9-27
+Removed Member From Class: ClassName=Vesta_cape Member=* accelerometer1
+Removed Member From Class: ClassName=Vesta_cape Member=C5
+Change Component DesignItemId : Designator=R31 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R32 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component Footprint: Designator=R31 Old Footprint=AXIAL-0.4 New Footprint=J1-0603
+Change Component Footprint: Designator=R32 Old Footprint=AXIAL-0.4 New Footprint=J1-0603
+Change Component Comment : Designator=C3 Old Comment=4.7uF New Comment=1uF
+Added Component: Designator=U7(ADI-CC-14-1_V)
+Added Pin To Net: NetName=ACC_SAO Pin=C3-2
+Added Pin To Net: NetName=Net* accelerometer1_2 Pin=HDR2-23-M-P9-27
+Added Pin To Net: NetName=ACC_SAO Pin=HDR2-23-M-P9-30
+Added Pin To Net: NetName=VCC Pin=U7-1
+Added Pin To Net: NetName=GND Pin=U7-2
+Added Pin To Net: NetName=GND Pin=U7-4
+Added Pin To Net: NetName=GND Pin=U7-5
+Added Pin To Net: NetName=ACC_SAO Pin=U7-6
+Added Pin To Net: NetName=VCC Pin=U7-7
+Added Pin To Net: NetName=ACC_INT1 Pin=U7-8
+Added Pin To Net: NetName=ACC_INT2 Pin=U7-9
+Added Pin To Net: NetName=Net* accelerometer1_2 Pin=U7-12
+Added Pin To Net: NetName=I2C2_SDA_ACC Pin=U7-13
+Added Pin To Net: NetName=I2C2_SCL_ACC Pin=U7-14
+Change Net Name : Old Net Name=ACC_SAO New Net Name=ACC_VS
+Change Net Name : Old Net Name=Net* accelerometer1_2 New Net Name=ACC_ADDRESS
+Added Member To Class: ClassName=Vesta_cape Member=Component U7 ADXL345BCCZ-RL7

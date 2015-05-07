@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=SDIO_D2 Pin=HDR_2_23_M-5
+Removed Pin From Net: NetName=SDIO_D3 Pin=HDR_2_23_M-6
+Removed Pin From Net: NetName=SDIO_CMD Pin=HDR_2_23_M-20
+Removed Pin From Net: NetName=SDIO_CLK Pin=HDR_2_23_M-21
+Removed Pin From Net: NetName=SDIO_D1 Pin=HDR_2_23_M-24
+Removed Pin From Net: NetName=SDIO_D0 Pin=HDR_2_23_M-25
+Added Pin To Net: NetName=GPIO1_2 Pin=HDR_2_23_M-5
+Added Pin To Net: NetName=GPIO1_3 Pin=HDR_2_23_M-6
+Added Pin To Net: NetName=GPIO1_31 Pin=HDR_2_23_M-20
+Added Pin To Net: NetName=GPIO1_30 Pin=HDR_2_23_M-21
+Added Pin To Net: NetName=GPIO1_1 Pin=HDR_2_23_M-24
+Added Pin To Net: NetName=GPIO1_0 Pin=HDR_2_23_M-25

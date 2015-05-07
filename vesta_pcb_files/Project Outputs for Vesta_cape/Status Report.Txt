@@ -1,0 +1,10 @@
+Output: PCAD Netlist
+Type  : PCADNetlist
+From  : Project [Vesta_cape.PrjPcb]
+   Generated File[Vesta_cape.NET]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 00:32:35 On 05.05.2015

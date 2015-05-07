@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=LCD_LED16V@60MA_NEG Pin=*BCKLGHT-2
+Removed Pin From Net: NetName=GND Pin=*BCKLGHT-3
+Removed Pin From Net: NetName=LCD_LED16V@60MA_NEG Pin=* FRTLED-2
+Removed Pin From Net: NetName=GND Pin=* FRTLED-3
+Added Pin To Net: NetName=GND Pin=*BCKLGHT-2
+Added Pin To Net: NetName=LCD_LED16V@60MA_NEG Pin=*BCKLGHT-3
+Added Pin To Net: NetName=GND Pin=* FRTLED-2
+Added Pin To Net: NetName=LCD_LED16V@60MA_NEG Pin=* FRTLED-3

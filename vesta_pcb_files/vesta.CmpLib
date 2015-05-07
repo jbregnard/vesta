@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<TComponentSet id="0" CurrentRevColumnWidth="100" NameColumnWidth="300" NextRevColumnWidth="100">
+  <LifeCycleDefinitionGUID>36FD2F71-F33E-4628-994A-0C82C0197C5F</LifeCycleDefinitionGUID>
+  <RevisionNamingSchemeGUID>CE4B36C7-F2D7-49B0-AA3A-E3B6D3276818</RevisionNamingSchemeGUID>
+  <VaultGUID>B7D15EC3-160A-466F-A46C-7801FE6295A7</VaultGUID>
+  <VaultName>Altium Content Vault</VaultName>
+  <RequiredParameters>
+    <TRequiredParameter id="1" ColumnWidth="100">
+      <HRID>Comment</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="2" ColumnWidth="100">
+      <HRID>Description</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+  </RequiredParameters>
+  <RequiredModels>
+    <TRequiredModel id="3" ColumnWidth="100">
+      <HRID>PCBLIB</HRID>
+      <Visible>true</Visible>
+      <ModelKind>PCBLIB</ModelKind>
+    </TRequiredModel>
+    <TRequiredModel id="4" ColumnWidth="100">
+      <HRID>SCHLIB</HRID>
+      <Visible>true</Visible>
+      <ModelKind>SCHLIB</ModelKind>
+    </TRequiredModel>
+  </RequiredModels>
+  <ModelLinks>
+    <TModelLink id="5">
+      <HRID>PCC-0137-00014-1</HRID>
+      <VaultGUID>B7D15EC3-160A-466F-A46C-7801FE6295A7</VaultGUID>
+      <ItemGUID>2E451FC6-B2F1-4EB7-BAC6-16F8C9B9294E</ItemGUID>
+      <ModelKind>PCBLIB</ModelKind>
+      <RevisionGUID>68097BD6-659C-4C1E-B275-A543A0282CF8</RevisionGUID>
+      <RevisionId>1</RevisionId>
+    </TModelLink>
+    <TModelLink id="6">
+      <HRID>SYM-0104-00857-1</HRID>
+      <VaultGUID>B7D15EC3-160A-466F-A46C-7801FE6295A7</VaultGUID>
+      <ItemGUID>8D5BC508-86A9-4604-B17F-761CD7E11C4F</ItemGUID>
+      <ModelKind>SCHLIB</ModelKind>
+      <RevisionGUID>11D64173-DE43-4BD6-99E1-3043DCF49C23</RevisionGUID>
+      <RevisionId>1</RevisionId>
+    </TModelLink>
+  </ModelLinks>
+  <PartChoiceListLinks StateIndex="2">
+    <ComponentSet href="#0"/>
+    <ItemNamingScheme>PCL-{00000}</ItemNamingScheme>
+  </PartChoiceListLinks>
+  <TopGroup id="7" StateIndex="2" Collapsed="false">
+    <Parameters/>
+    <ModelChoices/>
+    <ComponentSet href="#0"/>
+    <ItemNamingScheme>CMP-{00000}</ItemNamingScheme>
+    <Groups>
+      <TGroup id="8" StateIndex="2" Collapsed="false">
+        <ParentGroup href="#7"/>
+        <Parameters/>
+        <ModelChoices/>
+        <ComponentSet href="#0"/>
+        <Groups/>
+        <ComponentDefinitions/>
+        <IsDefaultGroup>true</IsDefaultGroup>
+      </TGroup>
+      <TGroup id="9" StateIndex="2" Collapsed="false">
+        <HRID>Unified Components</HRID>
+        <GUID>6F23CFF3-AE4A-4F39-8993-FEE33E1E4537</GUID>
+        <ParentGroup href="#7"/>
+        <Parameters/>
+        <ModelChoices/>
+        <ComponentSet href="#0"/>
+        <Groups>
+          <TGroup id="10" StateIndex="2" Collapsed="false">
+            <HRID>Components</HRID>
+            <GUID>D4C44A14-D384-4AA1-BEA6-EE8FDF5E53A5</GUID>
+            <ParentGroup href="#9"/>
+            <Parameters/>
+            <ModelChoices/>
+            <ComponentSet href="#0"/>
+            <Groups>
+              <TGroup id="11" StateIndex="2" Collapsed="false">
+                <HRID>Molex</HRID>
+                <GUID>C7694ACA-F0A4-4D1C-BAB1-2AD515D46624</GUID>
+                <ParentGroup href="#10"/>
+                <Parameters/>
+                <ModelChoices/>
+                <ComponentSet href="#0"/>
+                <Groups>
+                  <TGroup id="12" StateIndex="2" Collapsed="false">
+                    <HRID>Connectors</HRID>
+                    <GUID>4942C4D0-9A9F-430D-9D6C-32543F749CDC</GUID>
+                    <ParentGroup href="#11"/>
+                    <Parameters/>
+                    <ModelChoices/>
+                    <ComponentSet href="#0"/>
+                    <Groups>
+                      <TGroup id="13" StateIndex="2" Collapsed="false">
+                        <HRID>FFC - FPC Connectors</HRID>
+                        <GUID>E2DD07BE-05B9-411A-ABD4-8D18FE01AD8A</GUID>
+                        <ParentGroup href="#12"/>
+                        <Parameters/>
+                        <ModelChoices/>
+                        <ComponentSet href="#0"/>
+                        <Groups>
+                          <TGroup id="14" StateIndex="2" Collapsed="false">
+                            <HRID>FFC - FPC (SMT)</HRID>
+                            <GUID>F8C54A53-B9AF-4EE3-BE79-8F3FEE8E4041</GUID>
+                            <ParentGroup href="#13"/>
+                            <Parameters/>
+                            <ModelChoices/>
+                            <ComponentSet href="#0"/>
+                            <Groups/>
+                            <ComponentDefinitions>
+                              <TComponentDefinition StateIndex="2">
+                                <HRID>Component</HRID>
+                                <ParentGroup href="#14"/>
+                                <Parameters/>
+                                <ModelChoices>
+                                  <TModelChoice>
+                                    <RequiredModel href="#3"/>
+                                    <ModelLink href="#5"/>
+                                  </TModelChoice>
+                                  <TModelChoice>
+                                    <RequiredModel href="#4"/>
+                                    <ModelLink href="#6"/>
+                                  </TModelChoice>
+                                </ModelChoices>
+                                <ItemHRID>CMP-00000</ItemHRID>
+                              </TComponentDefinition>
+                            </ComponentDefinitions>
+                            <Path>Unified Components\Components\Molex\Connectors\FFC - FPC Connectors\FFC - FPC (SMT)</Path>
+                            <IsDefaultGroup>false</IsDefaultGroup>
+                          </TGroup>
+                        </Groups>
+                        <ComponentDefinitions/>
+                        <Path>Unified Components\Components\Molex\Connectors\FFC - FPC Connectors</Path>
+                        <IsDefaultGroup>false</IsDefaultGroup>
+                      </TGroup>
+                    </Groups>
+                    <ComponentDefinitions/>
+                    <Path>Unified Components\Components\Molex\Connectors</Path>
+                    <IsDefaultGroup>false</IsDefaultGroup>
+                  </TGroup>
+                </Groups>
+                <ComponentDefinitions/>
+                <Path>Unified Components\Components\Molex</Path>
+                <IsDefaultGroup>false</IsDefaultGroup>
+              </TGroup>
+            </Groups>
+            <ComponentDefinitions/>
+            <Path>Unified Components\Components</Path>
+            <IsDefaultGroup>false</IsDefaultGroup>
+          </TGroup>
+        </Groups>
+        <ComponentDefinitions/>
+        <Path>Unified Components</Path>
+        <IsDefaultGroup>false</IsDefaultGroup>
+      </TGroup>
+    </Groups>
+    <ComponentDefinitions/>
+    <IsDefaultGroup>false</IsDefaultGroup>
+  </TopGroup>
+  <ShowReleaseState>false</ShowReleaseState>
+  <ItemNamingSchemeMappings>
+    <TItemNamingSchemeMapping>
+      <SimpleNamingScheme>CMP-{00000}</SimpleNamingScheme>
+      <InitialIndex>0</InitialIndex>
+    </TItemNamingSchemeMapping>
+  </ItemNamingSchemeMappings>
+</TComponentSet>

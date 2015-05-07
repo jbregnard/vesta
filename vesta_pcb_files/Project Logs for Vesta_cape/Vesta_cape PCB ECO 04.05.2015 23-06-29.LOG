@@ -1,0 +1,39 @@
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R3 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R4 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R5 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R6 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R7 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R8 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R9 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R10 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R11 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R12 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R13 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R14 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R15 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R16 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R17 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R18 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R19 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R20 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R21 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R22 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R23 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R24 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R25 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R26 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R27 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R28 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R29 Old DesignItemId=Res2 New DesignItemId=Res3
+Added Component: Designator=HDR2-23-M-P9(BBB_CAPE_HEADER)
+Added Pin To Net: NetName=GND Pin=HDR2-23-M-P9-1
+Added Pin To Net: NetName=GND Pin=HDR2-23-M-P9-2
+Added Pin To Net: NetName=VCC Pin=HDR2-23-M-P9-3
+Added Pin To Net: NetName=VCC Pin=HDR2-23-M-P9-4
+Added Pin To Net: NetName=BT_HCI_TX Pin=HDR2-23-M-P9-11
+Added Pin To Net: NetName=GPIO1_12 Pin=HDR2-23-M-P9-12
+Added Pin To Net: NetName=BT_HCI_RX Pin=HDR2-23-M-P9-13
+Added Pin To Net: NetName=SLOW_CLK Pin=HDR2-23-M-P9-41
+Added Member To Class: ClassName=Vesta_cape Member=Component HDR2-23-M-P9 P9

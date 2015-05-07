@@ -1,0 +1,4 @@
+Change Component DesignItemId : Designator=R33 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component DesignItemId : Designator=R34 Old DesignItemId=Res2 New DesignItemId=Res3
+Change Component Footprint: Designator=R33 Old Footprint=AXIAL-0.4 New Footprint=J1-0603
+Change Component Footprint: Designator=R34 Old Footprint=AXIAL-0.4 New Footprint=J1-0603

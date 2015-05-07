@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=BT_HCI_TX Pin=R43-1
+Removed Pin From Net: NetName=BT_HCI_TX Pin=R44-1
+Removed Pin From Net: NetName=BT_HCI_TX Pin=R46-1
+Added Pin To Net: NetName=BT_HCI_RTS Pin=R43-1
+Added Pin To Net: NetName=BT_HCI_CTS Pin=R44-1
+Added Pin To Net: NetName=BT_HCI_RX Pin=R46-1
+Added Room: Name=Vesta_cape

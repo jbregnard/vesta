@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=*1 NewDesignator=*BCKLGHT
+Change Component Designator: OldDesignator=* Buck boost1 NewDesignator=* FRTLED
+Change Net Name : Old Net Name=Net*1_1 New Net Name=Net*BCKLGHT_1
+Change Net Name : Old Net Name=Net* Buck boost1_1 New Net Name=Net* FRTLED_1

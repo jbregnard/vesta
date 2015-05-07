@@ -1,0 +1,1005 @@
+{COMPONENT PROTEL.PCB
+  {ENVIRONMENT PROTEL.SCH}
+  {DETAIL
+    {SUBCOMP
+      {I FAN5333A.PRT *1
+        {CN
+        1 Net*1_1
+        2 LCD_LED16V@60MA_NEG
+        3 GND
+        4 EHRPWMOA
+        5 VCC
+        }
+      }
+      {I MMA8452Q.PRT * accelerometer1
+        {CN
+        1 VCC
+        2 Net* accelerometer1_2
+        3 Net* accelerometer1_3
+        4 I2C2_SCL_ACC
+        5 GND
+        6 I2C2_SDA_ACC
+        7 ACC_SAO
+        8 Net* accelerometer1_8
+        9 ACC_INT2
+       10 GND
+       11 ACC_INT1
+       12 GND
+       13 Net* accelerometer1_13
+       14 VCC
+       15 Net* accelerometer1_15
+       16 Net* accelerometer1_16
+        }
+      }
+      {I FAN5333A.PRT * Buck boost1
+        {CN
+        1 Net* Buck boost1_1
+        2 LCD_LED16V@60MA_NEG
+        3 GND
+        4 EHRPWMOA
+        5 VCC
+        }
+      }
+      {I RAD-0.3.PRT C1
+        {CN
+        1 GND
+        2 LCD_LED16V@60MA_POS
+        }
+      }
+      {I RAD-0.3.PRT C2
+        {CN
+        1 GND
+        2 VCC
+        }
+      }
+      {I RAD-0.3.PRT C3
+        {CN
+        1 GND
+        2 VCC
+        }
+      }
+      {I RAD-0.3.PRT C4
+        {CN
+        1 GND
+        2 VCC
+        }
+      }
+      {I RAD-0.3.PRT C5
+        {CN
+        1 Net* accelerometer1_2
+        2 GND
+        }
+      }
+      {I RAD-0.3.PRT C6
+        {CN
+        1 GND
+        2 LCD_LED16V@60MA_POS
+        }
+      }
+      {I RAD-0.3.PRT C7
+        {CN
+        1 GND
+        2 VCC
+        }
+      }
+      {I C1206.PRT C8
+        {CN
+        1 SLOW_CLK
+        2 GND
+        }
+      }
+      {I C1206.PRT C9
+        {CN
+        1 GND
+        2 VDD_3V_WIFI
+        }
+      }
+      {I C1206.PRT C10
+        {CN
+        1 SLOW_CLK
+        2 GND
+        }
+      }
+      {I C1206.PRT C11
+        {CN
+        1 GND
+        2 VDD_3V_WIFI
+        }
+      }
+      {I C1206.PRT C12
+        {CN
+        1 GND
+        2 VDD_3V3_WIFI
+        }
+      }
+      {I C1206.PRT C13
+        {CN
+        1 GND
+        2 VDD_3V3_WIFI
+        }
+      }
+      {I C1206.PRT C14
+        {CN
+        1 GND
+        2 NetC14_2
+        }
+      }
+      {I C1206.PRT C15
+        {CN
+        1 GND
+        2 SLOW_CLK
+        }
+      }
+      {I C1206.PRT C16
+        {CN
+        1 GND
+        2 SLOW_CLK
+        }
+      }
+      {I NXP-SOT23-3_V.PRT D1
+        {CN
+        1 Net*1_1
+        2 ?
+        3 LCD_LED16V@60MA_POS
+        }
+      }
+      {I NXP-SOT23-3_V.PRT D2
+        {CN
+        1 Net* Buck boost1_1
+        2 ?
+        3 LCD_LED16V@60MA_POS
+        }
+      }
+      {I BBB_CAPE_HEADER.PRT HDR2-23-M-P9
+        {CN
+        1 GND
+        2 GND
+        3 VCC
+        4 VCC
+        5 NetHDR2-23-M-P9_5
+        6 NetHDR2-23-M-P9_6
+        7 NetHDR2-23-M-P9_7
+        8 NetHDR2-23-M-P9_8
+        9 NetHDR2-23-M-P9_9
+       10 NetHDR2-23-M-P9_10
+       11 BT_HCI_TX
+       12 GPIO1_12
+       13 BT_HCI_RX
+       14 NetHDR2-23-M-P9_14
+       15 TOUCH_WAKE
+       16 NetHDR2-23-M-P9_16
+       17 I2C1_SCL_TOUCH
+       18 I2C1_SDA_TOUCH
+       19 I2C2_SCL_ACC
+       20 I2C2_SDA_ACC
+       21 NetHDR2-23-M-P9_21
+       22 NetHDR2-23-M-P9_22
+       23 ACC_INT1
+       24 NetHDR2-23-M-P9_24
+       25 ACC_INT2
+       26 NetHDR2-23-M-P9_26
+       27 ACC_SAO
+       28 TOUCH_INT
+       29 EHRPWMOA
+       30 NetHDR2-23-M-P9_30
+       31 NetHDR2-23-M-P9_31
+       32 NetHDR2-23-M-P9_32
+       33 NetHDR2-23-M-P9_33
+       34 NetHDR2-23-M-P9_34
+       35 NetHDR2-23-M-P9_35
+       36 NetHDR2-23-M-P9_36
+       37 NetHDR2-23-M-P9_37
+       38 NetHDR2-23-M-P9_38
+       39 NetHDR2-23-M-P9_39
+       40 NetHDR2-23-M-P9_40
+       41 SLOW_CLK
+       42 NetHDR2-23-M-P9_42
+       43 NetHDR2-23-M-P9_43
+       44 NetHDR2-23-M-P9_44
+       45 NetHDR2-23-M-P9_45
+       46 NetHDR2-23-M-P9_46
+        }
+      }
+      {I BBB_CAPE_HEADER.PRT HDR_2_23_M
+        {CN
+        1 GND
+        2 GND
+        3 NetHDR_2_23_M_3
+        4 NetHDR_2_23_M_4
+        5 SDIO_D2
+        6 SDIO_D3
+        7 NetHDR_2_23_M_7
+        8 NetHDR_2_23_M_8
+        9 NetHDR_2_23_M_9
+       10 LCD_DISP
+       11 NetHDR_2_23_M_11
+       12 NetHDR_2_23_M_12
+       13 NetHDR_2_23_M_13
+       14 NetHDR_2_23_M_14
+       15 NetHDR_2_23_M_15
+       16 NetHDR_2_23_M_16
+       17 NetHDR_2_23_M_17
+       18 NetHDR_2_23_M_18
+       19 NetHDR_2_23_M_19
+       20 SDIO_CMD
+       21 SDIO_CLK
+       22 WL_IRQ_OUT
+       23 LCD_DEN
+       24 SDIO_D1
+       25 SDIO_D0
+       26 GPIO1_29
+       27 NetHDR_2_23_M_27
+       28 LCD_PCLK
+       29 LCD_HSYNC
+       30 NetHDR_2_23_M_30
+       31 LCD_VSYNC
+       32 NetHDR_2_23_M_32
+       33 NetHDR_2_23_M_33
+       34 NetHDR_2_23_M_34
+       35 NetHDR_2_23_M_35
+       36 NetHDR_2_23_M_36
+       37 NetHDR_2_23_M_37
+       38 NetHDR_2_23_M_38
+       39 NetHDR_2_23_M_39
+       40 NetHDR_2_23_M_40
+       41 NetHDR_2_23_M_41
+       42 NetHDR_2_23_M_42
+       43 NetHDR_2_23_M_43
+       44 NetHDR_2_23_M_44
+       45 NetHDR_2_23_M_45
+       46 NetHDR_2_23_M_46
+        }
+      }
+      {I MOLX-54104-4031.PRT J1
+        {CN
+        1 LCD_LED16V@60MA_POS
+        2 LCD_LED16V@60MA_NEG
+        3 GND
+        4 VCC
+        5 NetJ1_5
+        6 NetJ1_6
+        7 NetJ1_7
+        8 NetJ1_8
+        9 NetJ1_9
+       10 NetJ1_10
+       11 NetJ1_11
+       12 NetJ1_12
+       13 NetJ1_13
+       14 NetJ1_14
+       15 NetJ1_15
+       16 NetJ1_16
+       17 NetJ1_17
+       18 NetJ1_18
+       19 NetJ1_19
+       20 NetJ1_20
+       21 NetJ1_21
+       22 NetJ1_22
+       23 NetJ1_23
+       24 NetJ1_24
+       25 NetJ1_25
+       26 NetJ1_26
+       27 NetJ1_27
+       28 NetJ1_28
+       29 GND
+       30 NetJ1_30
+       31 NetJ1_31
+       32 NetJ1_32
+       33 NetJ1_33
+       34 NetJ1_34
+       35 NetJ1_35
+       36 GND
+       37 NetJ1_37
+       38 NetJ1_38
+       39 NetJ1_39
+       40 NetJ1_40
+      MP1 NetJ1_MP1
+      MP2 NetJ1_MP2
+        }
+      }
+      {I MOLX-52271-0679.PRT J2
+        {CN
+        1 VCC
+        2 GND
+        3 I2C1_SCL_TOUCH
+        4 I2C1_SDA_TOUCH
+        5 TOUCH_INT
+        6 TOUCH_WAKE
+      MP1 NetJ2_MP1
+      MP2 NetJ2_MP2
+        }
+      }
+      {I MCX5.08-H5.PRT J3
+        {CN
+        1 NetJ3_1
+        2 NetJ3_2
+        3 NetJ3_3
+        4 NetJ3_4
+        5 NetJ3_5
+        }
+      }
+      {I 0402-A.PRT L1
+        {CN
+        1 VCC
+        2 Net*1_1
+        }
+      }
+      {I 0402-A.PRT L2
+        {CN
+        1 VCC
+        2 Net* Buck boost1_1
+        }
+      }
+      {I HDR1X2.PRT P1
+        {CN
+        1 NetP1_1
+        2 SLOW_CLK
+        }
+      }
+      {I HDR1X2.PRT P2
+        {CN
+        1 NetP2_1
+        2 VDD_3V3_WIFI
+        }
+      }
+      {I J1-0603.PRT R1
+        {CN
+        1 LCD_DATA21
+        2 NetJ1_5
+        }
+      }
+      {I J1-0603.PRT R2
+        {CN
+        1 LCD_DATA18
+        2 NetJ1_6
+        }
+      }
+      {I J1-0603.PRT R3
+        {CN
+        1 LCD_DATA16
+        2 NetJ1_7
+        }
+      }
+      {I J1-0603.PRT R4
+        {CN
+        1 LCD_DATA11
+        2 NetJ1_8
+        }
+      }
+      {I J1-0603.PRT R5
+        {CN
+        1 LCD_DATA12
+        2 NetJ1_9
+        }
+      }
+      {I J1-0603.PRT R6
+        {CN
+        1 LCD_DATA13
+        2 NetJ1_10
+        }
+      }
+      {I J1-0603.PRT R7
+        {CN
+        1 LCD_DATA14
+        2 NetJ1_11
+        }
+      }
+      {I J1-0603.PRT R8
+        {CN
+        1 LCD_DATA15
+        2 NetJ1_12
+        }
+      }
+      {I J1-0603.PRT R9
+        {CN
+        1 LCD_DATA22
+        2 NetJ1_13
+        }
+      }
+      {I J1-0603.PRT R10
+        {CN
+        1 LCD_DATA19
+        2 NetJ1_14
+        }
+      }
+      {I J1-0603.PRT R11
+        {CN
+        1 LCD_DATA5
+        2 NetJ1_15
+        }
+      }
+      {I J1-0603.PRT R12
+        {CN
+        1 LCD_DATA6
+        2 NetJ1_16
+        }
+      }
+      {I J1-0603.PRT R13
+        {CN
+        1 LCD_DATA7
+        2 NetJ1_17
+        }
+      }
+      {I J1-0603.PRT R14
+        {CN
+        1 LCD_DATA8
+        2 NetJ1_18
+        }
+      }
+      {I J1-0603.PRT R15
+        {CN
+        1 LCD_DATA9
+        2 NetJ1_19
+        }
+      }
+      {I J1-0603.PRT R16
+        {CN
+        1 LCD_DATA10
+        2 NetJ1_20
+        }
+      }
+      {I J1-0603.PRT R17
+        {CN
+        1 LCD_DATA23
+        2 NetJ1_21
+        }
+      }
+      {I J1-0603.PRT R18
+        {CN
+        1 LCD_DATA20
+        2 NetJ1_22
+        }
+      }
+      {I J1-0603.PRT R19
+        {CN
+        1 LCD_DATA17
+        2 NetJ1_23
+        }
+      }
+      {I J1-0603.PRT R20
+        {CN
+        1 LCD_DATA0
+        2 NetJ1_24
+        }
+      }
+      {I J1-0603.PRT R21
+        {CN
+        1 LCD_DATA1
+        2 NetJ1_25
+        }
+      }
+      {I J1-0603.PRT R22
+        {CN
+        1 LCD_DATA2
+        2 NetJ1_26
+        }
+      }
+      {I J1-0603.PRT R23
+        {CN
+        1 LCD_DATA3
+        2 NetJ1_27
+        }
+      }
+      {I J1-0603.PRT R24
+        {CN
+        1 LCD_DATA4
+        2 NetJ1_28
+        }
+      }
+      {I J1-0603.PRT R25
+        {CN
+        1 LCD_PCLK
+        2 NetJ1_30
+        }
+      }
+      {I J1-0603.PRT R26
+        {CN
+        1 LCD_DISP
+        2 NetJ1_31
+        }
+      }
+      {I J1-0603.PRT R27
+        {CN
+        1 LCD_HSYNC
+        2 NetJ1_32
+        }
+      }
+      {I J1-0603.PRT R28
+        {CN
+        1 LCD_VSYNC
+        2 NetJ1_33
+        }
+      }
+      {I J1-0603.PRT R29
+        {CN
+        1 LCD_DEN
+        2 NetJ1_34
+        }
+      }
+      {I J1-0603.PRT R30
+        {CN
+        1 GND
+        2 LCD_LED16V@60MA_NEG
+        }
+      }
+      {I AXIAL-0.4.PRT R31
+        {CN
+        1 I2C2_SDA_ACC
+        2 VCC
+        }
+      }
+      {I AXIAL-0.4.PRT R32
+        {CN
+        1 I2C2_SCL_ACC
+        2 VCC
+        }
+      }
+      {I AXIAL-0.4.PRT R33
+        {CN
+        1 I2C1_SDA_TOUCH
+        2 VCC
+        }
+      }
+      {I AXIAL-0.4.PRT R34
+        {CN
+        1 I2C1_SCL_TOUCH
+        2 VCC
+        }
+      }
+      {I J1-0603.PRT R35
+        {CN
+        1 GND
+        2 LCD_LED16V@60MA_NEG
+        }
+      }
+      {I J1-0603.PRT R36
+        {CN
+        1 NetR36_1
+        2 SLOW_CLK
+        }
+      }
+      {I J1-0603.PRT R37
+        {CN
+        1 NetR37_1
+        2 SLOW_CLK
+        }
+      }
+      {I J1-0603.PRT R38
+        {CN
+        1 NetR38_1
+        2 NetR38_2
+        }
+      }
+      {I J1-0603.PRT R39
+        {CN
+        1 VDD_3V3_WIFI
+        2 NetP2_1
+        }
+      }
+      {I J1-0603.PRT R40
+        {CN
+        1 NetR40_1
+        2 NetR40_2
+        }
+      }
+      {I J1-0603.PRT R41
+        {CN
+        1 NetR41_1
+        2 NetR41_2
+        }
+      }
+      {I J1-0603.PRT R42
+        {CN
+        1 SLOW_CLK
+        2 NetP1_1
+        }
+      }
+      {I J1-0603.PRT R43
+        {CN
+        1 BT_HCI_TX
+        2 NetR43_2
+        }
+      }
+      {I J1-0603.PRT R44
+        {CN
+        1 BT_HCI_TX
+        2 NetR44_2
+        }
+      }
+      {I J1-0603.PRT R45
+        {CN
+        1 BT_HCI_TX
+        2 NetR45_2
+        }
+      }
+      {I J1-0603.PRT R46
+        {CN
+        1 BT_HCI_TX
+        2 NetR46_2
+        }
+      }
+      {I J1-0603.PRT R47
+        {CN
+        1 NetR47_1
+        2 NetR47_2
+        }
+      }
+      {I J1-0603.PRT R48
+        {CN
+        1 NetR48_1
+        2 NetR48_2
+        }
+      }
+      {I J1-0603.PRT R49
+        {CN
+        1 NetR49_1
+        2 NetR49_2
+        }
+      }
+      {I J1-0603.PRT R50
+        {CN
+        1 NetR50_1
+        2 WL_IRQ
+        }
+      }
+      {I J1-0603.PRT R51
+        {CN
+        1 SDIO_CMD
+        2 NetR51_2
+        }
+      }
+      {I J1-0603.PRT R52
+        {CN
+        1 NetR52_1
+        2 SDIO_D3
+        }
+      }
+      {I J1-0603.PRT R53
+        {CN
+        1 NetR53_1
+        2 SDIO_D2
+        }
+      }
+      {I J1-0603.PRT R54
+        {CN
+        1 SDIO_CLK
+        2 NetR54_2
+        }
+      }
+      {I J1-0603.PRT R55
+        {CN
+        1 NetR55_1
+        2 SDIO_D1
+        }
+      }
+      {I J1-0603.PRT R56
+        {CN
+        1 NetR56_1
+        2 SDIO_D0
+        }
+      }
+      {I J1-0603.PRT R57
+        {CN
+        1 UART4_CTSN
+        2 NetR57_2
+        }
+      }
+      {I J1-0603.PRT R58
+        {CN
+        1 UART4_RTSN
+        2 NetR58_2
+        }
+      }
+      {I J1-0603.PRT R59
+        {CN
+        1 GND
+        2 UART4_CTSN
+        }
+      }
+      {I J1-0603.PRT R60
+        {CN
+        1 GND
+        2 UART4_RTSN
+        }
+      }
+      {I J1-0603.PRT R61
+        {CN
+        1 GND
+        2 WL_EN
+        }
+      }
+      {I J1-0603.PRT R62
+        {CN
+        1 GND
+        2 BT_EN
+        }
+      }
+      {I J1-0603.PRT R63
+        {CN
+        1 SDIO_D0
+        2 SLOW_CLK
+        }
+      }
+      {I J1-0603.PRT R64
+        {CN
+        1 SDIO_D1
+        2 SLOW_CLK
+        }
+      }
+      {I J1-0603.PRT R65
+        {CN
+        1 SDIO_D2
+        2 SLOW_CLK
+        }
+      }
+      {I J1-0603.PRT R66
+        {CN
+        1 SDIO_D3
+        2 SLOW_CLK
+        }
+      }
+      {I J1-0603.PRT R67
+        {CN
+        1 SDIO_CLK
+        2 SLOW_CLK
+        }
+      }
+      {I J1-0603.PRT R68
+        {CN
+        1 SDIO_CMD
+        2 SLOW_CLK
+        }
+      }
+      {I J1-0603.PRT R69
+        {CN
+        1 GPIO1_0
+        2 NetR69_2
+        }
+      }
+      {I J1-0603.PRT R70
+        {CN
+        1 GPIO1_1
+        2 NetR69_2
+        }
+      }
+      {I J1-0603.PRT R71
+        {CN
+        1 GPIO1_2
+        2 NetR69_2
+        }
+      }
+      {I J1-0603.PRT R72
+        {CN
+        1 GPIO1_3
+        2 NetR69_2
+        }
+      }
+      {I J1-0603.PRT R73
+        {CN
+        1 GPIO1_30
+        2 NetR69_2
+        }
+      }
+      {I J1-0603.PRT R74
+        {CN
+        1 GPIO1_31
+        2 NetR69_2
+        }
+      }
+      {I J1-0603.PRT R75
+        {CN
+        1 GPIO1_5
+        2 NetR69_2
+        }
+      }
+      {I J1-0603.PRT R76
+        {CN
+        1 GPIO1_15
+        2 NetR69_2
+        }
+      }
+      {I J1-0603.PRT R77
+        {CN
+        1 GPIO1_29
+        2 NetR69_2
+        }
+      }
+      {I J1-0603.PRT R78
+        {CN
+        1 GND
+        2 NetR69_2
+        }
+      }
+      {I J1-0603.PRT R79
+        {CN
+        1 NetR79_1
+        2 VDD_3V3_WIFI
+        }
+      }
+      {I J1-0603.PRT R80
+        {CN
+        1 GND
+        2 NetR79_1
+        }
+      }
+      {I E-13.4X13.3-N100_0.75-TOP.PRT U1
+        {CN
+        1 GND
+        2 NetU1_2
+        3 NetU1_3
+        4 NetU1_4
+        5 NetU1_5
+        6 NetR51_2
+        7 GND
+        8 NetR54_2
+        9 GND
+       10 NetR56_1
+       11 NetR55_1
+       12 NetR53_1
+       13 NetR52_1
+       14 NetR50_1
+       15 GND
+       16 GND
+       17 GND
+       18 NetU1_18
+       19 GND
+       20 GND
+       21 NetU1_21
+       22 NetU1_22
+       23 GND
+       24 GND
+       25 NetR49_2
+       26 NetR48_2
+       27 NetR47_2
+       28 GND
+       29 GND
+       30 GND
+       31 GND
+       32 NetU1_32
+       33 GND
+       34 GND
+       35 GND
+       36 NetR38_2
+       37 GND
+       38 NetP1_1
+       39 GND
+       40 WL_EN
+       41 NetU1_41
+       42 NetR41_2
+       43 NetR40_2
+       44 GND
+       45 GND
+       46 NetP2_1
+       47 NetP2_1
+       48 GND
+       49 GND
+       50 NetR43_2
+       51 NetR44_2
+       52 NetR45_2
+       53 NetR46_2
+       54 GND
+       55 GND
+       56 NetU1_56
+       57 NetU1_57
+       58 NetU1_58
+       59 GND
+       60 NetU1_60
+       61 GND
+       62 NetU1_62
+       63 GND
+       64 GND
+       G1 GND
+       G2 GND
+       G3 GND
+       G4 GND
+       G5 GND
+       G6 GND
+       G7 GND
+       G8 GND
+       G9 GND
+      G10 GND
+      G11 GND
+      G12 GND
+      G13 GND
+      G14 GND
+      G15 GND
+      G16 GND
+      G17 GND
+      G18 GND
+      G19 GND
+      G20 GND
+      G21 GND
+      G22 GND
+      G23 GND
+      G24 GND
+      G25 GND
+      G26 GND
+      G27 GND
+      G28 GND
+      G29 GND
+      G30 GND
+      G31 GND
+      G32 GND
+      G33 GND
+      G34 GND
+      G35 GND
+      G36 GND
+        }
+      }
+      {I PW20.PRT U2
+        {CN
+        1 UART4_TXD
+        2 VDD_3V_WIFI
+        3 GPIO1_29
+        4 GPIO1_12
+        5 CLKOUT2
+        6 NetR57_2
+        7 URAT_4RXD
+        8 NetR58_2
+        9 WL_IRQ_OUT
+       10 NetR69_2
+       11 GND
+       12 WL_IRQ
+       13 BT_HCI_CTS
+       14 BT_HCI_TX
+       15 BT_HCI_RTS
+       16 SLOW_CLK
+       17 BT_EN
+       18 WL_EN
+       19 SLOW_CLK
+       20 BT_HCI_RX
+        }
+      }
+      {I PW20.PRT U3
+        {CN
+        1 NetR69_2
+        2 VDD_3V_WIFI
+        3 NetR69_2
+        4 NetR69_2
+        5 NetR69_2
+        6 NetR69_2
+        7 NetR69_2
+        8 NetR69_2
+        9 NetR69_2
+       10 NetR69_2
+       11 GND
+       12 RESERVED2
+       13 RESERVED1
+       14 SDIO_CMD
+       15 SDIO_CLK
+       16 SDIO_D3
+       17 SDIO_D2
+       18 SDIO_D1
+       19 SLOW_CLK
+       20 SDIO_D0
+        }
+      }
+      {I TI-DCQ6_M.PRT U4
+        {CN
+        1 VDD_BAT (3.7-4.2V)
+        2 VDD_BAT (3.7-4.2V)
+        3 GND
+        4 VDD_3V3_WIFI
+        5 NetR79_1
+        6 GND
+        }
+      }
+      {I TI-DBV5_N.PRT U5
+        {CN
+        1 VDD_BAT (3.7-4.2V)
+        2 GND
+        3 VDD_BAT (3.7-4.2V)
+        4 NetC14_2
+        5 SLOW_CLK
+        }
+      }
+      {I ABRA-ASH7K-4_V.PRT X1
+        {CN
+        1 NetR37_1
+        2 GND
+        3 NetR38_1
+        4 NetR36_1
+        }
+      }
+    }
+  }
+}

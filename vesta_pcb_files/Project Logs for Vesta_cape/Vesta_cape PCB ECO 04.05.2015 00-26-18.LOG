@@ -1,0 +1,4 @@
+Added Component: Designator=D3(SOT323_N)
+Added Pin To Net: NetName=SDIO_D3 Pin=D3-2
+Added Pin To Net: NetName=GND Pin=D3-3
+Added Member To Class: ClassName=Vesta_cape Member=Component D3 BAS70-04W

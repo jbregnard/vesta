@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=SDIO_D3 Pin=D3-2
+Removed Pin From Net: NetName=GND Pin=D3-3
+Removed Member From Class: ClassName=Vesta_cape Member=D3
+Added Component: Designator=HDR_2_23_M(BBB_CAPE_HEADER)
+Added Pin To Net: NetName=GND Pin=HDR_2_23_M-1
+Added Pin To Net: NetName=GND Pin=HDR_2_23_M-2
+Added Pin To Net: NetName=SDIO_D2 Pin=HDR_2_23_M-5
+Added Pin To Net: NetName=SDIO_D3 Pin=HDR_2_23_M-6
+Added Pin To Net: NetName=LCD_DISP Pin=HDR_2_23_M-10
+Added Pin To Net: NetName=SDIO_CMD Pin=HDR_2_23_M-20
+Added Pin To Net: NetName=SDIO_CLK Pin=HDR_2_23_M-21
+Added Pin To Net: NetName=WL_IRQ_OUT Pin=HDR_2_23_M-22
+Added Pin To Net: NetName=LCD_DEN Pin=HDR_2_23_M-23
+Added Pin To Net: NetName=SDIO_D1 Pin=HDR_2_23_M-24
+Added Pin To Net: NetName=SDIO_D0 Pin=HDR_2_23_M-25
+Added Pin To Net: NetName=GPIO1_29 Pin=HDR_2_23_M-26
+Added Pin To Net: NetName=LCD_PCLK Pin=HDR_2_23_M-28
+Added Pin To Net: NetName=LCD_HSYNC Pin=HDR_2_23_M-29
+Added Pin To Net: NetName=LCD_VSYNC Pin=HDR_2_23_M-31
+Added Member To Class: ClassName=Vesta_cape Member=Component HDR_2_23_M P8
