@@ -1,0 +1,12 @@
+Removed Member From Class: ClassName=Vesta_cape_wifi Member=J3
+Change Component DesignItemId : Designator=J3 Old DesignItemId=COAX-F New DesignItemId=JST-2
+Change Component Footprint: Designator=J3 Old Footprint=MCX5.08-H5 New Footprint=JMP1X2-F180_2.54
+Change Component Comment : Designator=J3 Old Comment=COAX-F New Comment=ValueValueAux
+Added Component: Designator=J4(JMP1X2-F180_2.54)
+Added Pin To Net: NetName=VDD_BAT (3.7-4.2V) Pin=J3-1
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=VDD_BAT (3.7-4.2V) Pin=J4-1
+Added Pin To Net: NetName=GND Pin=J4-2
+Added Member To Class: ClassName=Vesta_cape Member=Component J3 ValueValueAux
+Added Member To Class: ClassName=Vesta_cape Member=Component J4 ValueValueAux
+Added Room: Name=Vesta_cape

@@ -37,23 +37,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\Poor mans buck\Altium\Vesta\Vesta_cape\Vesta_cape.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VJJUKXVY
-
-[Document2]
 DocumentPath=Vesta_cape_wifi.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -70,41 +53,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OPTUUHIO
 
-[Document3]
-DocumentPath=..\Poor mans buck\Altium\Vesta\Vesta_cape\Vesta_cape.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IUJXIHVM
-
-[Document4]
-DocumentPath=..\..\Desktop\PCB labrary 2\BeagleBoneCape-master\BeagleBoneCape.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BYMVTOGK
-
-[Document5]
+[Document2]
 DocumentPath=vesta.CmpLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -121,7 +70,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document3]
 DocumentPath=vesta.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -138,7 +87,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LRTXXUPR
 
-[Document7]
+[Document4]
 DocumentPath=Vesta_cape.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -155,7 +104,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XPSIDAQE
 
-[Document8]
+[Document5]
+DocumentPath=Vesta_cape.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IUJXIHVM
+
+[Document6]
 DocumentPath=VestaTop.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -172,7 +138,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QCRHTALS
 
-[Document9]
+[Document7]
 DocumentPath=vesta_IO_buffering.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -189,7 +155,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XLFDHIIJ
 
-[Document10]
+[Document8]
 DocumentPath=Vesta_wifi_power_3v3_1v8.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -206,7 +172,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ELDBDDUG
 
-[Document11]
+[Document9]
 DocumentPath=Vesta_cape.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -223,8 +189,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
-DocumentPath=..\..\Desktop\PCB labrary 2\BeagleBoneCape-master\BeagleBoneCape.SchLib
+[Document10]
+DocumentPath=Vesta_cape.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -238,24 +204,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document13]
-DocumentPath=..\..\Desktop\PCC-0137-00397-1\Released\MOLX-52271-0679.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YXYPLTCC
+DocumentUniqueId=VJJUKXVY
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Vesta_cape\Vesta_cape.NET

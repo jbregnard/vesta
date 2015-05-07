@@ -1,0 +1,45 @@
+Added Component: Designator=U2(PW20)
+Added Component: Designator=U3(PW20)
+Added Pin To Net: NetName=UART4_TXD Pin=U2-1
+Added Pin To Net: NetName=VDD_3V_WIFI Pin=U2-2
+Added Pin To Net: NetName=GPIO1_29 Pin=U2-3
+Added Pin To Net: NetName=GPIO1_12 Pin=U2-4
+Added Pin To Net: NetName=CLKOUT2 Pin=U2-5
+Added Pin To Net: NetName=NetR57_2 Pin=U2-6
+Added Pin To Net: NetName=URAT_4RXD Pin=U2-7
+Added Pin To Net: NetName=NetR58_2 Pin=U2-8
+Added Pin To Net: NetName=WL_IRQ_OUT Pin=U2-9
+Added Pin To Net: NetName=NetR77_2 Pin=U2-10
+Added Pin To Net: NetName=GND Pin=U2-11
+Added Pin To Net: NetName=WL_IRQ Pin=U2-12
+Added Pin To Net: NetName=BT_HCI_CTS Pin=U2-13
+Added Pin To Net: NetName=BT_HCI_TX Pin=U2-14
+Added Pin To Net: NetName=BT_HCI_RTS Pin=U2-15
+Added Pin To Net: NetName=SLOW_CLK Pin=U2-16
+Added Pin To Net: NetName=BT_EN Pin=U2-17
+Added Pin To Net: NetName=WL_EN Pin=U2-18
+Added Pin To Net: NetName=SLOW_CLK Pin=U2-19
+Added Pin To Net: NetName=BT_HCI_RX Pin=U2-20
+Added Pin To Net: NetName=NetR69_2 Pin=U3-1
+Added Pin To Net: NetName=VDD_3V_WIFI Pin=U3-2
+Added Pin To Net: NetName=NetR70_2 Pin=U3-3
+Added Pin To Net: NetName=NetR71_2 Pin=U3-4
+Added Pin To Net: NetName=NetR72_2 Pin=U3-5
+Added Pin To Net: NetName=NetR73_2 Pin=U3-6
+Added Pin To Net: NetName=NetR74_2 Pin=U3-7
+Added Pin To Net: NetName=NetR75_2 Pin=U3-8
+Added Pin To Net: NetName=NetR76_2 Pin=U3-9
+Added Pin To Net: NetName=NetR77_2 Pin=U3-10
+Added Pin To Net: NetName=GND Pin=U3-11
+Added Pin To Net: NetName=RESERVED2 Pin=U3-12
+Added Pin To Net: NetName=RESERVED1 Pin=U3-13
+Added Pin To Net: NetName=SDIO_CMD Pin=U3-14
+Added Pin To Net: NetName=SDIO_CLK Pin=U3-15
+Added Pin To Net: NetName=SDIO_D3 Pin=U3-16
+Added Pin To Net: NetName=SDIO_D2 Pin=U3-17
+Added Pin To Net: NetName=SDIO_D1 Pin=U3-18
+Added Pin To Net: NetName=SLOW_CLK Pin=U3-19
+Added Pin To Net: NetName=SDIO_D0 Pin=U3-20
+Added Member To Class: ClassName=vesta_IO_buffering Member=Component U2 TXS0108E_PW_20
+Added Member To Class: ClassName=vesta_IO_buffering Member=Component U3 TXS0108E_PW_20
+Added Room: Name=Vesta_cape
