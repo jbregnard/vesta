@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=LCD_LED16V@60MA_NEG Pin=* FRTLED-3
+Removed Pin From Net: NetName=LCD_LED16V@60MA_POS Pin=C6-2
+Removed Pin From Net: NetName=LCD_LED16V@60MA_POS Pin=D2-3
+Removed Pin From Net: NetName=LCD_LED16V@60MA_NEG Pin=R35-2
+Added Component: Designator=front LED(JMP1X2-F180_2.54)
+Added Pin To Net: NetName=Net* FRTLED_3 Pin=* FRTLED-3
+Added Pin To Net: NetName=Net* FRTLED_3 Pin=front LED-2
+Added Pin To Net: NetName=Net* FRTLED_3 Pin=R35-2
+Added Net: Name=Net* FRTLED_3
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=NetC6_2 Pin=D2-3
+Added Pin To Net: NetName=NetC6_2 Pin=front LED-1
+Added Net: Name=NetC6_2
+Added Member To Class: ClassName=Vesta_cape Member=Component front LED ValueValueAux
+Added Member To Class: ClassName=vesta_IO_buffering Member=Component U3 TXS0108E_PW_20

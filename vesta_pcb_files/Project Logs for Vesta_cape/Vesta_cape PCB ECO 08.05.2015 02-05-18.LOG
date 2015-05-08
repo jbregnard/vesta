@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=EHRPWMOA Pin=* FRTLED-4
+Added Pin To Net: NetName=EHRPWMOB Pin=* FRTLED-4
+Added Pin To Net: NetName=EHRPWMOB Pin=HDR2-23-M-P9-31
+Added Net: Name=EHRPWMOB

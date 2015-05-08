@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=BT_HCI_TX Pin=HDR2-23-M-P9-11
+Removed Pin From Net: NetName=BT_HCI_RX Pin=HDR2-23-M-P9-13
+Added Pin To Net: NetName=URAT_4RXD Pin=HDR2-23-M-P9-11
+Added Pin To Net: NetName=UART4_TXD Pin=HDR2-23-M-P9-13
