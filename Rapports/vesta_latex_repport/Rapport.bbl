@@ -1,0 +1,86 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\makeatother
+
+\bibitem{wiki-waterjet}
+\bgroup\fonteauteurs\bgroup Wikipedia\egroup\egroup{} :
+\newblock {\em Water jet cutter}.
+\newblock \url{http://en.wikipedia.org/wiki/Water_jet_cutter}.
+\newblock Dernière consultation le 27 octobre 2012.
+
+\bibitem{mesh-chart}
+\bgroup\fonteauteurs\bgroup Granuloshop\egroup\egroup{} :
+\newblock {\em Conversion US Mesh tamis - microns}.
+\newblock \url{http://www.granuloshop.com/Conversion.htm}.
+\newblock Dernière consultation le 27 octobre 2012.
+
+\bibitem{mohs-wiki}
+\bgroup\fonteauteurs\bgroup Wikipedia\egroup\egroup{} :
+\newblock {\em Echelle de Mohs}.
+\newblock \url{"http://fr.wikipedia.org/wiki/\%C3\%89chelle_de_Mohs"}.
+\newblock Dernière consultation le 27 octobre 2012.
+
+\bibitem{waterjets-org}
+\bgroup\fonteauteurs\bgroup Waterjets.org\egroup\egroup{} :
+\newblock {\em The most complete waterjet ressource on the web}.
+\newblock \url{http://waterjets.org/index.php}.
+\newblock Dernière consultation le 28 octobre 2012.
+
+\bibitem{arkut}
+Adnan \bgroup\fonteauteurs\bgroup Akkurt\egroup\egroup{} :
+\newblock {\em Cut Front Geometry Characterization in Cutting Applications of
+  Brass with Abrasive Water Jet}.
+\newblock {\em Journal of Materials Engineering and Performance, Volume 19,
+  Number 4}, pages 599--606, 2010.
+
+\bibitem{watana}
+Watana \bgroup\fonteauteurs\bgroup Kaewkerd\egroup\egroup{} et Moritz
+  \bgroup\fonteauteurs\bgroup Schmidlin\egroup\egroup{} :
+\newblock {\em Découpage au jet d'eau}, Novembre 2011.
+
+\bibitem{balz}
+Alain \bgroup\fonteauteurs\bgroup Balz\egroup\egroup{} et Lukas
+  \bgroup\fonteauteurs\bgroup Frisch\egroup\egroup{} :
+\newblock {\em Découpage par jet d'eau}, Octobre 2010.
+
+\bibitem{electroerosion}
+Florent \bgroup\fonteauteurs\bgroup Chèvre\egroup\egroup{} et Mathias
+  \bgroup\fonteauteurs\bgroup Béguin\egroup\egroup{} :
+\newblock {\em L'électroérosion}, Octobre 2012.
+
+\bibitem{polymeric}
+T~\bgroup\fonteauteurs\bgroup Nguyen\egroup\egroup{},
+  K~\bgroup\fonteauteurs\bgroup Shanmugam\egroup\egroup{}, D et
+  J~\bgroup\fonteauteurs\bgroup Wang\egroup\egroup{} :
+\newblock {\em Effect of liquid properties on the stability of an abrasive
+  waterjet}.
+\newblock {\em International Journal of Machine Tools and Manufacture, Volume
+  48}, août 2008.
+
+\bibitem{marks}
+Eugene~A. \bgroup\fonteauteurs\bgroup Avallone\egroup\egroup{}, Theodore
+  \bgroup\fonteauteurs\bgroup Baumeister\egroup\egroup{}, Ali~M.
+  \bgroup\fonteauteurs\bgroup Sandegh\egroup\egroup{} et Lionel~S.
+  \bgroup\fonteauteurs\bgroup Marks\egroup\egroup{} :
+\newblock {\em Marks' stadard handbook for mechanical engineers, 11th edition}.
+\newblock McGraw-Hill Professionnal, Novembre 2006.
+
+\bibitem{eurocutting}
+\bgroup\fonteauteurs\bgroup Euro-cutting\egroup\egroup{} :
+\newblock {\em Technologie et applications jet d'eau}.
+\newblock \url{http://www.eurocutting.com/technologie-jet-d'eau.html}.
+\newblock Dernière consultation le 27 octobre 2012.
+
+\bibitem{wardjets}
+\bgroup\fonteauteurs\bgroup WardJet\egroup\egroup{} :
+\newblock {\em WardJet, not just a waterjet}.
+\newblock \url{http://www.wardjet.com}.
+\newblock Dernière consultation le 27 octobre 2012.
+
+\bibitem{usinage-composites}
+Alain \bgroup\fonteauteurs\bgroup Dessarthe\egroup\egroup{} :
+\newblock {\em Usinage des composites}.
+\newblock Edition Techniques Ingénieur, avril 1999.
+
+\end{thebibliography}
