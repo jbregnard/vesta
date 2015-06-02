@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  1 JUN 2015 17:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  2 JUN 2015 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1425,7 +1425,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<fig/epfl-logo_gris.jpg, id=132, 654.445pt x 313.17pt>
+<fig/epfl-logo_gris.jpg, id=128, 654.445pt x 313.17pt>
 File: fig/epfl-logo_gris.jpg Graphic file (type jpg)
 
 <use fig/epfl-logo_gris.jpg>
@@ -1499,56 +1499,59 @@ LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 ]
 \openout2 = `chap/hardware.aux'.
 
- (./chap/hardware.tex) [4
+ (./chap/hardware.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4
 
 
-]
+])
+[5]
 \openout2 = `chap/software.aux'.
 
-
-(./chap/software.tex
+ (./chap/software.tex
 <chap/softFig/block_diagram_vesta2.png, id=195, 963.6pt x 722.7pt>
 File: chap/softFig/block_diagram_vesta2.png Graphic file (type png)
 
 <use chap/softFig/block_diagram_vesta2.png>
 Package pdftex.def Info: chap/softFig/block_diagram_vesta2.png used on input li
-ne 13.
+ne 12.
 (pdftex.def)             Requested size: 422.00777pt x 316.50026pt.
 
 <chap/softFig/first_diagram2.png, id=197, 649.42625pt x 443.6575pt>
 File: chap/softFig/first_diagram2.png Graphic file (type png)
 
 <use chap/softFig/first_diagram2.png>
-Package pdftex.def Info: chap/softFig/first_diagram2.png used on input line 32.
+Package pdftex.def Info: chap/softFig/first_diagram2.png used on input line 30.
 
 (pdftex.def)             Requested size: 422.00777pt x 288.29948pt.
 
 Underfull \vbox (badness 1558) has occurred while \output is active []
 
- [5
+ [6
 
 
  <./chap/softFig/block_diagram_vesta2.png>]
-<chap/softFig/vesta_website2.png, id=205, 935.495pt x 865.2325pt>
+<chap/softFig/vesta_website2.png, id=204, 935.495pt x 865.2325pt>
 File: chap/softFig/vesta_website2.png Graphic file (type png)
 
 <use chap/softFig/vesta_website2.png>
-Package pdftex.def Info: chap/softFig/vesta_website2.png used on input line 42.
+Package pdftex.def Info: chap/softFig/vesta_website2.png used on input line 40.
 
 (pdftex.def)             Requested size: 422.00777pt x 390.3148pt.
 
-<chap/softFig/vesta_software_diagram2.png, id=206, 928.46875pt x 661.47125pt>
+<chap/softFig/vesta_software_diagram2.png, id=205, 928.46875pt x 661.47125pt>
 File: chap/softFig/vesta_software_diagram2.png Graphic file (type png)
 
 <use chap/softFig/vesta_software_diagram2.png>
 Package pdftex.def Info: chap/softFig/vesta_software_diagram2.png used on input
- line 53.
+ line 51.
 (pdftex.def)             Requested size: 422.00777pt x 300.657pt.
-) [6 <./chap/softFig/first_diagram2.png>] [7 <./chap/softFig/vesta_website2.png
->] [8 <./chap/softFig/vesta_software_diagram2.png>]
+) [7 <./chap/softFig/first_diagram2.png>] [8 <./chap/softFig/vesta_website2.png
+>] [9 <./chap/softFig/vesta_software_diagram2.png>]
 \openout2 = `chap/next_steps.aux'.
 
- (./chap/next_steps.tex) [9
+ (./chap/next_steps.tex) [10
 
 
 ]
@@ -1565,7 +1568,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `Rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 586EB4904E8EDEE51241C419458F8C5B;3907.
+(rerunfilecheck)             Checksum: BF1583B4049F7BC026EFF069F3A9FBAE;3794.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1573,10 +1576,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 21648 strings out of 494999
- 354574 string characters out of 6180229
- 432618 words of memory out of 5000000
- 24374 multiletter control sequences out of 15000+600000
+ 21647 strings out of 494999
+ 354551 string characters out of 6180229
+ 432623 words of memory out of 5000000
+ 24373 multiletter control sequences out of 15000+600000
  39520 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,11n,45p,10416b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1586,10 +1589,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Rapport.pdf (11 pages, 537202 bytes).
+Output written on Rapport.pdf (12 pages, 540076 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 234 compressed objects within 3 object streams
+ 264 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
  46 named destinations out of 1000 (max. 500000)
- 282 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 274 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -17,5 +17,10 @@ To define what old people needs, a visit in an EMS was organised and some questi
 The questions to the nurses were more about the facilities old people have with new technologies. The results that came out of the discussion was that the old people don’t ear well sounds and are not able to define where the song is coming so putting an alarm on the device wouldn’t be a good idea. The interface has to be as simple as possible because they are lost if there are too many options. The device has to be big enough and shouldn’t break after a shock. The text on the device has to be big enough to be read by old people.
 
 \subsection{Solution}
+Different solutions were imagined. A device that connects to the TV with HDMI and display pictures, messages and videos on it.
+
+A device that connects to the web with a 3G chip (don’t need the wifi and is more portable) or a device that contains only a wifi chip.
+
+A device with a touch screen or only a screen. With physical buttons or not.
 \subsection{Vesta tab}
 The Vesta tab is a tablet oriented towards the elderly. It has a capacitive touch screen, a wifi and bluetooth connection and a unique casing. The main usage at the moment is receiving and displaying pictures and text sent by the younger family via the dedicated website. As soon as a new image or text is received an LED blinks to inform the user of new content. The interface is designed to be very user friendly and easy to use.

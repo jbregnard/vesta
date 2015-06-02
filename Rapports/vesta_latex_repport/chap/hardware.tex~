@@ -28,9 +28,6 @@ Table with screen specs.
 \subsubsection{Bluetooth}
 \subsubsection{Power management}
 \subsection{Front LED}
-The LED is there to inform the user of a new message. Therefor it could be quite low power. Seeedstudio only had an RGB LED which we ordered although for the final led we will use is a warm white single color LED. 
-
-We want it to flash in a heartbeat patern. This is achieved by using a PWM pin of the BBB
 \subsection{Power management}
 \subsection{Batteries and charger}
 \subsection{PCB}

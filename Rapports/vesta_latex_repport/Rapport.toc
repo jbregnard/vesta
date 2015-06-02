@@ -13,27 +13,26 @@
 \contentsline {subsection}{\numberline {3.3}User tests}{3}{subsection.3.3}
 \contentsline {section}{\numberline {4}Hardware}{4}{section.4}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {4.1}Description}{4}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Beaglebone Black}{4}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Screen and Touchscreen}{4}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Screen}{4}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Touchscreen}{4}{subsubsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3}Backlight}{4}{subsubsection.4.3.3}
-\contentsline {subsection}{\numberline {4.4}Wireless Communication}{4}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Wlan}{4}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Bluetooth}{4}{subsubsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.3}Power management}{4}{subsubsection.4.4.3}
-\contentsline {subsection}{\numberline {4.5}Front LED}{4}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Power management}{4}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Batteries and charger}{4}{subsection.4.7}
-\contentsline {subsection}{\numberline {4.8}PCB}{4}{subsection.4.8}
-\contentsline {subsection}{\numberline {4.9}Cost estimates}{4}{subsection.4.9}
-\contentsline {section}{\numberline {5}Software}{5}{section.5}
+\contentsline {subsection}{\numberline {4.1}Beaglebone Black}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Screen and Touchscreen}{4}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Screen}{4}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Touchscreen}{5}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Backlight}{5}{subsubsection.4.2.3}
+\contentsline {subsection}{\numberline {4.3}Wireless Communication}{5}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Wlan}{5}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Bluetooth}{5}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Power management}{5}{subsubsection.4.3.3}
+\contentsline {subsection}{\numberline {4.4}Front LED}{5}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Power management}{5}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Batteries and charger}{5}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}PCB}{5}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Cost estimates}{5}{subsection.4.8}
+\contentsline {section}{\numberline {5}Software}{6}{section.5}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {5.1}Operating system}{5}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Drivers}{5}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Display}{6}{subsubsection.5.1.2}
-\contentsline {subsection}{\numberline {5.2}Website}{6}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Vesta software}{6}{subsection.5.3}
-\contentsline {section}{\numberline {6}Next steps}{9}{section.6}
+\contentsline {subsection}{\numberline {5.1}Operating system}{6}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Drivers}{6}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Display}{7}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Website}{7}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Vesta software}{7}{subsection.5.3}
+\contentsline {section}{\numberline {6}Next steps}{10}{section.6}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
