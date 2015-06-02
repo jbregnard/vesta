@@ -35,12 +35,52 @@ The file is located in /boot/dtbs/3.14xx/ and is called vesta.dtb (compiled) and
 \subsection{Website}
 The website is used by the young users to send messages and pictures to the old user’s tablet.
 The website contains a MySQL database, a php/html page that let the young user send a message and a php script used to parse the database to XML to be readable by the tablet.
+
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/softFig/vesta_website2}
     \caption{Vest website architecture.}
     \label{fig:web archi}
 \end{figure}
+
+\subsubsection{Webpage to send messages}
+The webpage let the young user send a message to a wanted tablet. Every tablet has an id like a phone number known by the tablet owner. It is possible to select a picture on the user's computer and write a text message. When the "send" button is clicked, the picture and text message is saved in the MySQL database.
+\subsubsection{Database and XML parsing}
+The MySQL database is where all the messages and pictures are stored. The webpage connects and save the datas into the database when the user send a message.
+
+An example of entries on the vesta table on the MySQL database are shown in the table\ref{tab:database}.
+
+\begin{table}
+\begin{tabular}{|c|c|c|c|c|c|}
+  \hline
+  id & type & name & text & img & date \\
+  \hline
+  7 & image/jpeg & family.jpg & Hello! A message for you & BLOB - 300KB & 14.05.2015 \\
+  8 & image/jpeg & cat.jpg & Look at my cat :) & BLOB - 350KB & 27.05.2015 \\
+  \hline
+\end{tabular}
+\caption {Example of entries in the vesta table on the MySQL database}\label{tab:database}
+\end{table}
+
+When the tablet update the datas, it connects to a script contained on the server. This script connects to the database and parse the informations needed by the tablet in XML.
+
+XML is a markup language that facilitate the transfer of datas and the readability of them. It is mainly used in the RSS flux.
+
+The XML code look like this:
+
+<?xml version="1.0"?>
+<vesta>
+  <item>
+    <title>family.jpg</title>
+    <image>http://www.vesta-tab.com/jo/getImage.php?id=7</image>
+    <message>Hello! A message for you</message>
+  </item>
+  <item>
+    <title>cat.jpg</title>
+    <image>http://www.vesta-tab.com/jo/getImage.php?id=8</image>
+    <message>Look at my cat</message>
+  </item>
+</vesta>
 
 \subsection{Vesta software}
 The Vesta software is used by the old users to receive and display the messages and pictures sent by the young users.

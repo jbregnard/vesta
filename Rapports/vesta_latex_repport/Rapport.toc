@@ -33,6 +33,10 @@
 \contentsline {subsubsection}{\numberline {5.1.1}Drivers}{6}{subsubsection.5.1.1}
 \contentsline {subsubsection}{\numberline {5.1.2}Display}{7}{subsubsection.5.1.2}
 \contentsline {subsection}{\numberline {5.2}Website}{7}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Vesta software}{7}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.2.1}Webpage to send messages}{7}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Database and XML parsing}{8}{subsubsection.5.2.2}
+\contentsline {subsection}{\numberline {5.3}Vesta software}{9}{subsection.5.3}
 \contentsline {section}{\numberline {6}Next steps}{10}{section.6}
+\vspace {-0.8em}\mbox {}\hrulefill \par 
+\contentsline {section}{\numberline {7}Conclusion}{11}{section.7}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
