@@ -11,6 +11,7 @@
 \contentsline {subsection}{\numberline {3.1}Value Proposition}{3}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Buisness model}{3}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}User tests}{3}{subsection.3.3}
+<<<<<<< Updated upstream
 \contentsline {section}{\numberline {4}Hardware}{4}{section.4}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
 \contentsline {subsection}{\numberline {4.1}Beaglebone Black}{4}{subsection.4.1}
@@ -41,4 +42,37 @@
 \contentsline {section}{\numberline {6}Next steps}{11}{section.6}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
 \contentsline {section}{\numberline {7}Conclusion}{12}{section.7}
+=======
+\contentsline {section}{\numberline {4}Mechanical design}{4}{section.4}
+\vspace {-0.8em}\mbox {}\hrulefill \par 
+\contentsline {section}{\numberline {5}Materials}{5}{section.5}
+\vspace {-0.8em}\mbox {}\hrulefill \par 
+\contentsline {section}{\numberline {6}Hardware}{6}{section.6}
+\vspace {-0.8em}\mbox {}\hrulefill \par 
+\contentsline {subsection}{\numberline {6.1}Description}{6}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Beaglebone Black}{6}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Screen and Touchscreen}{6}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Screen}{6}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Touchscreen}{6}{subsubsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.3}Backlight}{6}{subsubsection.6.3.3}
+\contentsline {subsection}{\numberline {6.4}Wireless Communication}{6}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}Wlan}{6}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}Bluetooth}{6}{subsubsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.3}Power management}{6}{subsubsection.6.4.3}
+\contentsline {subsection}{\numberline {6.5}Front LED}{6}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Power management}{6}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Batteries and charger}{6}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.8}PCB}{6}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.9}Cost estimates}{6}{subsection.6.9}
+\contentsline {section}{\numberline {7}Software}{7}{section.7}
+\vspace {-0.8em}\mbox {}\hrulefill \par 
+\contentsline {subsection}{\numberline {7.1}Operating system}{7}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Drivers}{7}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}Display}{8}{subsubsection.7.1.2}
+\contentsline {subsection}{\numberline {7.2}Website}{8}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Vesta software}{8}{subsection.7.3}
+\contentsline {section}{\numberline {8}Next steps}{11}{section.8}
+\vspace {-0.8em}\mbox {}\hrulefill \par 
+\contentsline {section}{\numberline {9}Conclusion}{12}{section.9}
+>>>>>>> Stashed changes
 \vspace {-0.8em}\mbox {}\hrulefill \par 
