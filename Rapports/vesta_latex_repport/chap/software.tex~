@@ -7,6 +7,8 @@ The software of this project contains 3 parts:
 \item{The Vesta tab software that is used on the tablet to display the differents messages and pictures received by the old users.}
 \end{itemize}
 
+The figure \ref{fig:user flow} shows the interactions between the website and the Vesta software on the tablet. All the files are stored on the website on the mySql database. When the pictures are sent, the vesta tablet receives a message and can open/display it. The vesta software on the tablet works on a linux OS that manages the hardware.
+
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/softFig/block_diagram_vesta2.png}
@@ -15,12 +17,20 @@ The software of this project contains 3 parts:
 \end{figure}
 
 \subsection{Operating system}
-The OS used for this project is a debian. Debian is a linux distribution and was given by the conceptors of the beaglebone black.
+The OS used for this project is a debian. Debian is a linux distribution and was given by the conceptors of the beaglebone black. The OS manage the communications with the different hardware. The accelerometer is controled by I2C (to read datas and write configurations). The screen uses different interfaces, I2C for the touch panel and 24bit parallel for the display. The WIFI chip is connected with SDIO and it replace the emmc memory.
+
+Every protocol and every pins input or output have to be declared in a file called device tree source. In the 3.14 kernel, this file is compiled and become a device tree blob. The compiled version of the file is executed at the OS startup. It initiates the load of the drivers and configures the pins as input, output, pwm or interrupt.
+
 \subsubsection{Drivers}
 A lot of work on this linux distribution was made to be fully compatible with the chosen hardware.
 The touch screen driver edt-ft5x06 had problems with the original 3.8 kernel of the distribution we used. The driver was not loading correctly from the device tree overlay. An upgrade to the 3.14 kernel resolved the problem.
 Then the scale of the touchscreen was not correct. 
-When a touch event was done on the right-down corner, the mouse pointer moved to the center of the screen. Some configuration scripts had to be modified for the ? graphical display server.
+When a touch event was done on the right-down corner, the mouse pointer moved to the center of the screen. Some configuration scripts had to be modified for the X11 graphical display server.
+
+The edt-ft5x06 uses an interrupt line and I2C to get the touch events and the positions of the clicks.
+
+Another driver is used for the WIFI connection with the wl1835mod. This driver uses the protocol SDIO.
+
 \subsubsection{Display}
 The touch screen works with 24 bits parallel interface so the X11 configuration file had to be modified to works correctly. The LCD output was initialy configured in 16 bits parallel interface.
 The hardware management in linux is called a device tree blob. It’s a script that is compiled and is loaded at the OS startup. In this file, the driver for the touch panel was declared and the interrupt pins was defined. The resolution and frequency of the display is also configured in this script. The wifi chip also needs to load drivers at startup and tell the OS to connect to internet via this chip and with the SDIO protocol.
@@ -39,11 +49,11 @@ The website contains a MySQL database, a php/html page that let the young user s
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/softFig/vesta_website2}
-    \caption{Vest website architecture.}
+    \caption{Vesta website architecture.}
     \label{fig:web archi}
 \end{figure}
 
-\subsubsection{Webpage to send messages}
+\subsubsection{Webpage}
 The webpage let the young user send a message to a wanted tablet. Every tablet has an id like a phone number known by the tablet owner. It is possible to select a picture on the user's computer and write a text message. When the "send" button is clicked, the picture and text message is saved in the MySQL database.
 \subsubsection{Database and XML parsing}
 The MySQL database is where all the messages and pictures are stored. The webpage connects and save the datas into the database when the user send a message.
@@ -66,6 +76,7 @@ When the tablet update the datas, it connects to a script contained on the serve
 
 XML is a markup language that facilitate the transfer of datas and the readability of them. It is mainly used in the RSS flux.
 
+The XML code look like this:
 
 <?xml version="1.0"?>
 <vesta>
@@ -85,9 +96,18 @@ XML is a markup language that facilitate the transfer of datas and the readabili
 The Vesta software is used by the old users to receive and display the messages and pictures sent by the young users.
 The software is made in C++ with Qt4.8/Qt quick 1.0. Qt is a free library used mainly to design softwares with graphical user interfaces (GUI). It is cross platform so with the same code it is possible to compile for linux,windows and mac.
 The library contains also a lot of utils to facilitate the development of emmbedded interfaces and manages the touchscreen events like the swipes, clicks and more. A lot of documentation is available and a lot of users develop with it.
+
+\subsubsection{Overall operations}
+At the startup, the vesta tab init check for the wifi connection and init all the hardware (accelerometer, touchscreen…). The touchscreen create an event when someone touch it and change the image displayed. It lets the user naviguate between the different messages. Every minute the soft check if a new message is received.
+
+The figure \ref{fig:soft archi} shows how the software works.
+
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/softFig/vesta_software_diagram2}
     \caption{Vesta software architecture.}
     \label{fig:soft archi}
 \end{figure}
+
+\subsubsection{Graphical interface}
+The graphical interface is composed of a listview and some buttons. The listview allows swipes event to naviguate between the different pictures and messages. The buttons let the user configure the wifi or display the new messages.

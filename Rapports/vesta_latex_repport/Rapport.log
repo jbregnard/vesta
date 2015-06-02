@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  2 JUN 2015 20:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  2 JUN 2015 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1425,7 +1425,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<fig/epfl-logo_gris.jpg, id=140, 654.445pt x 313.17pt>
+<fig/epfl-logo_gris.jpg, id=148, 654.445pt x 313.17pt>
 File: fig/epfl-logo_gris.jpg Graphic file (type jpg)
 
 <use fig/epfl-logo_gris.jpg>
@@ -1510,75 +1510,71 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout2 = `chap/software.aux'.
 
  (./chap/software.tex
-<chap/softFig/block_diagram_vesta2.png, id=210, 963.6pt x 722.7pt>
+<chap/softFig/block_diagram_vesta2.png, id=221, 963.6pt x 722.7pt>
 File: chap/softFig/block_diagram_vesta2.png Graphic file (type png)
 
 <use chap/softFig/block_diagram_vesta2.png>
 Package pdftex.def Info: chap/softFig/block_diagram_vesta2.png used on input li
-ne 12.
+ne 14.
 (pdftex.def)             Requested size: 422.00777pt x 316.50026pt.
-
-<chap/softFig/first_diagram2.png, id=212, 649.42625pt x 443.6575pt>
-File: chap/softFig/first_diagram2.png Graphic file (type png)
-
-<use chap/softFig/first_diagram2.png>
-Package pdftex.def Info: chap/softFig/first_diagram2.png used on input line 30.
-
-(pdftex.def)             Requested size: 422.00777pt x 288.29948pt.
-
-Underfull \vbox (badness 1558) has occurred while \output is active []
-
  [6
 
 
- <./chap/softFig/block_diagram_vesta2.png>]
-<chap/softFig/vesta_website2.png, id=219, 935.495pt x 865.2325pt>
+ <./chap/softFig/block_diagram_vesta2.png>] <chap/softFig/first_diagram2.png, i
+d=229, 649.42625pt x 443.6575pt>
+File: chap/softFig/first_diagram2.png Graphic file (type png)
+
+<use chap/softFig/first_diagram2.png>
+Package pdftex.def Info: chap/softFig/first_diagram2.png used on input line 40.
+
+(pdftex.def)             Requested size: 422.00777pt x 288.29948pt.
+ [7 <./chap/softFig/first_diagram2.png>]
+<chap/softFig/vesta_website2.png, id=236, 935.495pt x 865.2325pt>
 File: chap/softFig/vesta_website2.png Graphic file (type png)
 
 <use chap/softFig/vesta_website2.png>
-Package pdftex.def Info: chap/softFig/vesta_website2.png used on input line 41.
+Package pdftex.def Info: chap/softFig/vesta_website2.png used on input line 51.
 
 (pdftex.def)             Requested size: 422.00777pt x 390.3148pt.
- [7 <./chap/softFig/first_diagram2.png>]
-Overfull \hbox (9.74207pt too wide) in paragraph at lines 71--84
+ [8 <./chap/softFig/vesta_website2.png>]
+Overfull \hbox (9.74207pt too wide) in paragraph at lines 81--94
 []\T1/aer/m/n/10.95 <?xml ver-sion="1.0"?> <vesta> <item> <title>family.jpg</ti
 tle> <image>http ://www.vesta-
  []
 
 
-Overfull \hbox (15.36565pt too wide) in paragraph at lines 71--84
+Overfull \hbox (15.36565pt too wide) in paragraph at lines 81--94
 \T1/aer/m/n/10.95 tab.com/jo/getImage.php?id=7</image> <mes-sage>Hello! A mes-s
 age for you</message> </item>
  []
 
 
-Overfull \hbox (24.96709pt too wide) in paragraph at lines 71--84
+Overfull \hbox (24.96709pt too wide) in paragraph at lines 81--94
 \T1/aer/m/n/10.95 <item> <title>cat.jpg</title> <image>http ://www.vesta-tab.co
 m/jo/getImage.php?id=8</image>
  []
 
-[8 <./chap/softFig/vesta_website2.png>]
-<chap/softFig/vesta_software_diagram2.png, id=235, 928.46875pt x 661.47125pt>
+<chap/softFig/vesta_software_diagram2.png, id=246, 928.46875pt x 661.47125pt>
 File: chap/softFig/vesta_software_diagram2.png Graphic file (type png)
 
 <use chap/softFig/vesta_software_diagram2.png>
 Package pdftex.def Info: chap/softFig/vesta_software_diagram2.png used on input
- line 91.
+ line 107.
 (pdftex.def)             Requested size: 422.00777pt x 300.657pt.
-) [9 <./chap/softFig/vesta_software_diagram2.png>]
+) [9] [10 <./chap/softFig/vesta_software_diagram2.png>]
 \openout2 = `chap/next_steps.aux'.
 
- (./chap/next_steps.tex) [10
+ (./chap/next_steps.tex) [11
 
 
 ]
 \openout2 = `chap/conclusion.aux'.
 
- (./chap/conclusion.tex) [11
+ (./chap/conclusion.tex)
+[12
 
 
-]
-
+] 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
@@ -1588,7 +1584,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `Rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 4F9CCF3AF3FAFE0983058008910E3876;4282.
+(rerunfilecheck)             Checksum: 57F099B114BB72DE2919E76166598809;4515.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1596,10 +1592,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 21659 strings out of 494999
- 354727 string characters out of 6180229
- 432714 words of memory out of 5000000
- 24380 multiletter control sequences out of 15000+600000
+ 21664 strings out of 494999
+ 354814 string characters out of 6180229
+ 433719 words of memory out of 5000000
+ 24382 multiletter control sequences out of 15000+600000
  39520 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,12n,45p,10416b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1610,10 +1606,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr12.pfb>
-Output written on Rapport.pdf (13 pages, 552500 bytes).
+Output written on Rapport.pdf (14 pages, 554733 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 298 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 307 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 314 words of extra memory for PDF output out of 10000 (max. 10000000)
 
