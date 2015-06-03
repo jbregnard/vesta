@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetC20_1 Pin=PCB_ANT1-1
+Removed Pin From Net: NetName=NetC5_1 Pin=PCB_ANT1-2
+Removed Pin From Net: NetName=NetC22_1 Pin=PCB_ANT2-1
+Removed Pin From Net: NetName=NetC17_1 Pin=PCB_ANT2-2
+Removed Member From Class: ClassName=Vesta_cape_wifi Member=PCB_ANT1
+Removed Member From Class: ClassName=Vesta_cape_wifi Member=PCB_ANT2
+Added Component: Designator=PANT1(ANT_BRD_CUT)
+Added Component: Designator=PANT2(ANT_BRD_CUT)
+Added Pin To Net: NetName=NetC20_1 Pin=PANT1-1
+Added Pin To Net: NetName=NetC5_1 Pin=PANT1-2
+Added Pin To Net: NetName=NetC19_1 Pin=PANT1-3
+Added Pin To Net: NetName=NetC22_1 Pin=PANT2-1
+Added Pin To Net: NetName=NetC17_1 Pin=PANT2-2
+Added Pin To Net: NetName=NetC21_1 Pin=PANT2-3
+Added Member To Class: ClassName=Vesta_cape_wifi Member=Component PANT1 ANTENNA
+Added Member To Class: ClassName=Vesta_cape_wifi Member=Component PANT2 ANTENNA

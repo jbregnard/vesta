@@ -1,0 +1,36 @@
+Added Component: Designator=C19(Capacitor_0603)
+Added Component: Designator=C20(Capacitor_0603)
+Added Component: Designator=C21(Capacitor_0603)
+Added Component: Designator=C22(Capacitor_0603)
+Added Component: Designator=L3(0402-A)
+Added Component: Designator=L4(0402-A)
+Added Component: Designator=PCB ANT1(ANT_BRD_CUT)
+Added Component: Designator=PCB ANT2(ANT_BRD_CUT)
+Added Pin To Net: NetName=GND Pin=C19-2
+Added Pin To Net: NetName=GND Pin=C20-2
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Pin To Net: NetName=GND Pin=C22-2
+Added Pin To Net: NetName=GND Pin=L3-1
+Added Pin To Net: NetName=NetC5_1 Pin=L3-2
+Added Pin To Net: NetName=GND Pin=L4-1
+Added Pin To Net: NetName=NetC17_1 Pin=L4-2
+Added Pin To Net: NetName=NetC5_1 Pin=PCB ANT1-2
+Added Pin To Net: NetName=NetC17_1 Pin=PCB ANT2-2
+Added Pin To Net: NetName=NetC19_1 Pin=C19-1
+Added Net: Name=NetC19_1
+Added Pin To Net: NetName=NetC20_1 Pin=C20-1
+Added Pin To Net: NetName=NetC20_1 Pin=PCB ANT1-1
+Added Net: Name=NetC20_1
+Added Pin To Net: NetName=NetC21_1 Pin=C21-1
+Added Net: Name=NetC21_1
+Added Pin To Net: NetName=NetC22_1 Pin=C22-1
+Added Pin To Net: NetName=NetC22_1 Pin=PCB ANT2-1
+Added Net: Name=NetC22_1
+Added Member To Class: ClassName=Vesta_cape_wifi Member=Component C19 2.2pF
+Added Member To Class: ClassName=Vesta_cape_wifi Member=Component C20 2.2pF
+Added Member To Class: ClassName=Vesta_cape_wifi Member=Component C21 2.2pF
+Added Member To Class: ClassName=Vesta_cape_wifi Member=Component C22 2.2pF
+Added Member To Class: ClassName=Vesta_cape_wifi Member=Component L3 1.5nH
+Added Member To Class: ClassName=Vesta_cape_wifi Member=Component L4 1.5nH
+Added Member To Class: ClassName=Vesta_cape_wifi Member=Component PCB ANT1 ANTENNA
+Added Member To Class: ClassName=Vesta_cape_wifi Member=Component PCB ANT2 ANTENNA
