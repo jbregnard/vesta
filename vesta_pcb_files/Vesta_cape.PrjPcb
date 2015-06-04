@@ -28,7 +28,7 @@ PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
-OutputPath=
+OutputPath=Project Outputs for Vesta_cape
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -227,11 +227,11 @@ AutoOpenOutJob=-1
 [Generic_SmartPDFSettings]
 ProjectMode=0
 ZoomPrecision=50
-AddNetsInformation=-1
+AddNetsInformation=0
 AddNetPins=-1
 AddNetNetLabels=-1
 AddNetPorts=-1
-ShowComponentParameters=-1
+ShowComponentParameters=0
 GlobalBookmarks=0
 ExportBOM=0
 TemplateFilename=
@@ -257,7 +257,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Vesta_cape
 
 [OutputGroup1]
 Name=Netlist Outputs
