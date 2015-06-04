@@ -1,9 +1,9 @@
 \section{Hardware}
-This section is dedicated to show all the electronic components we chose and how they work together. As described earlier the hardware will be manufactured by Seeedstudio. They manufacture PCBs with other hardware components and they sell quite a number of different breakout boards and other developpement parts. A request made by the managing people of the project was to source as many components as possible at Seeedstudio. Of course not all components we needed were available by them so some of the components are from different sources. 
+This section is dedicated to show all the electronic components we chose and how they work together. As described earlier the PCB containing all the components will be manufactured by Seeedstudio. They manufacture PCBs with other hardware components and they sell quite a number of different breakout boards and other developpement parts. A request made by CHIC managing team was to source as many components as possible at Seeedstudio. Of course not all components we needed were available by them so some of the components are from different sources. 
 
-Hardware:
+Hardware :
 \begin{itemize}
-\item{Beaglebone black}
+\item{Beaglebone black, will be further mentioned as BBB}
 \item{SD card (containing the Operating System)}
 \item{PCB}
 \item{Wl1835mod WIFI and bluetooth module}
@@ -13,7 +13,23 @@ Hardware:
 \end{itemize}
 
 \subsection{Beaglebone Black}
-The Beaglebone black is an open-hardware microcomputer very famous for development. The beaglebone black use an ARM processor from Texas Instruments, the AM335X. It is clocked at 1GHz.
+The BBB is an open-hardware microcomputer very famous for development. It uses an ARM processor from Texas Instruments, the AM335X. It is clocked at 1GHz.
+\begin{table}[!htbp]
+  \begin{center}
+    \begin{tabular}{|l|r|r|}%p{5cm}|}
+      \hline
+        measurement N$^{\circ}$ & CW [mNm] & CCW [mNm]\\ \hline %\hline
+        1 & 2.24e-4 & -6.32e-4 \\ \hline
+        2 & 2.073-4 & -6.39e-4\\ \hline
+        3 & 2.72e-4 & -6.64e-4\\ \hline
+        4 & 2.46e-4 & -6.46e-4\\ \hline
+        5 & 2.72e.4 & -6.64e-4\\ \hline \hline
+        mean & 2.44e-4 & -6.49e-4\\ 
+         \hline
+    \end{tabular}
+  \end{center}
+  \caption {Dry friction torque measurement} \label{tab:dry friction meas} 
+\end{table}
 \subsection{Screen and Touchscreen}
 We first ordered a resistive touchscreen BBB cape available from seeedstudio to see how its was made and to see if the resistive technology was applicable to our project. We quickly realised that the resistive tuchscreen was not very adapted to manipulate photos. Especially the very well known “swipe” geasture to move from one photo to another was impossible to do with the resistive touchscreen.
 So we looked for a similar screen but one using a capacitive touchscreen. We started by looking on chinese sites which had the cheapest screens of course. But the cheap chinese screens were lacking documention. At the time we were unfamiliar with the interface the screens used and we needed at least a datasheet to get going.
