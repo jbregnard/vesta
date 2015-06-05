@@ -19,7 +19,7 @@ The figure \ref{fig:user flow} shows the interactions between the website and th
 \subsection{Operating system}
 The OS used for this project is a debian. Debian is a linux distribution and was given by the conceptors of the beaglebone black. The OS manage the communications with the different hardware. The accelerometer is controled by I2C (to read datas and write configurations). The screen uses different interfaces, I2C for the touch panel and 24bit parallel for the display. The WIFI chip is connected with SDIO and it replace the emmc memory.
 
-Every protocol and every pins input or output have to be declared in a file called device tree source. In the 3.14 kernel, this file is compiled and become a device tree blob. The compiled version of the file is executed at the OS startup. It initiates the load of the drivers and configures the pins as input, output, pwm or interrupt.
+Every protocol and every pins input or output have to be declared in a file called device tree source. In the 3.14 kernel, this file is compiled and become a device tree blob. The compiled version of the file is executed at the OS startup. It initiates the load of the drivers and configures the pins as input, output, pwm or interrupt. Some pins can be configured as i2c, spi, SDIO or some other protocols.
 
 \subsubsection{Drivers}
 A lot of work on this linux distribution was made to be fully compatible with the chosen hardware.
@@ -29,7 +29,7 @@ When a touch event was done on the right-down corner, the mouse pointer moved to
 
 The edt-ft5x06 uses an interrupt line and I2C to get the touch events and the positions of the clicks.
 
-Another driver is used for the WIFI connection with the wl1835mod. This driver uses the protocol SDIO.
+Another driver is used for the WIFI connection with the wl1835mod. This driver uses the protocol SDIO. It also has to be declared and initialized at the OS startup in the device tree blob. As the beaglebone's processor has only one SDIO protocol possible and it is used be the emmc memory, the emmc is replaced by with WIFI chip and the emmc is unusable.
 
 \subsubsection{Display}
 The touch screen works with a 24 bits parallel interface so the X11 configuration file had to be modified to work correctly. The LCD output was initialy configured in 16 bits parallel interface.
@@ -65,8 +65,8 @@ An example of entries on the vesta table on the MySQL database are shown in the 
   \hline
   id & type & name & text & img & date \\
   \hline
-  7 & image/jpeg & family.jpg & Hello! A message for you & BLOB - 300KB & 14.05.2015 \\
-  8 & image/jpeg & cat.jpg & Look at my cat :) & BLOB - 350KB & 27.05.2015 \\
+  7 & image/jpeg & family.jpg & Hello! A message for you & BLOB - 300KB & 14.05.2015 13:23:43 \\
+  8 & image/jpeg & cat.jpg & Look at my cat :) & BLOB - 350KB & 27.05.2015 18:10:05 \\
   \hline
 \end{tabular}
 \caption {Example of entries in the vesta table on the MySQL database}\label{tab:database}
@@ -111,3 +111,5 @@ The figure \ref{fig:soft archi} shows how the software works.
 
 \subsubsection{Graphical interface}
 The graphical interface is composed of a listview and some buttons. The listview allows swipes event to naviguate between the different pictures and messages. The buttons let the user configure the wifi or display the new messages.
+
+
