@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {6.1}Beaglebone Black}{7}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Screen and Touchscreen}{8}{subsection.6.2}
 \contentsline {subsubsection}{\numberline {6.2.1}Screen}{8}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Touchscreen}{9}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2}Touchscreen}{8}{subsubsection.6.2.2}
 \contentsline {subsubsection}{\numberline {6.2.3}Backlight}{9}{subsubsection.6.2.3}
 \contentsline {subsection}{\numberline {6.3}Wireless Communication}{9}{subsection.6.3}
 \contentsline {subsubsection}{\numberline {6.3.1}Wlan}{10}{subsubsection.6.3.1}
