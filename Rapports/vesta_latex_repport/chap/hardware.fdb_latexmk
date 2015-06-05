@@ -1,12 +1,12 @@
 # Fdb version 3
-["pdflatex"] 1433439573 "hardware.tex" "hardware.pdf" "hardware" 1433439574
+["pdflatex"] 1433502742 "hardware.tex" "hardware.pdf" "hardware" 1433502743
   "/usr/local/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2014/texmf-dist/web2c/texmf.cnf" 1398200874 31722 4f52421e59a4b9e910cf18e64c1f2b4a ""
   "/usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt" 1433074098 3832012 fb36d5292028858199159e156182bd07 ""
   "/usr/local/texlive/2014/texmf.cnf" 1401025936 577 a59edbde8d3a8c549d0eeaab1739e2ff ""
-  "hardware.aux" 1433439546 3154 2d821aa4c813e9e6c55ad58f105aaecc ""
-  "hardware.tex" 1433439572 5723 c74778ae1d0591533784bdcbed64153a ""
+  "hardware.aux" 1433461879 3408 4d1af4dd97dd6f0a97d2f9452306b970 ""
+  "hardware.tex" 1433461868 7704 46d04e5030a9532fc02f4420424a9a79 ""
   (generated)
-  "hardware.log"
   "hardware.pdf"
+  "hardware.log"

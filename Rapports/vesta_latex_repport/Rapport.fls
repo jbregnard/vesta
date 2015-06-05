@@ -357,6 +357,9 @@ INPUT ./chap/hardfig/backlight_led_circuit.png
 INPUT chap/hardfig/backlight_led_driver_sch.png
 INPUT ./chap/hardfig/backlight_led_driver_sch.png
 INPUT ./chap/hardfig/backlight_led_driver_sch.png
+INPUT chap/hardfig/wl1835_chip_sch.png
+INPUT ./chap/hardfig/wl1835_chip_sch.png
+INPUT ./chap/hardfig/wl1835_chip_sch.png
 OUTPUT chap/software.aux
 INPUT chap/software.tex
 INPUT chap/software.tex

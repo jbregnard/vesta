@@ -29,22 +29,22 @@
 \contentsline {subsubsection}{\numberline {6.3.2}Bluetooth}{10}{subsubsection.6.3.2}
 \contentsline {subsubsection}{\numberline {6.3.3}Power management}{10}{subsubsection.6.3.3}
 \contentsline {subsection}{\numberline {6.4}Front LED}{10}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Power management}{10}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Batteries and charger}{10}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}PCB}{10}{subsection.6.7}
-\contentsline {subsection}{\numberline {6.8}Cost estimates}{10}{subsection.6.8}
-\contentsline {section}{\numberline {7}Software}{11}{section.7}
+\contentsline {subsection}{\numberline {6.5}Power management}{11}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Batteries and charger}{11}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}PCB}{11}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.8}Cost estimates}{11}{subsection.6.8}
+\contentsline {section}{\numberline {7}Software}{12}{section.7}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {7.1}Operating system}{11}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}Drivers}{12}{subsubsection.7.1.1}
-\contentsline {subsubsection}{\numberline {7.1.2}Display}{12}{subsubsection.7.1.2}
-\contentsline {subsection}{\numberline {7.2}Website}{13}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Webpage}{13}{subsubsection.7.2.1}
-\contentsline {subsubsection}{\numberline {7.2.2}Database and XML parsing}{13}{subsubsection.7.2.2}
-\contentsline {subsection}{\numberline {7.3}Vesta software}{14}{subsection.7.3}
-\contentsline {subsubsection}{\numberline {7.3.1}Overall operations}{14}{subsubsection.7.3.1}
-\contentsline {subsubsection}{\numberline {7.3.2}Graphical interface}{14}{subsubsection.7.3.2}
-\contentsline {section}{\numberline {8}Next steps}{16}{section.8}
+\contentsline {subsection}{\numberline {7.1}Operating system}{12}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Drivers}{13}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}Display}{13}{subsubsection.7.1.2}
+\contentsline {subsection}{\numberline {7.2}Website}{14}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Webpage}{14}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Database and XML parsing}{14}{subsubsection.7.2.2}
+\contentsline {subsection}{\numberline {7.3}Vesta software}{15}{subsection.7.3}
+\contentsline {subsubsection}{\numberline {7.3.1}Overall operations}{15}{subsubsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.2}Graphical interface}{15}{subsubsection.7.3.2}
+\contentsline {section}{\numberline {8}Next steps}{17}{section.8}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {9}Conclusion}{17}{section.9}
+\contentsline {section}{\numberline {9}Conclusion}{18}{section.9}
 \vspace {-0.8em}\mbox {}\hrulefill \par 

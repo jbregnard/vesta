@@ -107,10 +107,20 @@ Our implementation of the FAN5333A is pictured in fig.\ref{fig:backlight driver 
 
 From the data sheet the resistance R30 sets the current. The net EHRPWMMOA is connected to a pwm pin on the BBB.
 \subsection{Wireless Communication}
-Our device has to connect to the internet over a WLAN to download new messages from the website. We chose to use the WL1835 chip from Texas instruments. This IC integrates WlAN, bluetooth and low energy bluetooth.
+Our device has to connect to the internet over a WLAN to download new messages from the website. We chose to use the WL1835 chip from Texas instruments. This IC integrates WlAN, 4.1 bluetooth and BLE. An important point is that TI provides support for the linux kernel we are using and the AM335x 1GHz ARM® Cortex-A8.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.7\textwidth,keepaspectratio]{chap/hardfig/wl1835_chip_sch}
+    \caption{Wl1835 implementation.}
+    \label{fig:wl1835 chip}
+\end{figure}
+
 \subsubsection{Wlan}
 The chip supports the IEEE standards 802.11a/b/g/n. This means it can provide up to 100 MPs with UDP and up to 80 MPs with TCP.
-It uses a 4 bit SDIO interface to communicate with the BBB.
+It uses a 4 bit SDIO interface to communicate with the BBB. The BBB has 2 SDIO interfaces which are used to communicate with the $\mu$
+ Sd card and the onboard EMMC. Therefore using the wl1835 means that we no longer have acces to the emmc. This is not a big issue as the operating system can be located on the sd card.
+
 \subsubsection{Bluetooth}
 The Wl1835 provides 4.1 bluetooth and low energy bluetooth capabilities. Uart host controlled interface is used here.
 \subsubsection{Power management}
