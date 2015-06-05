@@ -178,6 +178,12 @@ INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/rotating/rotating.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/rotating/rotating.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/tools/longtable.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/tools/longtable.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/multibib/multibib.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/multibib/multibib.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/makeidx.sty
@@ -233,9 +239,9 @@ INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/caption/ltcaption.sty
-INPUT fig/epfl-logo_gris.jpg
-INPUT ./fig/epfl-logo_gris.jpg
-INPUT ./fig/epfl-logo_gris.jpg
+INPUT fig/logo_EPFL.png
+INPUT ./fig/logo_EPFL.png
+INPUT ./fig/logo_EPFL.png
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/ae/aer12.tfm
@@ -363,6 +369,10 @@ INPUT ./chap/hardFig/backlight_led_driver_sch.png
 INPUT chap/hardFig/wl1835_chip_sch.png
 INPUT ./chap/hardFig/wl1835_chip_sch.png
 INPUT ./chap/hardFig/wl1835_chip_sch.png
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 OUTPUT chap/software.aux
 INPUT chap/software.tex
 INPUT chap/software.tex

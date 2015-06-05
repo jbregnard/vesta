@@ -6,7 +6,7 @@
 % Declare Class
 %----------------------------------------
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{rapport}[2009/12/07 Extension pour RAPPORT EPFL]   
+\ProvidesClass{rapport}[2009/12/07 Extension pour RAPPORT EPFL]
 
 %Load mother's class
 %---- Recto seulement ----%
@@ -41,18 +41,18 @@
 \usepackage[retainorgcmds]{IEEEtrantools}
 
 %---- Other ----%
-\usepackage[nofancy]{svninfo} 
+\usepackage[nofancy]{svninfo}
 \usepackage{enumerate}
 \usepackage{aeguill}
-\usepackage{titlesec}		
-\usepackage{lastpage} 		
-\usepackage{helvet}             
-\usepackage{courier}            
+\usepackage{titlesec}
+\usepackage{lastpage}
+\usepackage{helvet}
+\usepackage{courier}
 \usepackage{framed}
 \usepackage{color}
 \usepackage{float}
 \usepackage{textcomp}
-\usepackage{parskip} 
+\usepackage{parskip}
 \usepackage{verbatim}
 \usepackage{setspace}
 \usepackage{wasysym}
@@ -74,11 +74,15 @@
 \usepackage{longtable}
 \setlongtables
 
+%---- Code listings ----
+\usepackage{listings}
+
 %---- Bibliography, index and glossary ----%
 \usepackage{multibib}
 \usepackage{makeidx}
 \usepackage[french]{gloss}
 \usepackage{url}
+
 
 %---- Table of content and force bold smallcaps ----%
 \usepackage[subfigure]{tocloft}
@@ -104,12 +108,34 @@
 %----------------------------------------
 % New commands
 %----------------------------------------
+
+% custom c highlighting for c listings
+\lstdefinestyle{customc}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=L,
+  xleftmargin=\parindent,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{green},
+  commentstyle=\itshape\color{purple},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+}
+
+\lstdefinestyle{customxml}{
+  language=XML,
+  morekeywords={encoding,
+    xs:schema,xs:element,xs:complexType,xs:sequence,xs:attribute}
+}
+
 %---- Clear double page without numbering them ----%
 \newcommand{\clearemptydoublepage}{%
 	\newpage{\pagestyle{empty}\cleardoublepage}
 }
-	
-%---- Title level 4 ----%	
+
+%---- Title level 4 ----%
 \newcommand{\subsubsubsection}[1]{
 	\vspace{-0.6em}
 	\paragraph{#1}~\\
@@ -123,8 +149,8 @@
    \includegraphics[width=#4]{fig/#1}
    \end{center}
    \caption{\label{#2}#3}
-   \end{figure}   
-} 
+   \end{figure}
+}
 
 %---- Figure at the top of the page ----%
 %---- Exemple : \figh{nom_fichier.extension}{label}{Légende de la figure}{Largeur (par ex: 0.6\linewidth)}
@@ -134,7 +160,7 @@
    \includegraphics[width=#4]{fig/#1}
    \end{center}
    \caption{\label{#2}#3}
-   \end{figure}   
+   \end{figure}
 }
 
 %---- Include a table located in an extern file ----%
@@ -156,7 +182,7 @@
    \begin{center}
    \includegraphics[width=#4]{fig/#1}
    \end{center}
-   \end{table}   
+   \end{table}
 }
 
 %---- Include a figure on a double page (A3) that would be added later ----%
@@ -209,17 +235,17 @@
 %----------------------------------------
 % Paper size and Layout
 %----------------------------------------
-\usepackage[dvips, 
-	    a4paper, 
-	    top				=1cm, 
-	    bottom			=2cm, 
-	    left			=2cm, 
-	    headheight		=6mm, 
-	    headsep			=10mm, 
-	    marginparwidth	=2cm, 
-	    marginparsep	=4mm, 
-	    heightrounded, 
-	    includehead]{geometry} 
+\usepackage[dvips,
+	    a4paper,
+	    top				=1cm,
+	    bottom			=2cm,
+	    left			=2cm,
+	    headheight		=6mm,
+	    headsep			=10mm,
+	    marginparwidth	=2cm,
+	    marginparsep	=4mm,
+	    heightrounded,
+	    includehead]{geometry}
 
 %----------------------------------------
 % Headings
@@ -272,13 +298,13 @@
 
 %----------------------------------------
 % Cover page
-%----------------------------------------	
+%----------------------------------------
 \renewcommand\@maketitle{%
 	\thispagestyle{empty}
 	\null
 	\vskip 2em%
 	\begin{center}%
-	\includegraphics[width=80mm]{fig/epfl-logo_gris.jpg}\par%
+	\includegraphics[width=80mm]{fig/logo_EPFL.png}\par%
 	\vspace{4cm}
 	\let \footnote \thanks
 	\reset@font
@@ -287,14 +313,14 @@
 	\fontsize{29.86pt}{29.86pt}\bfseries\selectfont\@title\\\vspace{0.5em}
 	\LARGE{\@subtitle}\par}%
 	%{\LARGE \@title \par}%
-	\vskip 8em% 
+	\vskip 8em%
 	{\large
 	\lineskip .5em%
 	\begin{tabular}[t]{c}%
 	\@author
 	\end{tabular}\par}%
 	\vskip 1em%
-	
+
 	{\large \@date}%
 	\vskip 5cm%
 	Responsables:\\
@@ -306,7 +332,7 @@
 
 %----------------------------------------
 % Table of contents
-%----------------------------------------	
+%----------------------------------------
 %changements dans la table des matières
 \renewcommand{\cftsecfont}{\sc\bfseries}
 \renewcommand{\cftdotsep}{\cftnodots}
