@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {2.1}Problem}{2}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Younger generation needs}{2}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Elderly needs}{2}{subsubsection.2.1.2}
-\contentsline {subsection}{\numberline {2.2}Solution}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}Solution}{3}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Vesta tab}{3}{subsection.2.3}
 \contentsline {section}{\numberline {3}Value Proposition and Buisness Model}{4}{section.3}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
@@ -36,15 +36,15 @@
 \contentsline {section}{\numberline {7}Software}{12}{section.7}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
 \contentsline {subsection}{\numberline {7.1}Operating system}{12}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}Drivers}{13}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Drivers}{12}{subsubsection.7.1.1}
 \contentsline {subsubsection}{\numberline {7.1.2}Display}{13}{subsubsection.7.1.2}
 \contentsline {subsection}{\numberline {7.2}Website}{14}{subsection.7.2}
 \contentsline {subsubsection}{\numberline {7.2.1}Webpage}{14}{subsubsection.7.2.1}
 \contentsline {subsubsection}{\numberline {7.2.2}Database and XML parsing}{14}{subsubsection.7.2.2}
 \contentsline {subsection}{\numberline {7.3}Vesta software}{15}{subsection.7.3}
-\contentsline {subsubsection}{\numberline {7.3.1}Overall operations}{15}{subsubsection.7.3.1}
-\contentsline {subsubsection}{\numberline {7.3.2}Graphical interface}{15}{subsubsection.7.3.2}
-\contentsline {section}{\numberline {8}Next steps}{17}{section.8}
+\contentsline {subsubsection}{\numberline {7.3.1}Overall operations}{16}{subsubsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.2}Graphical interface}{16}{subsubsection.7.3.2}
+\contentsline {section}{\numberline {8}Next steps}{18}{section.8}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {9}Conclusion}{18}{section.9}
+\contentsline {section}{\numberline {9}Conclusion}{19}{section.9}
 \vspace {-0.8em}\mbox {}\hrulefill \par 

@@ -7,6 +7,15 @@ The software of this project contains 3 parts:
 \item{The Vesta tab software that is used on the tablet to display the differents messages and pictures received by the old users.}
 \end{itemize}
 
+The figure \ref{fig:web connections} shows the web interactions between the website and the Vesta software on the tablet.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/softFig/web_connections.png}
+    \caption{Web connections}
+    \label{fig:web connections}
+\end{figure}
+
 The figure \ref{fig:user flow} shows the interactions between the website and the Vesta software on the tablet. All the files are stored on the website on the mySql database. When the pictures are sent, the vesta tablet receives a message and can open/display it. The vesta software on the tablet works on a linux OS that manages the hardware.
 
 \begin{figure}[!htb]
@@ -111,3 +120,12 @@ The figure \ref{fig:soft archi} shows how the software works.
 
 \subsubsection{Graphical interface}
 The graphical interface is composed of a listview and some buttons. The listview allows swipes event to naviguate between the different pictures and messages. The buttons let the user configure the wifi or display the new messages.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/softFig/vesta_printscreen}
+    \caption{Vesta software graphical interface}
+    \label{fig:graphical interface}
+\end{figure}
+
+
