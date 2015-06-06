@@ -81,9 +81,13 @@ An example of entries on the vesta table on the MySQL database are shown in the 
 \caption {Example of entries in the vesta table on the MySQL database}\label{tab:database}
 \end{table}
 
-When the tablet update the datas, it connects to a script contained on the server. This script connects to the database and parse the informations needed by the tablet in XML.
+When the tablet update the datas, it connects to a script contained on the server. This script connects to the database and parse the informations needed by the tablet in XML.The tablet then unparse the datas, downloads the pictures, and display them.
 
-XML is a markup language that facilitate the transfer of datas and the readability of them. It is mainly used in the RSS flux.
+XML is a markup language that facilitates the transfer of datas and the readability of them. It is mainly used in the RSS flux.
+
+
+
+
 
 The XML code look like this:
 
@@ -102,12 +106,16 @@ The XML code look like this:
 </vesta>
 
 \subsection{Vesta software}
-The Vesta software is used by the old users to receive and display the messages and pictures sent by the young users.
+The Vesta software is used by the old users to receive and display the messages and pictures sent by the young users. It is located on the tablet and working with debian.
+
+\subsubsection{Qt library}
 The software is made in C++ with Qt4.8/Qt quick 1.0. Qt is a free library used mainly to design softwares with graphical user interfaces (GUI). It is cross platform so with the same code it is possible to compile for linux,windows and mac.
 The library contains also a lot of utils to facilitate the development of emmbedded interfaces and manages the touchscreen events like the swipes, clicks and more. A lot of documentation is available and a lot of users develop with it.
 
+There are differents GUI library like Gtk+, CEGUI etc... The choice of Qt was done especially because it is cross platform but also because it's compatible with emmbedded systems. Qt can be used also with android and IOS and is really made for apps with touchscreen. Qt quick is very powerful for emmbedded applications. The last version of Qt was downloaded over 1 million times and is ranked number 1 of all cross-platform tools.
+
 \subsubsection{Overall operations}
-At the startup, the vesta tab init check for the wifi connection and init all the hardware (accelerometer, touchscreen…). The touchscreen create an event when someone touch it and change the image displayed. It lets the user naviguate between the different messages. Every minute the soft check if a new message is received.
+At the startup, the vesta tab init check for the wifi connection and init all the hardware (accelerometer, touchscreen…). The touchscreen creates an event when someone touch it and changes the image displayed. It lets the user naviguate between the different messages. Every minute the soft check if a new message is received.
 
 The figure \ref{fig:soft archi} shows how the software works.
 
@@ -126,7 +134,7 @@ The figure \ref{fig:gui diagram} shows how the GUI is constructed.
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/softFig/GUI_diagram}
-    \caption{Graphical interface diagram}
+    \caption{Graphical interface diagram, A:Refresh button, B:WIFI RSSI indicator, C:Battery state indicator}
     \label{fig:gui diagram}
 \end{figure}
 

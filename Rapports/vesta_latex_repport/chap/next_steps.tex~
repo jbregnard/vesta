@@ -6,3 +6,5 @@ A lot of fonctionnalities could be easily implemented after this prototyping ste
 
 The device contains bluetooth integrated in the WIFI chip and is not currently used. Bluetooth could be used to have more interactions with other devices or to configure the tablet. For example the configuration and selection of the WIFI network can be done via an app on a smartphone with bluetooth. Or an activity tracker bracelet could upload the datas to the tablet. The tablet would be used to display the activity in some plots.
 
+The software can be changed relatively easily and do a completely different task. Qt is a well known library that let the programmer creates interfaces very fast. This device may become a developpement board.
+

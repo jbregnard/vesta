@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  6 JUN 2015 15:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  6 JUN 2015 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1453,7 +1453,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<fig/logo_EPFL.png, id=164, 684.5575pt x 330.23375pt>
+<fig/logo_EPFL.png, id=168, 684.5575pt x 330.23375pt>
 File: fig/logo_EPFL.png Graphic file (type png)
  <use fig/logo_EPFL.png>
 Package pdftex.def Info: fig/logo_EPFL.png used on input line 29.
@@ -1527,7 +1527,7 @@ LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 \openout2 = `chap/design.aux'.
 
  (./chap/design.tex
-<chap/designFig/vesta_design.jpg, id=236, 2490.30376pt x 1760.5775pt>
+<chap/designFig/vesta_design.jpg, id=241, 2490.30376pt x 1760.5775pt>
 File: chap/designFig/vesta_design.jpg Graphic file (type jpg)
 
 <use chap/designFig/vesta_design.jpg>
@@ -1548,7 +1548,7 @@ Package pdftex.def Info: chap/designFig/vesta_design.jpg used on input line 13.
 \openout2 = `chap/hardware.aux'.
 
  (./chap/hardware.tex
-<chap/hardFig/overall_hardware_dependecies.png, id=248, 844.756pt x 597.432pt>
+<chap/hardFig/overall_hardware_dependecies.png, id=253, 844.756pt x 597.432pt>
 File: chap/hardFig/overall_hardware_dependecies.png Graphic file (type png)
 
 <use chap/hardFig/overall_hardware_dependecies.png>
@@ -1559,7 +1559,7 @@ input line 15.
 
 
  <./chap/hardFig/overall_hardware_dependecies.png>]
-<chap/hardFig/newhaven_screen_image.png, id=257, 1128.215pt x 603.25375pt>
+<chap/hardFig/newhaven_screen_image.png, id=262, 1128.215pt x 603.25375pt>
 File: chap/hardFig/newhaven_screen_image.png Graphic file (type png)
 
 <use chap/hardFig/newhaven_screen_image.png>
@@ -1567,7 +1567,7 @@ Package pdftex.def Info: chap/hardFig/newhaven_screen_image.png used on input l
 ine 59.
 (pdftex.def)             Requested size: 234.45035pt x 125.35231pt.
  [8 <./chap/hardFig/newhaven_screen_image.png>]
-<chap/hardFig/backlight_led_circuit.png, id=266, 308.15125pt x 212.795pt>
+<chap/hardFig/backlight_led_circuit.png, id=271, 308.15125pt x 212.795pt>
 File: chap/hardFig/backlight_led_circuit.png Graphic file (type png)
 
 <use chap/hardFig/backlight_led_circuit.png>
@@ -1575,7 +1575,7 @@ Package pdftex.def Info: chap/hardFig/backlight_led_circuit.png used on input l
 ine 91.
 (pdftex.def)             Requested size: 234.45035pt x 161.90445pt.
 
-<chap/hardFig/backlight_led_driver_sch.png, id=268, 808.01875pt x 345.29pt>
+<chap/hardFig/backlight_led_driver_sch.png, id=273, 808.01875pt x 345.29pt>
 File: chap/hardFig/backlight_led_driver_sch.png Graphic file (type png)
 
 <use chap/hardFig/backlight_led_driver_sch.png>
@@ -1583,7 +1583,7 @@ Package pdftex.def Info: chap/hardFig/backlight_led_driver_sch.png used on inpu
 t line 102.
 (pdftex.def)             Requested size: 328.22906pt x 140.26317pt.
 
-<chap/hardFig/wl1835_chip_sch.png, id=269, 1045.9075pt x 704.6325pt>
+<chap/hardFig/wl1835_chip_sch.png, id=274, 1045.9075pt x 704.6325pt>
 File: chap/hardFig/wl1835_chip_sch.png Graphic file (type png)
 
 <use chap/hardFig/wl1835_chip_sch.png>
@@ -1595,7 +1595,7 @@ iver_sch.png>] [10 <./chap/hardFig/wl1835_chip_sch.png>]) [11]
 \openout2 = `chap/software.aux'.
 
  (./chap/software.tex
-<chap/softFig/web_connections.png, id=290, 847.165pt x 357.335pt>
+<chap/softFig/web_connections.png, id=296, 847.165pt x 357.335pt>
 File: chap/softFig/web_connections.png Graphic file (type png)
 
 <use chap/softFig/web_connections.png>
@@ -1603,7 +1603,7 @@ Package pdftex.def Info: chap/softFig/web_connections.png used on input line 14
 .
 (pdftex.def)             Requested size: 422.00777pt x 178.00185pt.
 
-<chap/softFig/block_diagram_vesta2.png, id=292, 963.6pt x 722.7pt>
+<chap/softFig/block_diagram_vesta2.png, id=298, 963.6pt x 722.7pt>
 File: chap/softFig/block_diagram_vesta2.png Graphic file (type png)
 
 <use chap/softFig/block_diagram_vesta2.png>
@@ -1613,7 +1613,7 @@ ne 23.
  [12
 
 
- <./chap/softFig/web_connections.png>] <chap/softFig/first_diagram2.png, id=301
+ <./chap/softFig/web_connections.png>] <chap/softFig/first_diagram2.png, id=306
 , 649.42625pt x 443.6575pt>
 File: chap/softFig/first_diagram2.png Graphic file (type png)
 
@@ -1625,7 +1625,7 @@ Package pdftex.def Info: chap/softFig/first_diagram2.png used on input line 49.
 Underfull \vbox (badness 7595) has occurred while \output is active []
 
  [13 <./chap/softFig/block_diagram_vesta2.png>]
-<chap/softFig/vesta_website2.png, id=307, 935.495pt x 865.2325pt>
+<chap/softFig/vesta_website2.png, id=312, 935.495pt x 865.2325pt>
 File: chap/softFig/vesta_website2.png Graphic file (type png)
 
 <use chap/softFig/vesta_website2.png>
@@ -1638,45 +1638,44 @@ Overfull \hbox (10.30807pt too wide) in paragraph at lines 73--81
  []
 
 [14 <./chap/softFig/first_diagram2.png>]
-Overfull \hbox (9.74207pt too wide) in paragraph at lines 90--103
+Overfull \hbox (9.74207pt too wide) in paragraph at lines 94--107
 []\T1/aer/m/n/10.95 <?xml ver-sion="1.0"?> <vesta> <item> <title>family.jpg</ti
 tle> <image>http ://www.vesta-
  []
 
 
-Overfull \hbox (54.13747pt too wide) in paragraph at lines 90--103
+Overfull \hbox (54.13747pt too wide) in paragraph at lines 94--107
 \T1/aer/m/n/10.95 tem> <item> <title>cat.jpg</title> <image>http ://www.vesta-t
 ab.com/jo/getImage.php?id=8</image>
  []
 
 
-Underfull \vbox (badness 4378) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15 <./chap/softFig/vesta_website2.png>]
-<chap/softFig/vesta_software_diagram2.png, id=324, 928.46875pt x 661.47125pt>
+<chap/softFig/vesta_software_diagram2.png, id=329, 928.46875pt x 661.47125pt>
 File: chap/softFig/vesta_software_diagram2.png Graphic file (type png)
 
 <use chap/softFig/vesta_software_diagram2.png>
 Package pdftex.def Info: chap/softFig/vesta_software_diagram2.png used on input
- line 116.
+ line 124.
 (pdftex.def)             Requested size: 422.00777pt x 300.657pt.
 
-<chap/softFig/GUI_diagram.png, id=326, 859.21pt x 576.1525pt>
+<chap/softFig/GUI_diagram.png, id=331, 859.21pt x 576.1525pt>
 File: chap/softFig/GUI_diagram.png Graphic file (type png)
 
 <use chap/softFig/GUI_diagram.png>
-Package pdftex.def Info: chap/softFig/GUI_diagram.png used on input line 128.
+Package pdftex.def Info: chap/softFig/GUI_diagram.png used on input line 136.
 (pdftex.def)             Requested size: 422.00777pt x 282.98534pt.
-
-<chap/softFig/vesta_printscreen.png, id=328, 1606.0pt x 903.375pt>
+ [16 <./chap/softFig/vesta_software_diagram2.png>] <chap/softFig/vesta_printscr
+een.png, id=339, 1606.0pt x 903.375pt>
 File: chap/softFig/vesta_printscreen.png Graphic file (type png)
 
 <use chap/softFig/vesta_printscreen.png>
 Package pdftex.def Info: chap/softFig/vesta_printscreen.png used on input line 
-137.
+145.
 (pdftex.def)             Requested size: 422.00777pt x 237.38072pt.
-) [16 <./chap/softFig/vesta_software_diagram2.png>] [17 <./chap/softFig/GUI_dia
-gram.png> <./chap/softFig/vesta_printscreen.png>]
+) [17 <./chap/softFig/GUI_diagram.png> <./chap/softFig/vesta_printscreen.png>]
 \openout2 = `chap/next_steps.aux'.
 
  (./chap/next_steps.tex) [18
@@ -1685,11 +1684,11 @@ gram.png> <./chap/softFig/vesta_printscreen.png>]
 ]
 \openout2 = `chap/conclusion.aux'.
 
- (./chap/conclusion.tex) [19
+
+(./chap/conclusion.tex) [19
 
 
-]
-
+] 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
@@ -1700,7 +1699,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `Rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 826D3F6A5DF1A380C0CA955844641EE1;5066.
+(rerunfilecheck)             Checksum: BC9ADA9FA2D1E8B1AE3649097AC721FF;5187.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1708,13 +1707,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 23083 strings out of 494999
- 376006 string characters out of 6180229
+ 23085 strings out of 494999
+ 376046 string characters out of 6180229
  455575 words of memory out of 5000000
- 25744 multiletter control sequences out of 15000+600000
+ 25745 multiletter control sequences out of 15000+600000
  39520 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,11n,45p,10416b,477s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,45p,10416b,477s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/jo/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
@@ -1723,10 +1722,10 @@ t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb>
-Output written on Rapport.pdf (21 pages, 2657124 bytes).
+Output written on Rapport.pdf (21 pages, 2658285 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 339 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
- 391 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 405 PDF objects out of 1000 (max. 8388607)
+ 344 compressed objects within 4 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 399 words of extra memory for PDF output out of 10000 (max. 10000000)
 
