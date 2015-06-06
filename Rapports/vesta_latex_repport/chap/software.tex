@@ -30,9 +30,32 @@ The figure \ref{fig:user flow} shows the interactions between the website and th
 \end{figure}
 
 \subsection{Operating system}
-The OS used for this project is a debian. Debian is a linux distribution and was given by the conceptors of the beaglebone black. The OS manages the communications with the different hardware. The accelerometer is controled by I2C (to read datas and write configurations). The screen uses different interfaces, I2C for the touch panel and 24bit parallel for the display. The WIFI chip is connected with SDIO and it replaces the emmc memory.
+The OS used for this project is a debian. Debian is a linux distribution and was given by the conceptors of the beaglebone black.
+
+The original OS is available on the beaglebone black developer website: http://beagleboard.org/latest-images
+
+The original OS contains:
+\begin{itemize}
+\item{kernel 3.8: The linux kernel (an old one)}
+\item{X11: The graphical server}
+\item{lxdm: The user session management}
+\item{lxde: A desktop (light)}
+\end{itemize}
+
+The OS manages the communications with the different hardware. The accelerometer is controled by I2C (to read datas and write configurations). The screen uses different interfaces, I2C for the touch panel and 24bit parallel for the display. The WIFI chip is connected with SDIO and it replaces the emmc memory.
 
 Every protocol and every pins input or output have to be declared in a file called device tree source. In the 3.14 kernel, this file is compiled and become a device tree blob. The compiled version of the file is executed at the OS startup. It initiates the load of the drivers and configures the pins as input, output, pwm or interrupt. Some pins can be configured as i2c, spi, SDIO or some other protocols.
+
+
+Packets installed on the original debian OS:
+\begin{itemize}
+\item{libqt4-core: Defaults tools for Qt software execution}
+\item{libqt4-gui: Needed to display GUI software developped with Qt}
+\item{dtc: Device tree compiler used to create pin configuration at the OS startup}
+\item{wicd: Network manager for WIFI connections}
+\item{evtest: Tool for interruption event, used especially to debug the touchscreen}
+\end{itemize}
+
 
 \subsubsection{Drivers}
 A lot of work on this linux distribution was made to be fully compatible with the chosen hardware.
@@ -126,6 +149,8 @@ Qt is a free library used mainly to design softwares with graphical user interfa
 The library contains also a lot of utils to facilitate the development of emmbedded interfaces and manages the touchscreen events like the swipes, clicks and more. A lot of documentation is available and a lot of users develop with it.
 
 There are differents GUI library like Gtk+, CEGUI etc... The choice of Qt was done especially because it is cross platform but also because it's compatible with emmbedded systems. Qt can be used also with android and IOS and is really made for apps with touchscreen. Qt quick is very powerful for emmbedded applications. The last version of Qt was downloaded over 1 million times and is ranked number 1 of all cross-platform tools.
+
+Qt creator is the official development environnment for Qt. It is used to develop and cross-compile the software for the beaglebone black. A visual GUI editor is available and simplify grandly the development of the software GUI.
 
 \subsubsection{Overall operations}
 At the startup, the vesta tab init and check the wifi connection. The touchscreen creates an event when someone touch it and changes the image displayed. It lets the user naviguate between the different messages. Every minute the soft check if a new message is received.
