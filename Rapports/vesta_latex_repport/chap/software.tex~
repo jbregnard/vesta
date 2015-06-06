@@ -7,6 +7,10 @@ The software of this project contains 3 parts:
 \item{The Vesta tab software that is used on the tablet to display the differents messages and pictures received by the old users.}
 \end{itemize}
 
+The concept of this software is easy to understand. Every tablet has a unique id like a phone number. The young user knows this id and can send messages and pictures to the wanted tablet through the website. The tablet just needs to be configured to connect to the wifi and get messages sent by the young user. The old people has almost nothing to do. He can naviguate in the old messages by swiping the pictures on the tablet.
+
+It is similar to a digital photo frame but the pictures are not put on the tablet by the tablet owner but by the young user.
+
 The figure \ref{fig:web connections} shows the web interactions between the website and the Vesta software on the tablet.
 
 \begin{figure}[!htb]
@@ -54,6 +58,7 @@ The file is located in /boot/dtbs/3.14xx/ and is called vesta.dtb (compiled) and
 
 
 \subsection{Website}
+
 The website is used by the young users to send messages and pictures to the old user’s tablet.
 The website contains a MySQL database, a php/html page that let the young user send a message and a php script used to parse the database to XML to be readable by the tablet.
 
@@ -75,12 +80,12 @@ The MySQL database is where all the messages and pictures are stored. The webpag
 An example of entries on the vesta table on the MySQL database are shown in the table\ref{tab:database}.
 
 \begin{table}
-\begin{tabular}{|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|c|}
   \hline
-  id & type & name & text & img & date \\
+  id & type & name & sender & text & img & date \\
   \hline
-  7 & image/jpeg & family.jpg & Hello! A message for you & BLOB - 300KB & 14.05.2015 13:23:43 \\
-  8 & image/jpeg & cat.jpg & Look at my cat :) & BLOB - 350KB & 27.05.2015 18:10:05 \\
+  7 & image/jpeg & family.jpg & Jean & Hello! A message for you & BLOB - 300KB & 14.05.2015\\
+  8 & image/jpeg & cat.jpg & Marie & Look at my cat :) & BLOB - 350KB & 27.05.2015\\
   \hline
 \end{tabular}
 \caption {Example of entries in the vesta table on the MySQL database}\label{tab:database}
