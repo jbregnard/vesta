@@ -37,7 +37,7 @@
 \vspace {-0.8em}\mbox {}\hrulefill \par 
 \contentsline {subsection}{\numberline {7.1}Operating system}{12}{subsection.7.1}
 \contentsline {subsubsection}{\numberline {7.1.1}Drivers}{12}{subsubsection.7.1.1}
-\contentsline {subsubsection}{\numberline {7.1.2}Display}{13}{subsubsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.2}Display}{14}{subsubsection.7.1.2}
 \contentsline {subsection}{\numberline {7.2}Website}{14}{subsection.7.2}
 \contentsline {subsubsection}{\numberline {7.2.1}Webpage}{14}{subsubsection.7.2.1}
 \contentsline {subsubsection}{\numberline {7.2.2}Database and XML parsing}{14}{subsubsection.7.2.2}

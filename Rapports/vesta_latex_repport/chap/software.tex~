@@ -26,30 +26,32 @@ The figure \ref{fig:user flow} shows the interactions between the website and th
 \end{figure}
 
 \subsection{Operating system}
-The OS used for this project is a debian. Debian is a linux distribution and was given by the conceptors of the beaglebone black. The OS manage the communications with the different hardware. The accelerometer is controled by I2C (to read datas and write configurations). The screen uses different interfaces, I2C for the touch panel and 24bit parallel for the display. The WIFI chip is connected with SDIO and it replace the emmc memory.
+The OS used for this project is a debian. Debian is a linux distribution and was given by the conceptors of the beaglebone black. The OS manages the communications with the different hardware. The accelerometer is controled by I2C (to read datas and write configurations). The screen uses different interfaces, I2C for the touch panel and 24bit parallel for the display. The WIFI chip is connected with SDIO and it replaces the emmc memory.
 
 Every protocol and every pins input or output have to be declared in a file called device tree source. In the 3.14 kernel, this file is compiled and become a device tree blob. The compiled version of the file is executed at the OS startup. It initiates the load of the drivers and configures the pins as input, output, pwm or interrupt. Some pins can be configured as i2c, spi, SDIO or some other protocols.
 
 \subsubsection{Drivers}
 A lot of work on this linux distribution was made to be fully compatible with the chosen hardware.
-The touch screen driver edt-ft5x06 had problems with the original 3.8 kernel of the distribution we used. The driver was not loading correctly from the device tree overlay. An upgrade to the 3.14 kernel resolved the problem.
+The touch screen driver edt-ft5x06 had problems with the original 3.8 kernel of the distribution used. The driver was not loading correctly from the device tree overlay. An upgrade to the 3.14 kernel resolved the problem.
 Then the scale of the touchscreen was not correct. 
 When a touch event was done on the right-down corner, the mouse pointer moved to the center of the screen. Some configuration scripts had to be modified for the X11 graphical display server.
 
-The edt-ft5x06 uses an interrupt line and I2C to get the touch events and the positions of the clicks.
-
-Another driver is used for the WIFI connection with the wl1835mod. This driver uses the protocol SDIO. It also has to be declared and initialized at the OS startup in the device tree blob. As the beaglebone's processor has only one SDIO protocol possible and it is used be the emmc memory, the emmc is replaced by with WIFI chip and the emmc is unusable.
-
-\subsubsection{Display}
-The touch screen works with a 24 bits parallel interface so the X11 configuration file had to be modified to work correctly. The LCD output was initialy configured in 16 bits parallel interface.
-The hardware management in linux is called a device tree blob. It’s a script that is compiled and is loaded at the OS startup. In this file, the driver for the touch panel was declared and the interrupt pins was defined. The resolution and frequency of the display is also configured in this script. The wifi chip also needs to load drivers at startup and tell the OS to connect to internet via this chip and with the SDIO protocol.
-The file is located in /boot/dtbs/3.14xx/ and is called vesta.dtb (compiled) and the source is called vesta.dts. The file uEnv.txt located in /boot/ also need to define which device tree blob(dtb) the OS has to load at startup.
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/softFig/first_diagram2}
     \caption{Firmware dependencies.}
     \label{fig:firmware dependencies}
 \end{figure}
+
+The edt-ft5x06 uses an interrupt line and I2C to get the touch events and the positions of the clicks.
+
+Another driver is used for the WIFI connection with the wl1835mod. This driver uses the protocol SDIO. It also has to be declared and initialized at the OS startup in the device tree blob. As the beaglebone's processor has only one SDIO protocol possible and it is used by the emmc memory, the emmc is replaced by the WIFI chip and the emmc is unusable.
+
+\subsubsection{Display}
+The touch screen works with a 24 bits parallel interface so the X11 configuration file had to be modified to work correctly. The LCD output was initialy configured in 16 bits parallel interface.
+The hardware management in linux is called a device tree blob. It’s a script that is compiled and is loaded at the OS startup. In this file, the driver for the touch panel was declared and the interrupt pins was defined. The resolution and frequency of the display is also configured in this script. The wifi chip also needs to load drivers at startup and tell the OS to connect to internet via this chip and with the SDIO protocol.
+The file is located in /boot/dtbs/3.14xx/ and is called vesta.dtb (compiled) and the source is called vesta.dts. The file uEnv.txt located in /boot/ also needs to define which device tree blob(dtb) the OS has to load at startup.
+
 
 \subsection{Website}
 The website is used by the young users to send messages and pictures to the old user’s tablet.
@@ -65,7 +67,7 @@ The website contains a MySQL database, a php/html page that let the young user s
 \subsubsection{Webpage}
 The webpage let the young user send a message to a wanted tablet. Every tablet has an id like a phone number known by the tablet owner. It is possible to select a picture on the user's computer and write a text message. When the "send" button is clicked, the picture and text message is saved in the MySQL database.
 
-The script called when the send button is clicked downloads the picture contained in the file input, verify if the file downloaded is a picture and if the size is not too big. If everything went well the picture and the other datas are saved in the MySQL database else some error messages are displayed. The date is automatically written at the current time.
+The php script called when the send button is clicked downloads the picture contained in the file input, verify if the file downloaded is a picture and if the size is not too big. If everything went well the picture and the other datas are saved in the MySQL database else some error messages are displayed. The date is automatically written at the current time.
 
 \subsubsection{Database and XML parsing}
 The MySQL database is where all the messages and pictures are stored. The webpage connects and save the datas into the database when the user send a message.

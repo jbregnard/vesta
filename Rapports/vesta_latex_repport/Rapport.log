@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  6 JUN 2015 19:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  6 JUN 2015 19:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1618,44 +1618,45 @@ ne 23.
 File: chap/softFig/first_diagram2.png Graphic file (type png)
 
 <use chap/softFig/first_diagram2.png>
-Package pdftex.def Info: chap/softFig/first_diagram2.png used on input line 49.
+Package pdftex.def Info: chap/softFig/first_diagram2.png used on input line 41.
 
 (pdftex.def)             Requested size: 422.00777pt x 288.29948pt.
-
-Underfull \vbox (badness 7595) has occurred while \output is active []
-
- [13 <./chap/softFig/block_diagram_vesta2.png>]
-<chap/softFig/vesta_website2.png, id=312, 935.495pt x 865.2325pt>
+ [13 <./chap/softFig/block_diagram_vesta2.png> <./chap/softFig/first_diagram2.p
+ng>]
+<chap/softFig/vesta_website2.png, id=314, 935.495pt x 865.2325pt>
 File: chap/softFig/vesta_website2.png Graphic file (type png)
 
 <use chap/softFig/vesta_website2.png>
-Package pdftex.def Info: chap/softFig/vesta_website2.png used on input line 60.
+Package pdftex.def Info: chap/softFig/vesta_website2.png used on input line 62.
 
 (pdftex.def)             Requested size: 422.00777pt x 390.3148pt.
 
-Overfull \hbox (10.30807pt too wide) in paragraph at lines 76--84
+Overfull \hbox (10.30807pt too wide) in paragraph at lines 78--86
 [][] 
  []
 
-[14 <./chap/softFig/first_diagram2.png>]
-Overfull \hbox (9.74207pt too wide) in paragraph at lines 94--107
+[14]
+Overfull \hbox (9.74207pt too wide) in paragraph at lines 96--109
 []\T1/aer/m/n/10.95 <?xml ver-sion="1.0"?> <vesta> <item> <title>family.jpg</ti
 tle> <image>http ://www.vesta-
  []
 
 
-Overfull \hbox (54.13747pt too wide) in paragraph at lines 94--107
+Overfull \hbox (54.13747pt too wide) in paragraph at lines 96--109
 \T1/aer/m/n/10.95 tem> <item> <title>cat.jpg</title> <image>http ://www.vesta-t
 ab.com/jo/getImage.php?id=8</image>
  []
 
-[15 <./chap/softFig/vesta_website2.png>]
+
+Underfull \vbox (badness 4303) has occurred while \output is active []
+
+ [15 <./chap/softFig/vesta_website2.png>]
 <chap/softFig/vesta_software_diagram2.png, id=329, 928.46875pt x 661.47125pt>
 File: chap/softFig/vesta_software_diagram2.png Graphic file (type png)
 
 <use chap/softFig/vesta_software_diagram2.png>
 Package pdftex.def Info: chap/softFig/vesta_software_diagram2.png used on input
- line 126.
+ line 128.
 (pdftex.def)             Requested size: 422.00777pt x 300.657pt.
 
 Underfull \vbox (badness 2753) has occurred while \output is active []
@@ -1665,7 +1666,7 @@ Underfull \vbox (badness 2753) has occurred while \output is active []
 File: chap/softFig/GUI_diagram.png Graphic file (type png)
 
 <use chap/softFig/GUI_diagram.png>
-Package pdftex.def Info: chap/softFig/GUI_diagram.png used on input line 148.
+Package pdftex.def Info: chap/softFig/GUI_diagram.png used on input line 150.
 (pdftex.def)             Requested size: 422.00777pt x 282.98534pt.
 
 <chap/softFig/vesta_printscreen.png, id=339, 1606.0pt x 903.375pt>
@@ -1673,7 +1674,7 @@ File: chap/softFig/vesta_printscreen.png Graphic file (type png)
 
 <use chap/softFig/vesta_printscreen.png>
 Package pdftex.def Info: chap/softFig/vesta_printscreen.png used on input line 
-157.
+159.
 (pdftex.def)             Requested size: 422.00777pt x 237.38072pt.
 ) [17 <./chap/softFig/GUI_diagram.png>] [18 <./chap/softFig/vesta_printscreen.p
 ng>]
@@ -1723,7 +1724,7 @@ t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb>
-Output written on Rapport.pdf (22 pages, 2659265 bytes).
+Output written on Rapport.pdf (22 pages, 2659509 bytes).
 PDF statistics:
  409 PDF objects out of 1000 (max. 8388607)
  347 compressed objects within 4 object streams
