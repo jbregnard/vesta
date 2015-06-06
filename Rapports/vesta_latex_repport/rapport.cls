@@ -126,8 +126,13 @@
 
 \lstdefinestyle{customxml}{
   language=XML,
-  morekeywords={encoding,
-    xs:schema,xs:element,xs:complexType,xs:sequence,xs:attribute}
+	morestring=[b]",
+	morestring=[s]{>}{<},
+	morecomment=[s]{<?}{?>},
+	stringstyle=\color{black},
+	identifierstyle=\color{darkblue},
+	keywordstyle=\color{cyan},
+	identifierstyle=\itshape\color{green}
 }
 
 %---- Clear double page without numbering them ----%

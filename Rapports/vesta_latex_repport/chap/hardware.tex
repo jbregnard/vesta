@@ -49,8 +49,8 @@ The BBB uses an ARM processor from Texas Instruments, the AM335X. It is clocked 
 % \end{table}
 
 \subsection{Screen and Touchscreen}
-At the current state of our prototype the main function is to view images and text. Therefor a good screen we realistic colors is necessary to have a good user experience.
-We first ordered a resistive touchscreen BBB cape (4DCAPE-70T 4D systems) available from seeedstudio to see how its was made and to see if the resistive technology was applicable to our project. We quickly realised that the resistive tuchscreen was not very adapted to manipulate photos. Especially the very well known “swipe” geasture to move from one photo to another was impossible to do with the resistive touchscreen.
+At the current state of our prototype the main function is to view images and text. Therefore a good screen with realistic colors is necessary to have a good user experience.
+We first ordered a resistive touchscreen BBB cape (4DCAPE-70T by 4D systems) available from Seeedstudio to see how its was made and to see if the resistive technology was applicable to our project. We quickly realised that the resistive touchscreen was not very suitable to manipulate photos. Especially the very well known “swipe” geasture to move from one photo to another was impossible to do with the resistive touchscreen.
 This screens colors were coded on 16 bits and the viewing angle was quite bad. We decided to use a capacitive touchscreen and more colors if possible. We chose a screen we found on Mouser which had good documentation and especially there was an existing driver for the touchscreen IC in the linux kernel we were going to use.
  The screen is actually a package containing the screen and its driver, the touch-screen and its driver and the backlight LED array. This package can be seen in fig.\ref{fig:screen package}
 
@@ -108,6 +108,8 @@ From the data sheet the resistance R30 sets the current. The net EHRPWMMOA is co
 \subsection{Wireless Communication}
 Our device has to connect to the internet over a WLAN to download new messages from the website. We chose to use the WL1835 chip from Texas instruments. This IC integrates WlAN, 4.1 bluetooth and BLE. An important point is that TI provides support for the linux kernel we are using and the AM335x 1GHz ARM® Cortex-A8.
 
+The chip is provided in a 
+
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=1\textwidth,keepaspectratio]{chap/hardFig/wl1835_chip_sch}
@@ -117,26 +119,16 @@ Our device has to connect to the internet over a WLAN to download new messages f
 
 \subsubsection{Wlan}
 The chip supports the IEEE standards 802.11a/b/g/n. This means it can provide up to 100 MPs with UDP and up to 80 MPs with TCP.
-It uses a 4 bit SDIO interface to communicate with the BBB. The BBB has 2 SDIO interfaces which are used to communicate with the $\mu$
- Sd card and the onboard EMMC. Therefore using the wl1835 means that we no longer have acces to the emmc. This is not a big issue as the operating system can be located on the sd card.
+It uses a 4 bit SDIO interface to communicate with the BBB. The BBB has 2 SDIO interfaces which are used to communicate with the micro sd card and the onboard EMMC. Therefore using the wl1835 means that we no longer have access to the emmc. This is not a big issue as the operating system can be located on the sd card.
 
- test xml
-
- \lstset{escapechar=@,style=customxml}
- \begin{lstlisting}
-   <note>
-   <to>Tove</to>
-   <from>Jani</from>
-   <heading>Reminder</heading>
-   <body>Don't forget me this weekend!</body>
-   </note>
-
- \end{lstlisting}
 
 \subsubsection{Bluetooth}
-The Wl1835 provides 4.1 bluetooth and low energy bluetooth capabilities. Uart host controlled interface is used here.
+The Wl1835 provides 4.1 bluetooth and low energy bluetooth capabilities. Uart host controlled interface is used to communicate through this interface.
+
+The bluetooth interface is not used currently. It is integrated thinking of future development.
 \subsubsection{Power management}
 The WL1835 is quite power hungry and requires both 3.3V and 1.8V to operate. Therefore it has its own linear regulators.
+
 \subsection{Front LED}
 The LED is there to inform the user of a new message. Therefor it could be quite low power. Seeedstudio only had an RGB LED which we ordered although for the final led we will use is a warm white single color LED.
 
