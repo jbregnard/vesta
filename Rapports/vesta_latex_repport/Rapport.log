@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.31)  5 JUN 2015 18:56
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  5 JUN 2015 19:20
+>>>>>>> origin/master
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1033,6 +1037,7 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LT@firsthead=\box78
 \LT@foot=\box79
 \LT@lastfoot=\box80
+<<<<<<< HEAD
 \LT@cols=\count191
 \LT@rows=\count192
 \c@LT@tables=\count193
@@ -1065,6 +1070,44 @@ Package: listings 2014/03/04 1.5c (Carsten Heinz)
 Package: multibib 2008/12/10 v1.4 Multiple bibliographies for one document.
 \mb@biblabelwidth=\count278
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/base/makeidx.sty
+=======
+\LT@cols=\count313
+\LT@rows=\count314
+\c@LT@tables=\count315
+\c@LT@chunks=\count316
+\LT@p@ftn=\toks34
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count317
+\lst@gtempboxa=\box81
+\lst@token=\toks35
+\lst@length=\count318
+\lst@currlwidth=\dimen280
+\lst@column=\count319
+\lst@pos=\count320
+\lst@lostspace=\dimen281
+\lst@width=\dimen282
+\lst@newlines=\count321
+\lst@lineno=\count322
+\lst@maxwidth=\dimen283
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count323
+\lst@skipnumbers=\count324
+\lst@framebox=\box82
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+(/home/jo/texmf/tex/latex/multibib/multibib.sty
+Package: multibib 2008/12/10 v1.4 Multiple bibliographies for one document.
+\mb@biblabelwidth=\count325
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+>>>>>>> origin/master
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/gloss/gloss.sty
 Package: gloss 2002/07/26 1.5.2 Gloss package
@@ -1111,6 +1154,7 @@ Package tocloft Info: The document has section divisions on input line 44.
 \cftsubtabnumwidth=\skip136
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
+<<<<<<< HEAD
 \Gm@cnth=\count279
 \Gm@cntv=\count280
 \c@Gm@tempcnt=\count281
@@ -1123,6 +1167,20 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layouthoffset=\dimen283
 \Gm@layoutvoffset=\dimen284
 \Gm@dimlist=\toks39
+=======
+\Gm@cnth=\count326
+\Gm@cntv=\count327
+\c@Gm@tempcnt=\count328
+\Gm@bindingoffset=\dimen284
+\Gm@wd@mp=\dimen285
+\Gm@odd@mp=\dimen286
+\Gm@even@mp=\dimen287
+\Gm@layoutwidth=\dimen288
+\Gm@layoutheight=\dimen289
+\Gm@layouthoffset=\dimen290
+\Gm@layoutvoffset=\dimen291
+\Gm@dimlist=\toks36
+>>>>>>> origin/master
 ))
 
 LaTeX Warning: Unused global option(s):
@@ -1166,7 +1224,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
+<<<<<<< HEAD
 \c@section@level=\count282
+=======
+\c@section@level=\count329
+>>>>>>> origin/master
 )
 LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
@@ -1177,6 +1239,7 @@ LaTeX Info: Redefining \nameref on input line 21.
 
  (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
+<<<<<<< HEAD
 \scratchcounter=\count283
 \scratchdimen=\dimen285
 \scratchbox=\box84
@@ -1189,6 +1252,20 @@ LaTeX Info: Redefining \nameref on input line 21.
 \makeMPintoPDFobject=\count288
 \everyMPtoPDFconversion=\toks41
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+=======
+\scratchcounter=\count330
+\scratchdimen=\dimen292
+\scratchbox=\box84
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen293
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks38
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+>>>>>>> origin/master
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
  (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
@@ -1214,7 +1291,7 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count289
+\c@lstlisting=\count336
 
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -1273,7 +1350,12 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 ) [1
 Non-PDF special ignored!
 
+<<<<<<< HEAD
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig/logo_EPFL.png (PNG copy)>] (./Rapport.toc)
+=======
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./fig/logo_EPFL.png (PNG c
+opy)>] (./Rapport.toc)
+>>>>>>> origin/master
 \tf@toc=\write4
 \openout4 = `Rapport.toc'.
 
@@ -1362,22 +1444,42 @@ File: chap/hardFig/wl1835_chip_sch.png Graphic file (type png)
  <use chap/hardFig/wl1835_chip_sch.png>
 Package pdftex.def Info: chap/hardFig/wl1835_chip_sch.png used on input line 113.
 (pdftex.def)             Requested size: 468.90071pt x 315.899pt.
+<<<<<<< HEAD
  [9 <./chap/hardFig/backlight_led_circuit.png> <./chap/hardFig/backlight_led_driver_sch.png>]
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 145.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+=======
+ [9 <./chap/hardFig/backlight_led_circuit.png> <./chap/hardFig/backlight_led_dr
+iver_sch.png>]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+>>>>>>> origin/master
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10.95> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 148.
  [10 <./chap/hardFig/wl1835_chip_sch.png>]) [11]
 \openout2 = `chap/software.aux'.
 
+<<<<<<< HEAD
  (./chap/software.tex <chap/softFig/web_connections.png, id=319, 847.165pt x 357.335pt>
+=======
+ (./chap/software.tex
+<chap/softFig/web_connections.png, id=301, 847.165pt x 357.335pt>
+>>>>>>> origin/master
 File: chap/softFig/web_connections.png Graphic file (type png)
  <use chap/softFig/web_connections.png>
 Package pdftex.def Info: chap/softFig/web_connections.png used on input line 14.
 (pdftex.def)             Requested size: 422.00777pt x 178.00185pt.
+<<<<<<< HEAD
  <chap/softFig/block_diagram_vesta2.png, id=321, 963.6pt x 722.7pt>
+=======
+
+<chap/softFig/block_diagram_vesta2.png, id=303, 963.6pt x 722.7pt>
+>>>>>>> origin/master
 File: chap/softFig/block_diagram_vesta2.png Graphic file (type png)
  <use chap/softFig/block_diagram_vesta2.png>
 Package pdftex.def Info: chap/softFig/block_diagram_vesta2.png used on input line 23.
@@ -1385,7 +1487,12 @@ Package pdftex.def Info: chap/softFig/block_diagram_vesta2.png used on input lin
  [12
 
 
+<<<<<<< HEAD
  <./chap/softFig/web_connections.png>] <chap/softFig/first_diagram2.png, id=329, 649.42625pt x 443.6575pt>
+=======
+ <./chap/softFig/web_connections.png>] <chap/softFig/first_diagram2.png, id=311
+, 649.42625pt x 443.6575pt>
+>>>>>>> origin/master
 File: chap/softFig/first_diagram2.png Graphic file (type png)
  <use chap/softFig/first_diagram2.png>
 Package pdftex.def Info: chap/softFig/first_diagram2.png used on input line 49.
@@ -1393,7 +1500,12 @@ Package pdftex.def Info: chap/softFig/first_diagram2.png used on input line 49.
 
 Underfull \vbox (badness 7595) has occurred while \output is active []
 
+<<<<<<< HEAD
  [13 <./chap/softFig/block_diagram_vesta2.png>] <chap/softFig/vesta_website2.png, id=335, 935.495pt x 865.2325pt>
+=======
+ [13 <./chap/softFig/block_diagram_vesta2.png>]
+<chap/softFig/vesta_website2.png, id=317, 935.495pt x 865.2325pt>
+>>>>>>> origin/master
 File: chap/softFig/vesta_website2.png Graphic file (type png)
  <use chap/softFig/vesta_website2.png>
 Package pdftex.def Info: chap/softFig/vesta_website2.png used on input line 60.
@@ -1410,18 +1522,33 @@ Overfull \hbox (9.74207pt too wide) in paragraph at lines 90--103
 
 
 Overfull \hbox (54.13747pt too wide) in paragraph at lines 90--103
+<<<<<<< HEAD
 \T1/aer/m/n/10.95 tem> <item> <title>cat.jpg</title> <image>http ://www.vesta-tab.com/jo/getImage.php?id=8</image>
+=======
+\T1/aer/m/n/10.95 tem> <item> <title>cat.jpg</title> <image>http ://www.vesta-t
+ab.com/jo/getImage.php?id=8</image>
+>>>>>>> origin/master
  []
 
 
 Underfull \vbox (badness 4378) has occurred while \output is active []
 
+<<<<<<< HEAD
  [15 <./chap/softFig/vesta_website2.png>] <chap/softFig/vesta_software_diagram2.png, id=351, 928.46875pt x 661.47125pt>
+=======
+ [15 <./chap/softFig/vesta_website2.png>]
+<chap/softFig/vesta_software_diagram2.png, id=333, 928.46875pt x 661.47125pt>
+>>>>>>> origin/master
 File: chap/softFig/vesta_software_diagram2.png Graphic file (type png)
  <use chap/softFig/vesta_software_diagram2.png>
 Package pdftex.def Info: chap/softFig/vesta_software_diagram2.png used on input line 116.
 (pdftex.def)             Requested size: 422.00777pt x 300.657pt.
+<<<<<<< HEAD
  <chap/softFig/vesta_printscreen.png, id=353, 1606.0pt x 903.375pt>
+=======
+
+<chap/softFig/vesta_printscreen.png, id=335, 1606.0pt x 903.375pt>
+>>>>>>> origin/master
 File: chap/softFig/vesta_printscreen.png Graphic file (type png)
  <use chap/softFig/vesta_printscreen.png>
 Package pdftex.def Info: chap/softFig/vesta_printscreen.png used on input line 128.
@@ -1454,6 +1581,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  22276 strings out of 493117
  351453 string characters out of 6135433
  432490 words of memory out of 5000000
@@ -1467,5 +1595,27 @@ PDF statistics:
  433 PDF objects out of 1000 (max. 8388607)
  373 compressed objects within 4 object streams
  98 named destinations out of 1000 (max. 500000)
+=======
+ 23453 strings out of 494999
+ 379480 string characters out of 6180229
+ 464997 words of memory out of 5000000
+ 26101 multiletter control sequences out of 15000+600000
+ 39520 words of font info for 89 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 49i,11n,58p,10416b,1118s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/jo/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb>
+Output written on Rapport.pdf (21 pages, 2638487 bytes).
+PDF statistics:
+ 406 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
+>>>>>>> origin/master
  386 words of extra memory for PDF output out of 10000 (max. 10000000)
 
