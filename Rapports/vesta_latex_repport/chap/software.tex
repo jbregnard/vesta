@@ -64,6 +64,9 @@ The website contains a MySQL database, a php/html page that let the young user s
 
 \subsubsection{Webpage}
 The webpage let the young user send a message to a wanted tablet. Every tablet has an id like a phone number known by the tablet owner. It is possible to select a picture on the user's computer and write a text message. When the "send" button is clicked, the picture and text message is saved in the MySQL database.
+
+The php script called when the send button is clicked downloads the picture contained in the file input, verify if the file downloaded is a picture and if the size is not too big. If everything went well the picture and the other datas are saved in the MySQL database else some error messages are displayed. The date is automatically written at the current time.
+
 \subsubsection{Database and XML parsing}
 The MySQL database is where all the messages and pictures are stored. The webpage connects and save the datas into the database when the user send a message.
 
@@ -84,9 +87,6 @@ An example of entries on the vesta table on the MySQL database are shown in the 
 When the tablet update the datas, it connects to a script contained on the server. This script connects to the database and parse the informations needed by the tablet in XML.The tablet then unparse the datas, downloads the pictures, and display them.
 
 XML is a markup language that facilitates the transfer of datas and the readability of them. It is mainly used in the RSS flux.
-
-
-
 
 
 The XML code look like this:
@@ -115,7 +115,9 @@ The library contains also a lot of utils to facilitate the development of emmbed
 There are differents GUI library like Gtk+, CEGUI etc... The choice of Qt was done especially because it is cross platform but also because it's compatible with emmbedded systems. Qt can be used also with android and IOS and is really made for apps with touchscreen. Qt quick is very powerful for emmbedded applications. The last version of Qt was downloaded over 1 million times and is ranked number 1 of all cross-platform tools.
 
 \subsubsection{Overall operations}
-At the startup, the vesta tab init check for the wifi connection and init all the hardware (accelerometer, touchscreen…). The touchscreen creates an event when someone touch it and changes the image displayed. It lets the user naviguate between the different messages. Every minute the soft check if a new message is received.
+At the startup, the vesta tab init and check the wifi connection. The touchscreen creates an event when someone touch it and changes the image displayed. It lets the user naviguate between the different messages. Every minute the soft check if a new message is received.
+
+The software is quite simple and not a lot of functionnalities are implemented. The goal was to have a really easy to use software for old people.
 
 The figure \ref{fig:soft archi} shows how the software works.
 
@@ -127,7 +129,17 @@ The figure \ref{fig:soft archi} shows how the software works.
 \end{figure}
 
 \subsubsection{Graphical interface}
-The graphical interface is composed of a listview and some buttons. The listview allows swipes event to naviguate between the different pictures and messages. The buttons let the user configure the wifi or display the new messages.
+The graphical interface is composed of an horizontal listview and some buttons. The listview allows swipes event to naviguate between the different pictures and messages.
+
+A task bar is always visible on the top of the GUI. The list view displays the actual picture, the date when the messages was sent and the text message.
+
+The buttons let the user configure the wifi or display the new messages.
+
+\begin{itemize}
+\item{The button A refresh the messages and display the last one.}
+\item{The button B goes to the WIFI configuration and indicates the RSSI of the WIFI.}
+\item{The indicator C show the battery level}
+\end{itemize}
 
 The figure \ref{fig:gui diagram} shows how the GUI is constructed.
 

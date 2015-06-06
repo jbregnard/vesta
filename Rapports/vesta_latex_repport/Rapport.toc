@@ -44,8 +44,8 @@
 \contentsline {subsection}{\numberline {7.3}Vesta software}{15}{subsection.7.3}
 \contentsline {subsubsection}{\numberline {7.3.1}Qt library}{16}{subsubsection.7.3.1}
 \contentsline {subsubsection}{\numberline {7.3.2}Overall operations}{16}{subsubsection.7.3.2}
-\contentsline {subsubsection}{\numberline {7.3.3}Graphical interface}{16}{subsubsection.7.3.3}
-\contentsline {section}{\numberline {8}Next steps}{18}{section.8}
+\contentsline {subsubsection}{\numberline {7.3.3}Graphical interface}{17}{subsubsection.7.3.3}
+\contentsline {section}{\numberline {8}Next steps}{19}{section.8}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {9}Conclusion}{19}{section.9}
+\contentsline {section}{\numberline {9}Conclusion}{20}{section.9}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
