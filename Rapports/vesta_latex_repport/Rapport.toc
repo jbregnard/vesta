@@ -26,9 +26,9 @@
 \contentsline {subsubsection}{\numberline {6.2.3}Backlight}{9}{subsubsection.6.2.3}
 \contentsline {subsection}{\numberline {6.3}Wireless Communication}{9}{subsection.6.3}
 \contentsline {subsubsection}{\numberline {6.3.1}Wlan}{10}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2}Bluetooth}{11}{subsubsection.6.3.2}
-\contentsline {subsubsection}{\numberline {6.3.3}Power management}{11}{subsubsection.6.3.3}
-\contentsline {subsection}{\numberline {6.4}Front LED}{11}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.3.2}Bluetooth}{10}{subsubsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.3}Power management}{10}{subsubsection.6.3.3}
+\contentsline {subsection}{\numberline {6.4}Front LED}{10}{subsection.6.4}
 \contentsline {subsection}{\numberline {6.5}Power management}{11}{subsection.6.5}
 \contentsline {subsection}{\numberline {6.6}Batteries and charger}{11}{subsection.6.6}
 \contentsline {subsection}{\numberline {6.7}PCB}{11}{subsection.6.7}

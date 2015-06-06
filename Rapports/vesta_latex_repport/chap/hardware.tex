@@ -95,12 +95,12 @@ The backlight is a quite bright white led array consisting of 5x3 LEDs. the conf
 
 This LED array requires 60 mA at 16 V to operate. This power is taken directly from the 3.3v of the BBB and boosted to the required voltage by FAN5333A LED driver from Fairchild semiconductors.
 This IC is a general purpose LED driver which can be controller with a PWM imput.
-Our implementation of the FAN5333A is pictured in fig.\ref{fig:backlight driver schematics}.
+Our implementation of the FAN5333B is pictured in fig.\ref{fig:backlight driver schematics}.
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.7\textwidth,keepaspectratio]{chap/hardFig/backlight_led_driver_sch}
-    \caption{FAN5333A Backlight LED driver implementation.}
+    \caption{FAN5333B Backlight LED driver implementation.}
     \label{fig:backlight driver schematics}
 \end{figure}
 
@@ -108,7 +108,7 @@ From the data sheet the resistance R30 sets the current. The net EHRPWMMOA is co
 \subsection{Wireless Communication}
 Our device has to connect to the internet over a WLAN to download new messages from the website. We chose to use the WL1835 chip from Texas instruments. This IC integrates WlAN, 4.1 bluetooth and BLE. An important point is that TI provides support for the linux kernel we are using and the AM335x 1GHz ARM® Cortex-A8.
 
-The chip is provided in a 
+The chip is provided in a
 
 \begin{figure}[!htb]
     \centering
