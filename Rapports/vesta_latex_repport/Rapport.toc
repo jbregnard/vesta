@@ -47,5 +47,7 @@
 \contentsline {subsubsection}{\numberline {7.3.3}Graphical interface}{17}{subsubsection.7.3.3}
 \contentsline {section}{\numberline {8}Next steps}{19}{section.8}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {9}Conclusion}{20}{section.9}
+\contentsline {section}{\numberline {9}Problems encountered}{19}{section.9}
+\vspace {-0.8em}\mbox {}\hrulefill \par 
+\contentsline {section}{\numberline {10}Conclusion}{20}{section.10}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
