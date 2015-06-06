@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  6 JUN 2015 12:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.1)  6 JUN 2015 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1661,15 +1661,22 @@ Package pdftex.def Info: chap/softFig/vesta_software_diagram2.png used on input
  line 116.
 (pdftex.def)             Requested size: 422.00777pt x 300.657pt.
 
-<chap/softFig/vesta_printscreen.png, id=326, 1606.0pt x 903.375pt>
+<chap/softFig/GUI_diagram.png, id=326, 859.21pt x 576.1525pt>
+File: chap/softFig/GUI_diagram.png Graphic file (type png)
+
+<use chap/softFig/GUI_diagram.png>
+Package pdftex.def Info: chap/softFig/GUI_diagram.png used on input line 128.
+(pdftex.def)             Requested size: 422.00777pt x 282.98534pt.
+
+<chap/softFig/vesta_printscreen.png, id=328, 1606.0pt x 903.375pt>
 File: chap/softFig/vesta_printscreen.png Graphic file (type png)
 
 <use chap/softFig/vesta_printscreen.png>
 Package pdftex.def Info: chap/softFig/vesta_printscreen.png used on input line 
-128.
+137.
 (pdftex.def)             Requested size: 422.00777pt x 237.38072pt.
-) [16 <./chap/softFig/vesta_software_diagram2.png>] [17 <./chap/softFig/vesta_p
-rintscreen.png>]
+) [16 <./chap/softFig/vesta_software_diagram2.png>] [17 <./chap/softFig/GUI_dia
+gram.png> <./chap/softFig/vesta_printscreen.png>]
 \openout2 = `chap/next_steps.aux'.
 
  (./chap/next_steps.tex) [18
@@ -1681,7 +1688,8 @@ rintscreen.png>]
  (./chap/conclusion.tex) [19
 
 
-] 
+]
+
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
@@ -1700,10 +1708,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 23076 strings out of 494999
- 375826 string characters out of 6180229
- 455445 words of memory out of 5000000
- 25739 multiletter control sequences out of 15000+600000
+ 23083 strings out of 494999
+ 376006 string characters out of 6180229
+ 455575 words of memory out of 5000000
+ 25744 multiletter control sequences out of 15000+600000
  39520 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,11n,45p,10416b,477s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1715,10 +1723,10 @@ t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb>
-Output written on Rapport.pdf (21 pages, 2637996 bytes).
+Output written on Rapport.pdf (21 pages, 2657120 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
- 337 compressed objects within 4 object streams
- 73 named destinations out of 1000 (max. 500000)
- 386 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 400 PDF objects out of 1000 (max. 8388607)
+ 339 compressed objects within 4 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 391 words of extra memory for PDF output out of 10000 (max. 10000000)
 
