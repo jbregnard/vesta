@@ -28,8 +28,20 @@ The BBB uses an ARM processor from Texas Instruments, the AM335X. It is clocked 
   \item{Open source}
   \item{...}
 \end{itemize}
+The main interface of the BBB are the 92 pins. Many pins can be configured in different modes. The pins and modes are listed in fig.\ref{fig:pin modes}.
+\clearpage
 
 
+%\begin{figure}[!htb]
+\begin{sidewaysfigure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/hardFig/BBB_pins_sch}
+    \caption{Hardware components dependencies.}
+    \label{fig:pin modes}
+%\end{figure}
+\end{sidewaysfigure}
+
+\clearpage
 
 % \begin{table}[!htbp]
 %   \begin{center}
@@ -84,6 +96,7 @@ The screen is the NHD-7.0-800480EF-ATXV\#-CTP from Newhaven Display. The specifi
 \end{itemize}
 The touchpanel is very smooth and reactive. The
 \subsubsection{Backlight}
+\label{chap: backlight}
 The backlight is a quite bright white led array consisting of 5x3 LEDs. the configuration can be seen in fig.\ref{fig:backlight_led}
 
 \begin{figure}[!htb]
@@ -104,11 +117,26 @@ Our implementation of the FAN5333B is pictured in fig.\ref{fig:backlight driver 
     \label{fig:backlight driver schematics}
 \end{figure}
 
-From the data sheet the resistance R30 sets the current. The net EHRPWMMOA is connected to a pwm pin on the BBB.
+From the data sheet the resistance R30 regulates the current. The net EHRPWMMOA is connected to a pwm pin on the BBB. The brightness of the screen will be adjustable from the website interface.
 \subsection{Wireless Communication}
+\label{chap:wireless com}
 Our device has to connect to the internet over a WLAN to download new messages from the website. We chose to use the WL1835 chip from Texas instruments. This IC integrates WlAN, 4.1 bluetooth and BLE. An important point is that TI provides support for the linux kernel we are using and the AM335x 1GHz ARM® Cortex-A8.
 
-The chip is provided in a
+The chip is provided in a 100-pin MOC package. The pin designation is seen in fig.\ref{fig:wl1835 pin designation}.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.5\textwidth,keepaspectratio]{chap/hardFig/100_pin_MOC_wl1835_package}
+    \caption{Wl1835 pin designation.}
+    \label{fig:wl1835 pin designation}
+\end{figure}
+
+To operate the wl1835 needs a few external components. Among others an oscillator and antennas are necessary to for proper operation.
+The integration of this chip was inspired by a layout example provided by TI as well as by the layout of an existing BBB cape which can be found here \url{http://boardzoo.com/index.php/beaglebone/beaglebone-wl1835mod-w-chip-antenna.html}.
+
+Our implementation is displayed in fig.\ref{fig:wl1835 chip}
+
+
 
 \begin{figure}[!htb]
     \centering
@@ -125,15 +153,63 @@ It uses a 4 bit SDIO interface to communicate with the BBB. The BBB has 2 SDIO i
 \subsubsection{Bluetooth}
 The Wl1835 provides 4.1 bluetooth and low energy bluetooth capabilities. Uart host controlled interface is used to communicate through this interface.
 
-The bluetooth interface is not used currently. It is integrated thinking of future development.
+The bluetooth interface is not used currently. It is integrated thinking of future development (see chap.\ref{chap: next steps}).
+
 \subsubsection{Power management}
-The WL1835 is quite power hungry and requires both 3.3V and 1.8V to operate. Therefore it has its own linear regulators.
+The WL1835 is quite power hungry, it can pull up to about 500 mA of current and requires both 3.3V and 1.8V to operate. Therefore it has its own linear regulators which pull their current directly from the battery. For the 1.8V the TPS73618DBVR low voltage dropout regulator is used. It can output a maximum of 400 mA at 1.8V more
 
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.7\textwidth,keepaspectratio]{chap/hardFig/wl1835_power_sch}
+    \caption{Wl1835 power management implementation.}
+    \label{fig:power management}
+\end{figure}
+
+\subsubsection{Buffering}
+As the signals that come in and out of the wl1835 are 1.6V and the BBB only works with 3.3V, we neeed to used a bidirectional Voltage-Level Translator. We chose the same ones which were implemented in the existing wl1835 cape(see). The TXS0108EPWR from TI.
+
+The implemention of these voltage converters is displayed in fig.\ref{fig:buffering chip}.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.7\textwidth,keepaspectratio]{chap/hardFig/wl_1835_buffer_sch}
+    \caption{TXS0108EPWR buffering chip implementation.}
+    \label{fig:buffering chip}
+\end{figure}
+\subsubsection{Antennas}
+This chip can handle two antennas although only one is compulsory. Again following the TI design guide as well as the schematics of the wl1835 BBB cape mentioned in chap.\ref{chap:wireless com} we implemented a dual antenna design. A ceramic chip was used as the on board antennas. The layout and custom footprints designed for this part are further described in chap.
 \subsection{Front LED}
-The LED is there to inform the user of a new message. Therefor it could be quite low power. Seeedstudio only had an RGB LED which we ordered although for the final led we will use is a warm white single color LED.
-
-We want it to flash in a heartbeat patern. This is achieved by using a PWM pin of the BBB
+The LED is there to inform the user of a new message. As it is only a notification LED a 20 mA LED is enough. The same FAN5333B driver for the led array in chap.\ref{chap: backlight} is used. Another PWM pin of the BBB is used to make the LED blink.
 \subsection{Power management}
+The power source of the device is of course the battery. From the battery the power is channeled into two main groups. The wl1835 wireless chip and the
+The two main devices which draw the most current are the BBB and the wifi chip.
 \subsection{Batteries and charger}
 \subsection{PCB}
+The PCB was designed in Altium Designer 15. Unfortunatly at this stage no prototype of the PCB has been made. All the components appart from the wl1835 have been tested with the BBB on a breadboard. The complex package of the chip didn't allow us to connect it to the BBB with wires. A cape was present on the internet but unavailable during the time slot of our project. We must trust TIs design as well as our ability to interpret the design documents.
+
+\subsubsection{Overall description}
+The PCB is composed of four layers. These layers are described in table.
+\begin{table}[!htbp]
+  \begin{center}
+    \begin{tabular}{|l|r|r|r|}%p{5cm}|}
+      \hline
+        Layer name & type & Material & Thickness [mm] \\ \hline \hline
+        Top Overlay & Overlay & & \\ \hline
+        Top solder & solder mask & surface material & 0.01 \\ \hline
+        Component side & signal & copper &  \\ \hline
+        Dielectric 1 & Dielectric & FR-4 & 0.4 \\ \hline
+        Ground & GND & -6.39e-4\\ \hline
+        Dielectric 1 & Dielectric & FR-4 & 0.4 \\ \hline
+        Power & VCC & -6.64e-4\\ \hline
+        Dielectric 1 & Dielectric & FR-4 & 0.4 \\ \hline
+        Bottom side & signal & -6.46e-4\\ \hline
+         \hline
+    \end{tabular}
+  \end{center}
+  \caption {Main BBB specifications} \label{tab:bbb specs}
+\end{table}
+
+
+\subsubsection{Antennas}
+The chip antennas are the ANT016008LCD2442MA1 from TDK. The datasheet and previously mentioned example allowed us to design the custom footprint. The footprint
 \subsection{Cost estimates}

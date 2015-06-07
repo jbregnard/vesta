@@ -65,6 +65,7 @@
 \usepackage{picins}
 \usepackage{wrapfig}
 \usepackage{subcaption}
+%\usepackage{rotating}
 
 %---- Tables ----%
 \usepackage{tabularx}
