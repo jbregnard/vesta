@@ -20,6 +20,8 @@ The figure \ref{fig:web connections} shows the web interactions between the webs
     \label{fig:web connections}
 \end{figure}
 
+\clearpage
+
 The figure \ref{fig:user flow} shows the interactions between the website and the Vesta software on the tablet. All the files are stored on the website on the mySql database. When the pictures are sent, the vesta tablet receives a message and can open/display it. The vesta software on the tablet works on a linux OS that manages the hardware.
 
 \begin{figure}[!htb]
@@ -29,12 +31,29 @@ The figure \ref{fig:user flow} shows the interactions between the website and th
     \label{fig:user flow}
 \end{figure}
 
+\clearpage
+
 \subsection{Operating system}
 The OS used for this project is a debian. Debian is a linux distribution and was given by the conceptors of the beaglebone black.
 
 The original OS is available on the beaglebone black developer website: http://beagleboard.org/latest-images
 
+The figure \ref{fig:OS} shows how the are the interactions between the OS and the hardware or the software.
+ 
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.7\textwidth,keepaspectratio]{chap/softFig/first_diagram2}
+    \caption{Interactions between the operating system and the hardware/software.}
+    \label{fig:OS}
+\end{figure}
 
+The original OS contains:
+\begin{itemize}
+\item{kernel 3.8: The linux kernel (an old one)}
+\item{X11: The graphical server}
+\item{lxdm: The user session management}
+\item{lxde: A desktop (light)}
+\end{itemize}
 
 The OS manages the communications with the different hardware. The accelerometer is controled by I2C (to read datas and write configurations). The screen uses different interfaces, I2C for the touch panel and 24bit parallel for the display. The WIFI chip is connected with SDIO and it replaces the emmc memory.
 
@@ -57,13 +76,6 @@ The touch screen driver edt-ft5x06 had problems with the original 3.8 kernel of 
 Then the scale of the touchscreen was not correct. 
 When a touch event occured on the right-down corner, the mouse pointer moved to the center of the screen. Some configuration scripts had to be modified for the X11 graphical display server.
 
-\begin{figure}[!htb]
-    \centering
-    \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/softFig/first_diagram2}
-    \caption{Firmware dependencies.}
-    \label{fig:firmware dependencies}
-\end{figure}
-
 The edt-ft5x06 uses an interrupt line and I2C to get the touch events and the positions of the clicks.
 
 Another driver is used for the WIFI connection with the wl1835mod. This driver uses the protocol SDIO. It also has to be declared and initialized at the OS startup in the device tree blob. As the beaglebone's processor has only one SDIO protocol possible and it is used by the emmc memory, the emmc is replaced by the WIFI chip and the emmc is unusable.
@@ -73,11 +85,14 @@ The touch screen works with a 24 bits parallel interface so the X11 configuratio
 The hardware management in linux is called a device tree blob. It’s a script that is compiled and is loaded at the OS startup. In this file, the driver for the touch panel was declared and the interrupt pins was defined. The resolution and frequency of the display is also configured in this script. The wifi chip also needs to load drivers at startup and tell the OS to connect to internet via this chip and with the SDIO protocol.
 The file is located in /boot/dtbs/3.14xx/ and is called vesta.dtb (compiled) and the source is called vesta.dts. The file uEnv.txt located in /boot/ also needs to define which device tree blob(dtb) the OS has to load at startup.
 
+\clearpage
 
 \subsection{Website}
 
 The website is used by the young users to send messages and pictures to the old user’s tablet.
 The website contains a MySQL database, a php/html page that let the young user send a message and a php script used to parse the database to XML to be readable by the tablet.
+
+The figure \ref{fig:web archi} shows the architecture of the interactions between the webpage, the database and the connections by the tablet through a script.
 
 \begin{figure}[!htb]
     \centering
@@ -85,6 +100,8 @@ The website contains a MySQL database, a php/html page that let the young user s
     \caption{Vesta website architecture.}
     \label{fig:web archi}
 \end{figure}
+
+\clearpage
 
 \subsubsection{Webpage}
 The webpage let the young user send a message to a wanted tablet. Every tablet has an id like a phone number known by the tablet owner. It is possible to select a picture on the user's computer and write a text message. When the "send" button is clicked, the picture and text message is saved in the MySQL database.
@@ -135,6 +152,8 @@ An example of XML code is shown below:
 
 This XML file defines 2 messages: family.jpg and cat.jpg. The senders are Jean and Marie at respectively 17:08:45 the 18th april 2015 and 14:34:12 the 23th april 2015. The images are available at the URL defined between the image markups. The message is between the message markups.
 
+\clearpage
+
 \subsection{Vesta software on the tablet}
 The Vesta software is used by the old users to receive and display the messages and pictures sent by the young users. It is located on the tablet and working with debian. The software is made in C++ with Qt4.8/Qt quick 1.0.
 
@@ -159,6 +178,8 @@ The figure \ref{fig:soft archi} shows how the software works.
     \caption{Vesta software architecture.}
     \label{fig:soft archi}
 \end{figure}
+
+\clearpage
 
 \subsubsection{Graphical interface}
 The graphical interface is composed of an horizontal listview and some buttons. The listview allows swipes event to naviguate between the different pictures and messages.
