@@ -22,7 +22,7 @@ The figure \ref{fig:web connections} shows the web interactions between the webs
 
 \clearpage
 
-The figure \ref{fig:user flow} shows the interactions between the website and the Vesta software on the tablet. All the files are stored on the website on the mySql database. When the pictures are sent, the vesta tablet receives a message and can open/display it. The vesta software on the tablet works on a linux OS that manages the hardware.
+The figure \ref{fig:user flow} shows the interactions between the website and the Vesta software on the tablet. All the files are stored on the website on the mySQL database. When the pictures are sent, the vesta tablet receives a message and can open/display it. The vesta software on the tablet works on a linux OS that manages the hardware.
 
 \begin{figure}[!htb]
     \centering
@@ -108,6 +108,8 @@ The webpage let the young user send a message to a wanted tablet. Every tablet h
 
 The php script called when the send button is clicked downloads the picture contained in the file input, verify if the file downloaded is a picture and if the size is not too big. If everything went well the picture and the other datas are saved in the MySQL database else some error messages are displayed. The date is automatically written at the current time.
 
+\clearpage
+
 \subsubsection{Database and XML parsing}
 The MySQL database is where all the messages and pictures are stored. The webpage connects and save the datas into the database when the user send a message.
 
@@ -165,6 +167,8 @@ There are differents GUI library like Gtk+, CEGUI etc... The choice of Qt was do
 
 Qt creator is the official development environnment for Qt. It is used to develop and cross-compile the software for the beaglebone black. A visual GUI editor is available and simplify grandly the development of the software GUI.
 
+\clearpage
+
 \subsubsection{Overall operations}
 At the startup, the vesta tab init and check the wifi connection. The touchscreen creates an event when someone touch it and changes the image displayed. It lets the user naviguate between the different messages. Every minute the soft check if a new message is received.
 
@@ -198,7 +202,7 @@ The figure \ref{fig:gui diagram} shows how the GUI is constructed.
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/softFig/GUI_diagram}
+    \includegraphics[width=0.7\textwidth,keepaspectratio]{chap/softFig/GUI_diagram}
     \caption{Graphical interface diagram, A:Refresh button, B:WIFI RSSI indicator, C:Battery state indicator}
     \label{fig:gui diagram}
 \end{figure}
@@ -207,7 +211,7 @@ The figure \ref{fig:graphical interface} shows the actual GUI.
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/softFig/vesta_printscreen}
+    \includegraphics[width=0.7\textwidth,keepaspectratio]{chap/softFig/vesta_printscreen}
     \caption{Vesta software graphical interface}
     \label{fig:graphical interface}
 \end{figure}
