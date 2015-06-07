@@ -50,15 +50,6 @@
 \contentsline {subsubsection}{\numberline {7.2.2}Database and XML parsing}{26}{subsubsection.7.2.2}
 \contentsline {subsection}{\numberline {7.3}Vesta software on the tablet}{27}{subsection.7.3}
 \contentsline {subsubsection}{\numberline {7.3.1}Qt library}{27}{subsubsection.7.3.1}
-<<<<<<< HEAD
-\contentsline {subsubsection}{\numberline {7.3.2}Overall operations}{27}{subsubsection.7.3.2}
-\contentsline {subsubsection}{\numberline {7.3.3}Graphical interface}{29}{subsubsection.7.3.3}
-\contentsline {section}{\numberline {8}Next steps}{31}{section.8}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {9}Problems encountered}{31}{section.9}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {10}Conclusion}{32}{section.10}
-=======
 \contentsline {subsubsection}{\numberline {7.3.2}Overall operations}{28}{subsubsection.7.3.2}
 \contentsline {subsubsection}{\numberline {7.3.3}Graphical interface}{29}{subsubsection.7.3.3}
 \contentsline {section}{\numberline {8}Next steps}{30}{section.8}
@@ -66,5 +57,4 @@
 \contentsline {section}{\numberline {9}Problems encountered}{30}{section.9}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
 \contentsline {section}{\numberline {10}Conclusion}{31}{section.10}
->>>>>>> origin/master
 \vspace {-0.8em}\mbox {}\hrulefill \par 
