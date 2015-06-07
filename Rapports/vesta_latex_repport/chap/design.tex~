@@ -2,9 +2,30 @@
 
 The design part was done by the ECAL student.
 
+\subsection{Tablet}
 
 
+The design of the tablet is shown in the figure \ref{fig:vesta design}.
 
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/designFig/VestaRender4.png}
+    \caption{Vesta tablet design}
+    \label{fig:vesta design}
+\end{figure}
+
+
+\subsection{Charging station}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/designFig/VisioRender7.png}
+    \caption{Charging station}
+    \label{fig:charging station}
+\end{figure}
+
+
+\subsection{Software design}
 
 The graphical interface of the software is shown in the figure \ref{fig:soft design}.
 
