@@ -444,6 +444,13 @@ INPUT ./chap/softFig/first_diagram2.png
 INPUT chap/softFig/vesta_website2.png
 INPUT ./chap/softFig/vesta_website2.png
 INPUT ./chap/softFig/vesta_website2.png
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT chap/softFig/vesta_software_diagram2.png
 INPUT ./chap/softFig/vesta_software_diagram2.png
 INPUT ./chap/softFig/vesta_software_diagram2.png
