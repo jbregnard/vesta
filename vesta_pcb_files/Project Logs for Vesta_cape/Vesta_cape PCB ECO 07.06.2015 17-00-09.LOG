@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=P8 Old Footprint=BBB_CAPE_HEADER New Footprint=HEADER_23_2_SMD
+Change Component Footprint: Designator=P9 Old Footprint=BBB_CAPE_HEADER New Footprint=HEADER_23_2_SMD
+Change Component Comment : Designator=P8 Old Comment=HDR2-23-M-P8 New Comment=P8
+Change Component Comment : Designator=P9 Old Comment=HDR2-23-M-P9 New Comment=P9
