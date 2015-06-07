@@ -39,7 +39,7 @@
 \usepackage{amssymb}
 \usepackage[version=3]{mhchem}
 \usepackage[retainorgcmds]{IEEEtrantools}
-
+\usepackage{textgreek}
 %---- Other ----%
 \usepackage[nofancy]{svninfo}
 \usepackage{enumerate}
@@ -65,6 +65,7 @@
 \usepackage{picins}
 \usepackage{wrapfig}
 \usepackage{subcaption}
+%\usepackage{rotating}
 
 %---- Tables ----%
 \usepackage{tabularx}
