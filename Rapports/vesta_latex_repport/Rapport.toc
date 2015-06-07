@@ -15,6 +15,7 @@
 \contentsline {subsection}{\numberline {4.1}Value Proposition}{6}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Buisness model}{6}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}User tests}{6}{subsection.4.3}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {5}Industrial design}{7}{section.5}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
 \contentsline {subsection}{\numberline {5.1}Tablet}{7}{subsection.5.1}
@@ -57,4 +58,50 @@
 \contentsline {section}{\numberline {9}Problems encountered}{31}{section.9}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
 \contentsline {section}{\numberline {10}Conclusion}{32}{section.10}
+=======
+\contentsline {section}{\numberline {5}Industrial design}{8}{section.5}
+\vspace {-0.8em}\mbox {}\hrulefill \par 
+\contentsline {subsection}{\numberline {5.1}Tablet}{8}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Charging station}{8}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Software design}{10}{subsection.5.3}
+\contentsline {section}{\numberline {6}Materials}{11}{section.6}
+\vspace {-0.8em}\mbox {}\hrulefill \par 
+\contentsline {section}{\numberline {7}Hardware}{12}{section.7}
+\vspace {-0.8em}\mbox {}\hrulefill \par 
+\contentsline {subsection}{\numberline {7.1}Beaglebone Black}{12}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Screen and Touchscreen}{15}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Screen}{15}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Touchscreen}{15}{subsubsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.3}Backlight}{15}{subsubsection.7.2.3}
+\contentsline {subsection}{\numberline {7.3}Wireless Communication}{16}{subsection.7.3}
+\contentsline {subsubsection}{\numberline {7.3.1}Wlan}{17}{subsubsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.2}Bluetooth}{18}{subsubsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.3}Power management}{18}{subsubsection.7.3.3}
+\contentsline {subsubsection}{\numberline {7.3.4}Buffering}{18}{subsubsection.7.3.4}
+\contentsline {subsubsection}{\numberline {7.3.5}Antennas}{18}{subsubsection.7.3.5}
+\contentsline {subsection}{\numberline {7.4}Front LED}{19}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Power management}{19}{subsection.7.5}
+\contentsline {subsection}{\numberline {7.6}Batteries and charger}{19}{subsection.7.6}
+\contentsline {subsection}{\numberline {7.7}PCB}{19}{subsection.7.7}
+\contentsline {subsubsection}{\numberline {7.7.1}Overall description}{20}{subsubsection.7.7.1}
+\contentsline {subsubsection}{\numberline {7.7.2}Antennas}{20}{subsubsection.7.7.2}
+\contentsline {subsection}{\numberline {7.8}Cost estimates}{21}{subsection.7.8}
+\contentsline {section}{\numberline {8}Software}{22}{section.8}
+\vspace {-0.8em}\mbox {}\hrulefill \par 
+\contentsline {subsection}{\numberline {8.1}Operating system}{24}{subsection.8.1}
+\contentsline {subsubsection}{\numberline {8.1.1}Drivers}{25}{subsubsection.8.1.1}
+\contentsline {subsubsection}{\numberline {8.1.2}Display}{25}{subsubsection.8.1.2}
+\contentsline {subsection}{\numberline {8.2}Website}{26}{subsection.8.2}
+\contentsline {subsubsection}{\numberline {8.2.1}Webpage}{27}{subsubsection.8.2.1}
+\contentsline {subsubsection}{\numberline {8.2.2}Database and XML parsing}{28}{subsubsection.8.2.2}
+\contentsline {subsection}{\numberline {8.3}Vesta software on the tablet}{29}{subsection.8.3}
+\contentsline {subsubsection}{\numberline {8.3.1}Qt library}{29}{subsubsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.2}Overall operations}{30}{subsubsection.8.3.2}
+\contentsline {subsubsection}{\numberline {8.3.3}Graphical interface}{31}{subsubsection.8.3.3}
+\contentsline {section}{\numberline {9}Next steps}{32}{section.9}
+\vspace {-0.8em}\mbox {}\hrulefill \par 
+\contentsline {section}{\numberline {10}Problems encountered}{32}{section.10}
+\vspace {-0.8em}\mbox {}\hrulefill \par 
+\contentsline {section}{\numberline {11}Conclusion}{33}{section.11}
+>>>>>>> 586028744b8e04e08d535b49c80c117126cc150c
 \vspace {-0.8em}\mbox {}\hrulefill \par 
