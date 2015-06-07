@@ -207,7 +207,7 @@ The battery is a 3.7V Lithium-ion battery with a capacity of 6000mAh from Seeeds
 The PCB was designed in Altium Designer 15. Unfortunatly at this stage no prototype of the PCB has been made. All the components appart from the wl1835 have been tested with the BBB on a breadboard. The complex package of the chip prevents from connecting it to the BBB with wires. The cape mentionned in chap.\ref{chap:wireless com}as source for the wl1835 implementation
 
 \subsubsection{Overall description}
-The PCB is composed of four layers. These layers are described in table.\ref{tab:layer description}.
+The PCB is composed of four layers. The layer thicknesses, copper thicknesses as well as materials and all other rules were mainly dictated nby Seeedstudios fabrication guidelines. The layers are described in table.\ref{tab:layer description}.
 \begin{table}[!htbp]
   \begin{center}
     \begin{tabular}{|l|r|r|r|}%p{5cm}|}
@@ -227,7 +227,8 @@ The PCB is composed of four layers. These layers are described in table.\ref{tab
   \end{center}
   \caption {Pcb layer description} \label{tab:layer description}
 \end{table}
-The power plane is set to the 3.3v of the BBB.
+
+The power plane is set to the 3.3v of the BBB as it is the most used power line. The wl1835 3.3V and 1.8V power lines are located on the component side layer.
 
 \subsubsection{Antennas}
 The chip antennas are the ANT016008LCD2442MA1 from TDK. The datasheet and previously mentioned examples allowed us to design the custom footprint.
