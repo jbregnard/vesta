@@ -8,54 +8,6 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Elderly needs}{2}{subsubsection.2.1.2}
 \contentsline {subsection}{\numberline {2.2}Solution}{3}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Vesta tab}{3}{subsection.2.3}
-<<<<<<< HEAD
-\contentsline {section}{\numberline {3}Value Proposition and Buisness Model}{4}{section.3}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {3.1}Value Proposition}{4}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Buisness model}{4}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}User tests}{4}{subsection.3.3}
-\contentsline {section}{\numberline {4}Industrial design}{5}{section.4}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {5}Materials}{6}{section.5}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {6}Hardware}{7}{section.6}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {6.1}Beaglebone Black}{7}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Screen and Touchscreen}{10}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Screen}{10}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Touchscreen}{10}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Backlight}{10}{subsubsection.6.2.3}
-\contentsline {subsection}{\numberline {6.3}Wireless Communication}{11}{subsection.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1}Wlan}{12}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2}Bluetooth}{13}{subsubsection.6.3.2}
-\contentsline {subsubsection}{\numberline {6.3.3}Power management}{13}{subsubsection.6.3.3}
-\contentsline {subsubsection}{\numberline {6.3.4}Buffering}{13}{subsubsection.6.3.4}
-\contentsline {subsubsection}{\numberline {6.3.5}Antennas}{13}{subsubsection.6.3.5}
-\contentsline {subsection}{\numberline {6.4}Front LED}{14}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Power management}{14}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Batteries and charger}{14}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}PCB}{14}{subsection.6.7}
-\contentsline {subsubsection}{\numberline {6.7.1}Overall description}{15}{subsubsection.6.7.1}
-\contentsline {subsubsection}{\numberline {6.7.2}Antennas}{15}{subsubsection.6.7.2}
-\contentsline {subsection}{\numberline {6.8}Cost estimates}{16}{subsection.6.8}
-\contentsline {section}{\numberline {7}Software}{17}{section.7}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {7.1}Operating system}{17}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}Drivers}{18}{subsubsection.7.1.1}
-\contentsline {subsubsection}{\numberline {7.1.2}Display}{19}{subsubsection.7.1.2}
-\contentsline {subsection}{\numberline {7.2}Website}{19}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Webpage}{20}{subsubsection.7.2.1}
-\contentsline {subsubsection}{\numberline {7.2.2}Database and XML parsing}{20}{subsubsection.7.2.2}
-\contentsline {subsection}{\numberline {7.3}Vesta software on the tablet}{21}{subsection.7.3}
-\contentsline {subsubsection}{\numberline {7.3.1}Qt library}{21}{subsubsection.7.3.1}
-\contentsline {subsubsection}{\numberline {7.3.2}Overall operations}{21}{subsubsection.7.3.2}
-\contentsline {subsubsection}{\numberline {7.3.3}Graphical interface}{22}{subsubsection.7.3.3}
-\contentsline {section}{\numberline {8}Next steps}{24}{section.8}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {9}Problems encountered}{24}{section.9}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {10}Conclusion}{25}{section.10}
-=======
 \contentsline {section}{\numberline {3}Value Proposition and Buisness Model}{5}{section.3}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
 \contentsline {subsection}{\numberline {3.1}Value Proposition}{5}{subsection.3.1}
@@ -85,25 +37,24 @@
 \contentsline {subsection}{\numberline {6.5}Power management}{17}{subsection.6.5}
 \contentsline {subsection}{\numberline {6.6}Batteries and charger}{17}{subsection.6.6}
 \contentsline {subsection}{\numberline {6.7}PCB}{17}{subsection.6.7}
-\contentsline {subsubsection}{\numberline {6.7.1}Overall description}{17}{subsubsection.6.7.1}
+\contentsline {subsubsection}{\numberline {6.7.1}Overall description}{18}{subsubsection.6.7.1}
 \contentsline {subsubsection}{\numberline {6.7.2}Antennas}{18}{subsubsection.6.7.2}
-\contentsline {subsection}{\numberline {6.8}Cost estimates}{18}{subsection.6.8}
-\contentsline {section}{\numberline {7}Software}{19}{section.7}
+\contentsline {subsection}{\numberline {6.8}Cost estimates}{19}{subsection.6.8}
+\contentsline {section}{\numberline {7}Software}{20}{section.7}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {7.1}Operating system}{21}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}Drivers}{22}{subsubsection.7.1.1}
-\contentsline {subsubsection}{\numberline {7.1.2}Display}{22}{subsubsection.7.1.2}
-\contentsline {subsection}{\numberline {7.2}Website}{23}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Webpage}{24}{subsubsection.7.2.1}
-\contentsline {subsubsection}{\numberline {7.2.2}Database and XML parsing}{25}{subsubsection.7.2.2}
-\contentsline {subsection}{\numberline {7.3}Vesta software on the tablet}{26}{subsection.7.3}
-\contentsline {subsubsection}{\numberline {7.3.1}Qt library}{26}{subsubsection.7.3.1}
-\contentsline {subsubsection}{\numberline {7.3.2}Overall operations}{26}{subsubsection.7.3.2}
-\contentsline {subsubsection}{\numberline {7.3.3}Graphical interface}{28}{subsubsection.7.3.3}
+\contentsline {subsection}{\numberline {7.1}Operating system}{22}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Drivers}{23}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}Display}{23}{subsubsection.7.1.2}
+\contentsline {subsection}{\numberline {7.2}Website}{24}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Webpage}{25}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Database and XML parsing}{26}{subsubsection.7.2.2}
+\contentsline {subsection}{\numberline {7.3}Vesta software on the tablet}{27}{subsection.7.3}
+\contentsline {subsubsection}{\numberline {7.3.1}Qt library}{27}{subsubsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.2}Overall operations}{28}{subsubsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.3}Graphical interface}{29}{subsubsection.7.3.3}
 \contentsline {section}{\numberline {8}Next steps}{30}{section.8}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
 \contentsline {section}{\numberline {9}Problems encountered}{30}{section.9}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
 \contentsline {section}{\numberline {10}Conclusion}{31}{section.10}
->>>>>>> origin/master
 \vspace {-0.8em}\mbox {}\hrulefill \par 
