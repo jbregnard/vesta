@@ -5,9 +5,6 @@ In the beginning of july, a first prototype will be made in Shenzen (China) with
 
 A lot of fonctionnalities could be easily implemented after this prototyping step. An activity monitoring or an emergency call system for example. Another fonctionnality can be a videoconference system with a camera like Skype do. This device has a lot of unused connections that could be used to connect other sensors for medical assistance. It can becomes an electrocardiogram for example. The advantage is that the hardware is powerful enough to do almost everything a computer can do in therm of connectivity. Everything that can be done with a tablet can be done with this device and more.
 
-<<<<<<< HEAD
-The device contains bluetooth
-=======
 The device contains bluetooth integrated in the WIFI chip and is not currently used. Bluetooth could be used to have more interactions with other devices or to configure the tablet. For example the configuration and selection of the WIFI network can be done via an app on a smartphone with bluetooth. Or an activity tracker bracelet could upload the datas to the tablet. The tablet would be used to display the activity in some plots.
 
 The software can be changed relatively easily and do a completely different task. Qt is a well known library that let the programmer creates interfaces very fast. This device may become a developpement board.
@@ -17,5 +14,3 @@ Currently the only way to send messages or pictures is trough the website. A nex
 \section{Problems encountered}
 
 The main problems encountered were about the OS configuration and compatibility with the hardware components. The driver for the I2C capacitive touch panel chip wasn't working with the kernel 3.8. The driver was loading at the OS startup but no input was available to read it. This problem was resolved by upgrading the kernel to the 3.14 version. The scale of the touchscreen was not working also. The events were readable but they were wrong, the clicks were not synchronized with the screen size. Some calibration configurations of the X11 config file resolved the problem.
-
->>>>>>> origin/master
