@@ -177,18 +177,20 @@ The implemention of these voltage converters is displayed in fig.\ref{fig:buffer
     \label{fig:buffering chip}
 \end{figure}
 \subsubsection{Antennas}
-This chip can handle two antennas although only one is compulsory. Again following the TI design guide as well as the schematics of the wl1835 BBB cape mentioned in chap.\ref{chap:wireless com} we implemented a dual antenna design. A ceramic chip was used as the on board antennas. The layout and custom footprints designed for this part are further described in chap.
+This chip can handle two antennas although only one is compulsory. Again following the TI design guide as well as the schematics of the wl1835 BBB cape mentioned in chap.\ref{chap:wireless com} we implemented a dual antenna design. A ceramic chip was used as the \"on board\" antennas. The layout and custom footprints designed for this part are further described in chap.\ref{chap:pcb}.
 \subsection{Front LED}
 The LED is there to inform the user of a new message. As it is only a notification LED a 20 mA LED is enough. The same FAN5333B driver for the led array in chap.\ref{chap: backlight} is used. Another PWM pin of the BBB is used to make the LED blink.
 \subsection{Power management}
 The power source of the device is of course the battery. From the battery the power is channeled into two main groups. The wl1835 wireless chip and the
 The two main devices which draw the most current are the BBB and the wifi chip.
 \subsection{Batteries and charger}
+The battery is a 3.7V Lithium-ion battery with a capacity of 6000mAh from Seeedstudio. The voltage of such batteries range from 3.7V to 4.2V. Seeedstudio also sell a li-ion battery charger and wireless power trnasmission coils. We use this system
 \subsection{PCB}
-The PCB was designed in Altium Designer 15. Unfortunatly at this stage no prototype of the PCB has been made. All the components appart from the wl1835 have been tested with the BBB on a breadboard. The complex package of the chip didn't allow us to connect it to the BBB with wires. A cape was present on the internet but unavailable during the time slot of our project. We must trust TIs design as well as our ability to interpret the design documents.
+\label{chap:pcb}
+The PCB was designed in Altium Designer 15. Unfortunatly at this stage no prototype of the PCB has been made. All the components appart from the wl1835 have been tested with the BBB on a breadboard. The complex package of the chip prevents from connecting it to the BBB with wires. The cape mentionned in chap.\ref{chap:wireless com}as source for the wl1835 implementation
 
 \subsubsection{Overall description}
-The PCB is composed of four layers. These layers are described in table.
+The PCB is composed of four layers. These layers are described in table.\ref{tab:layer description}.
 \begin{table}[!htbp]
   \begin{center}
     \begin{tabular}{|l|r|r|r|}%p{5cm}|}
@@ -198,18 +200,36 @@ The PCB is composed of four layers. These layers are described in table.
         Top solder & solder mask & surface material & 0.01 \\ \hline
         Component side & signal & copper &  \\ \hline
         Dielectric 1 & Dielectric & FR-4 & 0.4 \\ \hline
-        Ground & GND & -6.39e-4\\ \hline
+        Ground & GND & copper &\\ \hline
         Dielectric 1 & Dielectric & FR-4 & 0.4 \\ \hline
-        Power & VCC & -6.64e-4\\ \hline
+        Power & VCC & copper & \\ \hline
         Dielectric 1 & Dielectric & FR-4 & 0.4 \\ \hline
-        Bottom side & signal & -6.46e-4\\ \hline
+        Bottom side & signal & copper &\\ \hline
          \hline
     \end{tabular}
   \end{center}
-  \caption {Main BBB specifications} \label{tab:bbb specs}
+  \caption {Pcb layer description} \label{tab:layer description}
 \end{table}
 
 
 \subsubsection{Antennas}
-The chip antennas are the ANT016008LCD2442MA1 from TDK. The datasheet and previously mentioned example allowed us to design the custom footprint. The footprint
+The chip antennas are the ANT016008LCD2442MA1 from TDK. The datasheet and previously mentioned examples allowed us to design the custom footprint.
+The main considerations described by the afrtmentioned sources for the antennas to have maximum efficiency are:
+
+\begin{itemize}
+  \item {the antennas are orthogonal to each other}
+  \item {They must be distanta of >76 mm which is a half wave length}
+  \item {RF traces must have 50-\textOmega impedance}
+  \item {RF traces must not have sharp corners}
+  \item {RF traces must have via stitching on the ground plane beside the RF trace on both sides}
+  \item {RF traces must be as short as possible. The antenna, RF traces, and module must be on the edge of the PCB product in consideration of the product enclosure material and proximity}
+\end{itemize}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.5\textwidth,keepaspectratio]{chap/hardFig/100_pin_MOC_wl1835_package}
+    \caption{Wl1835 pin designation.}
+    \label{fig:wl1835 pcb antennas}
+\end{figure}
+
 \subsection{Cost estimates}

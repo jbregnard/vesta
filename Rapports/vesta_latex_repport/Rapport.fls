@@ -106,6 +106,14 @@ INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/IEEEtran/IEEEtrantools.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/IEEEtran/IEEEtrantools.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/textgreek/textgreek.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/textgreek/textgreek.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/svninfo/svninfo.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/svninfo/svninfo.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/svninfo/svninfo.cfg
@@ -215,8 +223,11 @@ INPUT chap/next_steps.aux
 INPUT chap/conclusion.aux
 INPUT chap/conclusion.aux
 OUTPUT Rapport.aux
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/ae/aer10.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -372,7 +383,6 @@ INPUT ./chap/hardFig/backlight_led_driver_sch.png
 INPUT chap/hardFig/100_pin_MOC_wl1835_package.png
 INPUT ./chap/hardFig/100_pin_MOC_wl1835_package.png
 INPUT ./chap/hardFig/100_pin_MOC_wl1835_package.png
-INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/ae/aer10.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
@@ -398,6 +408,9 @@ INPUT ./chap/hardFig/wl1835_power_sch.png
 INPUT chap/hardFig/wl_1835_buffer_sch.png
 INPUT ./chap/hardFig/wl_1835_buffer_sch.png
 INPUT ./chap/hardFig/wl_1835_buffer_sch.png
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cbfonts/grmn1095.tfm
+INPUT chap/hardFig/100_pin_MOC_wl1835_package.png
+INPUT ./chap/hardFig/100_pin_MOC_wl1835_package.png
 OUTPUT chap/software.aux
 INPUT chap/software.tex
 INPUT chap/software.tex
@@ -416,6 +429,9 @@ INPUT ./chap/softFig/vesta_website2.png
 INPUT chap/softFig/vesta_software_diagram2.png
 INPUT ./chap/softFig/vesta_software_diagram2.png
 INPUT ./chap/softFig/vesta_software_diagram2.png
+INPUT chap/softFig/GUI_diagram.png
+INPUT ./chap/softFig/GUI_diagram.png
+INPUT ./chap/softFig/GUI_diagram.png
 INPUT chap/softFig/vesta_printscreen.png
 INPUT ./chap/softFig/vesta_printscreen.png
 INPUT ./chap/softFig/vesta_printscreen.png
@@ -455,5 +471,6 @@ INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
