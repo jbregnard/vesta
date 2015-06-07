@@ -4,6 +4,7 @@ In this section, the industrial design will be explained and especially shown wi
 
 \subsection{Tablet}
 
+The color of the shield is the orange. This color is hot and represent the positivity. It also is visible color and not agressive. The screen size is 7 inches with a resolution of 800x480. It is big enough to display readable messages and pictures.
 
 The design of the tablet is shown in the figure \ref{fig:vesta design}.
 
@@ -17,6 +18,8 @@ The design of the tablet is shown in the figure \ref{fig:vesta design}.
 
 \subsection{Charging station}
 
+The charging station is wireless, it works with induction. More and more devices in the market allow to charge the battery wirelessly. To charge the tablet's battery, the tablet need to be located on the charging station. The advantage of this station is that the old people doesn't need to plug a small cable like micro USB into the tablet to charge it. The charging station method is much easier to use.
+
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/designFig/VisioRender7.png}
@@ -24,8 +27,11 @@ The design of the tablet is shown in the figure \ref{fig:vesta design}.
     \label{fig:charging station}
 \end{figure}
 
+\clearpage
 
 \subsection{Software design}
+
+The software located on the tablet need to be very easy to use and understandable by an old people. Different designs were imagined and compared.
 
 The graphical interface of the software is shown in the figure \ref{fig:soft design}.
 
