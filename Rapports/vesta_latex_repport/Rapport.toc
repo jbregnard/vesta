@@ -20,43 +20,41 @@
 \contentsline {subsection}{\numberline {5.1}Tablet}{7}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Charging station}{7}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Software design}{9}{subsection.5.3}
-\contentsline {section}{\numberline {6}Materials}{10}{section.6}
+\contentsline {section}{\numberline {6}Hardware}{10}{section.6}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {7}Hardware}{11}{section.7}
+\contentsline {subsection}{\numberline {6.1}Beaglebone Black}{10}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Screen and Touchscreen}{13}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Screen}{13}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Touchscreen}{13}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Backlight}{13}{subsubsection.6.2.3}
+\contentsline {subsection}{\numberline {6.3}Wireless Communication}{14}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Wlan}{15}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Bluetooth}{16}{subsubsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.3}Power management}{16}{subsubsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.4}Buffering}{16}{subsubsection.6.3.4}
+\contentsline {subsubsection}{\numberline {6.3.5}Antennas}{16}{subsubsection.6.3.5}
+\contentsline {subsection}{\numberline {6.4}Front LED}{17}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Power management}{17}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Batteries and charger}{17}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}PCB}{17}{subsection.6.7}
+\contentsline {subsubsection}{\numberline {6.7.1}Overall description}{18}{subsubsection.6.7.1}
+\contentsline {subsubsection}{\numberline {6.7.2}Antennas}{18}{subsubsection.6.7.2}
+\contentsline {subsection}{\numberline {6.8}Cost estimates}{19}{subsection.6.8}
+\contentsline {section}{\numberline {7}Software}{20}{section.7}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {7.1}Beaglebone Black}{11}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Screen and Touchscreen}{14}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Screen}{14}{subsubsection.7.2.1}
-\contentsline {subsubsection}{\numberline {7.2.2}Touchscreen}{14}{subsubsection.7.2.2}
-\contentsline {subsubsection}{\numberline {7.2.3}Backlight}{14}{subsubsection.7.2.3}
-\contentsline {subsection}{\numberline {7.3}Wireless Communication}{15}{subsection.7.3}
-\contentsline {subsubsection}{\numberline {7.3.1}Wlan}{16}{subsubsection.7.3.1}
-\contentsline {subsubsection}{\numberline {7.3.2}Bluetooth}{17}{subsubsection.7.3.2}
-\contentsline {subsubsection}{\numberline {7.3.3}Power management}{17}{subsubsection.7.3.3}
-\contentsline {subsubsection}{\numberline {7.3.4}Buffering}{17}{subsubsection.7.3.4}
-\contentsline {subsubsection}{\numberline {7.3.5}Antennas}{17}{subsubsection.7.3.5}
-\contentsline {subsection}{\numberline {7.4}Front LED}{18}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Power management}{18}{subsection.7.5}
-\contentsline {subsection}{\numberline {7.6}Batteries and charger}{18}{subsection.7.6}
-\contentsline {subsection}{\numberline {7.7}PCB}{18}{subsection.7.7}
-\contentsline {subsubsection}{\numberline {7.7.1}Overall description}{19}{subsubsection.7.7.1}
-\contentsline {subsubsection}{\numberline {7.7.2}Antennas}{19}{subsubsection.7.7.2}
-\contentsline {subsection}{\numberline {7.8}Cost estimates}{20}{subsection.7.8}
-\contentsline {section}{\numberline {8}Software}{21}{section.8}
+\contentsline {subsection}{\numberline {7.1}Operating system}{22}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Drivers}{23}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}Display}{24}{subsubsection.7.1.2}
+\contentsline {subsection}{\numberline {7.2}Website}{25}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Webpage}{26}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Database and XML parsing}{27}{subsubsection.7.2.2}
+\contentsline {subsection}{\numberline {7.3}Vesta software on the tablet}{28}{subsection.7.3}
+\contentsline {subsubsection}{\numberline {7.3.1}Qt library}{28}{subsubsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.2}Overall operations}{29}{subsubsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.3}Graphical interface}{30}{subsubsection.7.3.3}
+\contentsline {section}{\numberline {8}Next steps}{31}{section.8}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {8.1}Operating system}{23}{subsection.8.1}
-\contentsline {subsubsection}{\numberline {8.1.1}Drivers}{24}{subsubsection.8.1.1}
-\contentsline {subsubsection}{\numberline {8.1.2}Display}{24}{subsubsection.8.1.2}
-\contentsline {subsection}{\numberline {8.2}Website}{25}{subsection.8.2}
-\contentsline {subsubsection}{\numberline {8.2.1}Webpage}{26}{subsubsection.8.2.1}
-\contentsline {subsubsection}{\numberline {8.2.2}Database and XML parsing}{27}{subsubsection.8.2.2}
-\contentsline {subsection}{\numberline {8.3}Vesta software on the tablet}{28}{subsection.8.3}
-\contentsline {subsubsection}{\numberline {8.3.1}Qt library}{28}{subsubsection.8.3.1}
-\contentsline {subsubsection}{\numberline {8.3.2}Overall operations}{29}{subsubsection.8.3.2}
-\contentsline {subsubsection}{\numberline {8.3.3}Graphical interface}{30}{subsubsection.8.3.3}
-\contentsline {section}{\numberline {9}Next steps}{31}{section.9}
+\contentsline {section}{\numberline {9}Problems encountered}{31}{section.9}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {10}Problems encountered}{31}{section.10}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {11}Conclusion}{32}{section.11}
+\contentsline {section}{\numberline {10}Conclusion}{32}{section.10}
 \vspace {-0.8em}\mbox {}\hrulefill \par 

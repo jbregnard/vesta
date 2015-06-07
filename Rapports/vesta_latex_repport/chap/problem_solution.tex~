@@ -41,7 +41,7 @@ From the visit to the EMS we found out that:
   \item{ A 7 inch screen was big enough }
   \item{ A flat device such as existing tablets was not suitable as it could get easily lost under things and the grip was not easy.}
   \item{ The color of the object is important as elderly tend to have many things and the device should be easily localisable}
-  \item{ Sound was not a good medium to emit notification, visual stimulis was better.}
+  \item{ Sound was not a good solution to emit notification, visual stimulis was better.}
 \end{itemize}
 
 
@@ -64,4 +64,4 @@ The website also allows to adjust certain settings of the device such as screen 
     \label{fig:vesta tablet}
 \end{figure}
 
-The Vesta tab is a tablet oriented towards the elderly. It has a capacitive touch screen, a wifi and bluetooth connection and a unique casing. The main usage at the moment is receiving and displaying pictures and text sent by the younger family via the dedicated website. As soon as a new image or text is received an LED blinks to inform the user of new content. The interface is designed to be very user friendly and easy to use.
+The Vesta tab is a tablet oriented towards the elderly. It has a capacitive touch screen, a wifi and bluetooth connection and a unique casing. The main usage at the moment is receiving and displaying pictures and text sent by the younger family via the dedicated website. As soon as a new image or text is received a LED blinks to inform the user of new content. The interface is designed to be very user friendly and easy to use.

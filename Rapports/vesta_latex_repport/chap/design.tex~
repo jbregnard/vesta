@@ -6,14 +6,17 @@ In this section, the industrial design will be explained and especially shown wi
 
 The color of the shield is the orange. This color is hot and represent the positivity. It also is visible color and not agressive. The screen size is 7 inches with a resolution of 800x480. It is big enough to display readable messages and pictures.
 
+The case has a certain thickness to allow users to have a better grip. The device can have 2 postures, one more vertical and one more horizontal. The user can then watch the tablet sitting down and holding in his hands or the device can be watched like a digital photo frame.
+
 The design of the tablet is shown in the figure \ref{fig:vesta design}.
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/designFig/VestaRender4.png}
+    \includegraphics[width=0.7\textwidth,keepaspectratio]{chap/designFig/VestaRender4.png}
     \caption{Vesta tablet design}
     \label{fig:vesta design}
 \end{figure}
+
 
 
 \subsection{Charging station}
@@ -22,10 +25,12 @@ The charging station is wireless, it works with induction. More and more devices
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/designFig/VisioRender7.png}
+    \includegraphics[width=0.7\textwidth,keepaspectratio]{chap/designFig/VisioRender7.png}
     \caption{Charging station}
     \label{fig:charging station}
 \end{figure}
+
+On the left, the inductive charging station. On the right, the vesta tablet in horizontal position.
 
 \clearpage
 
@@ -41,3 +46,5 @@ The graphical interface of the software is shown in the figure \ref{fig:soft des
     \caption{Software design}
     \label{fig:soft design}
 \end{figure}
+
+On the left the software design imagined for the picture display with the button to display the text message. And on the right, the design of the text message display with the picture of the sender and the button to return to the picture.
