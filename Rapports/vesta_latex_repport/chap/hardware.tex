@@ -191,6 +191,15 @@ The LED is there to inform the user of a new message. As it is only a notificati
 \subsection{Power management}
 The power source of the device is of course the battery. From the battery the power is channeled into two main groups. The wl1835 wireless chip and the
 The two main devices which draw the most current are the BBB and the wifi chip.
+The electrical flow is detailed in fig.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.7\textwidth,keepaspectratio]{chap/hardFig/vesta_power_management}
+    \caption{Eelctrical flow from the wall outlet to the different components of the device.}
+    \label{fig:power flow}
+\end{figure}
+
 \subsection{Batteries and charger}
 The battery is a 3.7V Lithium-ion battery with a capacity of 6000mAh from Seeedstudio. The voltage of such batteries range from 3.7V to 4.2V. Seeedstudio also sell a li-ion battery charger and wireless power trnasmission coils. We use this system
 \subsection{PCB}
@@ -218,7 +227,7 @@ The PCB is composed of four layers. These layers are described in table.\ref{tab
   \end{center}
   \caption {Pcb layer description} \label{tab:layer description}
 \end{table}
-
+The power plane is set to the 3.3v of the BBB.
 
 \subsubsection{Antennas}
 The chip antennas are the ANT016008LCD2442MA1 from TDK. The datasheet and previously mentioned examples allowed us to design the custom footprint.
