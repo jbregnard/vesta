@@ -96,10 +96,19 @@ The figure \ref{fig:web archi} shows the architecture of the interactions betwee
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/softFig/vesta_website2}
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{chap/softFig/vesta_website2}
     \caption{Vesta website architecture.}
     \label{fig:web archi}
 \end{figure}
+
+The steps of the vesta tablet connecting to the website are:
+\begin{enumerate}
+\item{The tablet connects to a php script}
+\item{The php script open a connection with the MySQL database and get the datas wanted}
+\item{The php script parse the datas in XML, and sends it}
+\item{The tablet get the XML code and unparse it}
+\item{The tablet displays the messages and pictures}
+\end{enumerate}
 
 \clearpage
 
@@ -107,6 +116,16 @@ The figure \ref{fig:web archi} shows the architecture of the interactions betwee
 The webpage let the young user send a message to a wanted tablet. Every tablet has an id like a phone number known by the tablet owner. It is possible to select a picture on the user's computer and write a text message. When the "send" button is clicked, the picture and text message is saved in the MySQL database.
 
 The php script called when the send button is clicked downloads the picture contained in the file input, verify if the file downloaded is a picture and if the size is not too big. If everything went well the picture and the other datas are saved in the MySQL database else some error messages are displayed. The date is automatically written at the current time.
+
+The figure \ref{fig:webpage} shows the actual webpage used to send messages to a tablet.
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.4\textwidth,keepaspectratio]{chap/softFig/web_front_page.png}
+    \caption{Webpage}
+    \label{fig:webpage}
+\end{figure}
+
+This webpage is not finished but is fonctionnal. For security and privacy reason, a login and session creation page should be done to prevent people sending to the wrong tablet. A blocking system needs to be implemented if someone sends adverts or inapropriate messages.
 
 \clearpage
 
@@ -201,14 +220,6 @@ The graphical interface is composed of an horizontal listview and some buttons. 
 
 A task bar is always visible on the top of the GUI. The list view displays the actual picture, the date when the messages was sent and the text message.
 
-The buttons let the user configure the wifi or display the new messages.
-
-\begin{itemize}
-\item{The button A refresh the messages and display the last one.}
-\item{The button B goes to the WIFI configuration and indicates the RSSI of the WIFI.}
-\item{The indicator C show the battery level}
-\end{itemize}
-
 The figure \ref{fig:gui diagram} shows how the GUI is constructed.
 
 \begin{figure}[!htb]
@@ -217,6 +228,14 @@ The figure \ref{fig:gui diagram} shows how the GUI is constructed.
     \caption{Graphical interface diagram, A:Refresh button, B:WIFI RSSI indicator, C:Battery state indicator}
     \label{fig:gui diagram}
 \end{figure}
+
+The buttons let the user configure the wifi or display the new messages.
+
+\begin{itemize}
+\item{The button A refresh the messages and display the last one.}
+\item{The button B goes to the WIFI configuration and indicates the RSSI of the WIFI.}
+\item{The indicator C show the battery level}
+\end{itemize}
 
 The figure \ref{fig:graphical interface} shows the actual GUI.
 
