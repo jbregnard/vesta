@@ -1,3 +1,8 @@
+
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
 \section{Software}
 %\subsection{Description}
 The software of this project contains 3 parts:
@@ -80,10 +85,68 @@ The edt-ft5x06 uses an interrupt line and I2C to get the touch events and the po
 
 Another driver is used for the WIFI connection with the wl1835mod. This driver uses the protocol SDIO. It also has to be declared and initialized at the OS startup in the device tree blob. As the beaglebone's processor has only one SDIO protocol possible and it is used by the emmc memory, the emmc is replaced by the WIFI chip and the emmc is unusable.
 
+An example of the configuration of the I2C1 of the beaglebone black as an entry for the touch panel (driver edt-ft5x06) in the device tree source (dts) is shown in the listing below.
+
+\begin{lstlisting}
+i2c@4802a000 {
+	compatible = "ti,omap4-i2c";
+	ti,hwmods = "i2c2";
+	reg = <0x4802a000 0x1000>;
+	interrupts = <0x47>;
+	status = "okay";
+	pinctrl-names = "default";
+	pinctrl-0 = <0x29>;
+	clock-frequency = <0x61a80>;
+
+	edt-ft5306@38 {
+		status = "okay";
+		compatible = "edt,edt-ft5306", "edt,edt-ft5x06";
+		pinctrl-names = "default";
+		pinctrl-0 = <0x2a>;
+		reg = <0x38>;
+		interrupt-parent = <0x1c0>;
+		interrupts = <0x15 0x0>;
+		touchscreen-size-x = <0x320>;
+		touchscreen-size-y = <0x1e0>;
+	};
+};
+\end{lstlisting}
+
+i2c@4802a000 corresponds to the I2C1 of the beaglebone black (even if it defines I2C2 in ti,hwmods, this is due to a problem in the kernel 3.14 the pins are not named correctly). The following commands init the I2C1 at the clock frequency 0x61a80. The line starting with edt-ft5306@38 declare that the driver edt-ft5x06 has to be link to the I2C1 and the I2C adress is 0x38. Different inputs are declared in the brackets, the interrupt-parent and interrupts defines the interrupt line when a touch event occurs. Reg is the I2C adress of the Focaltech chip (ft5x06). The pin <0x1c0 0x15 0x0> corresponds to the pin 25 of the beaglebone black. The touchscreen size is also given: 800*480 (0x320*0x1e0).
+
+\clearpage
+
 \subsubsection{Display}
 The touch screen works with a 24 bits parallel interface so the X11 configuration file had to be modified to work correctly. The LCD output was initialy configured in 16 bits parallel interface.
 The hardware management in linux is called a device tree blob. It’s a script that is compiled and is loaded at the OS startup. In this file, the driver for the touch panel was declared and the interrupt pins was defined. The resolution and frequency of the display is also configured in this script. The wifi chip also needs to load drivers at startup and tell the OS to connect to internet via this chip and with the SDIO protocol.
 The file is located in /boot/dtbs/3.14xx/ and is called vesta.dtb (compiled) and the source is called vesta.dts. The file uEnv.txt located in /boot/ also needs to define which device tree blob(dtb) the OS has to load at startup.
+
+The following listing shows how to define the display output on the pins of the beaglebone black. It is a critical step and need to be declared like this.
+\begin{lstlisting}
+display-timings {
+	native-mode = <0x1c5>;
+
+	800x480 {
+		clock-frequency = <0x1c9c380>;
+		hactive = <0x320>;
+		vactive = <0x1e0>;
+		hfront-porch = <0x1>;
+		hback-porch = <0x2d>;
+		hsync-len = <0x1e>;
+		vback-porch = <0x16>;
+		vfront-porch = <0xc>;
+		vsync-len = <0x2>;
+		hsync-active = <0x1>;
+		vsync-active = <0x1>;
+		de-active = <0x1>;
+		pixelclk-active = <0x0>;
+		linux,phandle = <0x1c9>;
+		phandle = <0x1c9>;
+	};
+};
+\end{lstlisting}
+
+The native-mode defines that it is a 16/9 screen. The clock frequency is 30MHz and the resolution 800x480. hactive and vactive define respectively the horizontal number of active pixel and the vertical number of pixel active (in our case 800x480). Other configuration modes are defined then. For more informations about the configurations, check the Newheaven touchscreen's datasheet.
 
 \clearpage
 
@@ -101,7 +164,7 @@ The figure \ref{fig:web archi} shows the architecture of the interactions betwee
     \label{fig:web archi}
 \end{figure}
 
-The steps of the vesta tablet connecting to the website are:
+The steps of the vesta tablet connecting to the database are:
 \begin{enumerate}
 \item{The tablet connects to a php script}
 \item{The php script open a connection with the MySQL database and get the datas wanted}
@@ -109,6 +172,8 @@ The steps of the vesta tablet connecting to the website are:
 \item{The tablet get the XML code and unparse it}
 \item{The tablet displays the messages and pictures}
 \end{enumerate}
+
+The website connects directly to the database to store the input picture and messages.
 
 \clearpage
 
@@ -132,9 +197,9 @@ This webpage is not finished but is fonctionnal. For security and privacy reason
 \subsubsection{Database and XML parsing}
 The MySQL database is where all the messages and pictures are stored. The webpage connects and save the datas into the database when the user send a message.
 
-An example of entries on the vesta table on the MySQL database are shown in the table\ref{tab:database}.
+An example of entries on the tablet's MySQL database are shown in the table\ref{tab:database}.
 
-\begin{table}
+\begin{table}[!htb]
 \begin{tabular}{|c|c|c|c|c|c|c|}
   \hline
   id & type & name & sender & text & img & date \\
@@ -154,14 +219,8 @@ XML is a markup language that facilitates the transfer of datas and the readabil
 An example of XML code is shown below:
 
 \lstset{
-style=customxml,
- basicstyle=\ttfamily,
- columns=fullflexible,
- showstringspaces=false,
- commentstyle=\color{green}\upshape
+ style=customXML
 }
-
-
 \begin{lstlisting}
 <?xml version="1.0"?>
 <vesta>
@@ -182,7 +241,7 @@ style=customxml,
 </vesta>
 \end{lstlisting}
 
-This XML file defines 2 messages: family.jpg and cat.jpg. The senders are Jean and Marie at respectively 17:08:45 the 18th april 2015 and 14:34:12 the 23th april 2015. The images are available at the URL defined between the image markups. The message is between the message markups.
+This XML file defines 2 messages: family.jpg and cat.jpg. The senders are Jean and Marie at respectively 17:08:45 the 18th april 2015 and 14:34:12 the 23th april 2015. The images are available at the URL defined between the image markups. The text message is between the message markups.
 
 \clearpage
 
@@ -195,7 +254,7 @@ The library contains also a lot of utils to facilitate the development of emmbed
 
 There are differents GUI library like Gtk+, CEGUI etc... The choice of Qt was done especially because it is cross platform but also because it's compatible with emmbedded systems. Qt can be used also with android and IOS and is really made for apps with touchscreen. Qt quick is very powerful for emmbedded applications. The last version of Qt was downloaded over 1 million times and is ranked number 1 of all cross-platform tools.
 
-Qt creator is the official development environnment for Qt. It is used to develop and cross-compile the software for the beaglebone black. A visual GUI editor is available and simplify grandly the development of the software GUI.
+Qt creator is the official development environnment for Qt. It is used to develop and cross-compile the software for the beaglebone black. A visual GUI editor is available and greatly simplify the development of the software GUI.
 
 \clearpage
 
