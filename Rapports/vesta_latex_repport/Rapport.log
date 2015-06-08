@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.7)  8 JUN 2015 05:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.7)  8 JUN 2015 06:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2110,11 +2110,13 @@ put line 248.
 \openout2 = `chap/software.aux'.
 
  (./chap/software.tex
+Package color Info: Redefining color cyan on input line 4.
+
 <chap/softFig/web_connections.png, id=429, 847.165pt x 357.335pt>
 File: chap/softFig/web_connections.png Graphic file (type png)
 
 <use chap/softFig/web_connections.png>
-Package pdftex.def Info: chap/softFig/web_connections.png used on input line 18
+Package pdftex.def Info: chap/softFig/web_connections.png used on input line 23
 .
 (pdftex.def)             Requested size: 422.00777pt x 178.00185pt.
  [21
@@ -2126,12 +2128,12 @@ File: chap/softFig/block_diagram_vesta2.png Graphic file (type png)
 
 <use chap/softFig/block_diagram_vesta2.png>
 Package pdftex.def Info: chap/softFig/block_diagram_vesta2.png used on input li
-ne 29.
+ne 34.
 (pdftex.def)             Requested size: 422.00777pt x 316.50026pt.
  [22
 
  <./chap/softFig/block_diagram_vesta2.png>]
-Overfull \hbox (26.23027pt too wide) in paragraph at lines 39--40
+Overfull \hbox (26.23027pt too wide) in paragraph at lines 44--45
 []\T1/aer/m/n/10.95 The ori-gi-nal OS is avai-lable on the bea-gle-bone black d
 e-ve-lo-per web-site : http ://beagleboard.org/latest-
  []
@@ -2140,7 +2142,7 @@ e-ve-lo-per web-site : http ://beagleboard.org/latest-
 File: chap/softFig/first_diagram2.png Graphic file (type png)
 
 <use chap/softFig/first_diagram2.png>
-Package pdftex.def Info: chap/softFig/first_diagram2.png used on input line 45.
+Package pdftex.def Info: chap/softFig/first_diagram2.png used on input line 50.
 
 (pdftex.def)             Requested size: 328.22906pt x 224.23143pt.
  [23
@@ -2152,7 +2154,7 @@ Package pdftex.def Info: chap/softFig/first_diagram2.png used on input line 45.
 File: chap/softFig/vesta_website2.png Graphic file (type png)
 
 <use chap/softFig/vesta_website2.png>
-Package pdftex.def Info: chap/softFig/vesta_website2.png used on input line 157
+Package pdftex.def Info: chap/softFig/vesta_website2.png used on input line 162
 .
 (pdftex.def)             Requested size: 375.122pt x 346.94502pt.
  [26
@@ -2162,13 +2164,13 @@ Package pdftex.def Info: chap/softFig/vesta_website2.png used on input line 157
 File: chap/softFig/web_front_page.png Graphic file (type png)
 
 <use chap/softFig/web_front_page.png>
-Package pdftex.def Info: chap/softFig/web_front_page.png used on input line 183
+Package pdftex.def Info: chap/softFig/web_front_page.png used on input line 188
 .
 (pdftex.def)             Requested size: 187.55742pt x 327.55264pt.
  [27
 
  <./chap/softFig/web_front_page.png>]
-Overfull \hbox (3.32649pt too wide) in paragraph at lines 198--206
+Overfull \hbox (3.32649pt too wide) in paragraph at lines 203--211
 [][] 
  []
 
@@ -2177,34 +2179,37 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
-) [28
+)
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10.95> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 228.
+ [28
 
 ] [29
 
 ]
-<chap/softFig/vesta_software_diagram2.png, id=560, 928.46875pt x 661.47125pt>
+<chap/softFig/vesta_software_diagram2.png, id=561, 928.46875pt x 661.47125pt>
 File: chap/softFig/vesta_software_diagram2.png Graphic file (type png)
 
 <use chap/softFig/vesta_software_diagram2.png>
 Package pdftex.def Info: chap/softFig/vesta_software_diagram2.png used on input
- line 271.
+ line 273.
 (pdftex.def)             Requested size: 422.00777pt x 300.657pt.
  [30
 
  <./chap/softFig/vesta_software_diagram2.png>]
-<chap/softFig/GUI_diagram.png, id=568, 859.21pt x 576.1525pt>
+<chap/softFig/GUI_diagram.png, id=569, 859.21pt x 576.1525pt>
 File: chap/softFig/GUI_diagram.png Graphic file (type png)
 
 <use chap/softFig/GUI_diagram.png>
-Package pdftex.def Info: chap/softFig/GUI_diagram.png used on input line 287.
+Package pdftex.def Info: chap/softFig/GUI_diagram.png used on input line 289.
 (pdftex.def)             Requested size: 328.22906pt x 220.10068pt.
 
-<chap/softFig/vesta_printscreen.png, id=570, 1606.0pt x 903.375pt>
+<chap/softFig/vesta_printscreen.png, id=571, 1606.0pt x 903.375pt>
 File: chap/softFig/vesta_printscreen.png Graphic file (type png)
 
 <use chap/softFig/vesta_printscreen.png>
 Package pdftex.def Info: chap/softFig/vesta_printscreen.png used on input line 
-304.
+306.
 (pdftex.def)             Requested size: 328.22906pt x 184.62791pt.
 ) [31
 
@@ -2243,13 +2248,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 24785 strings out of 494925
- 401125 string characters out of 6178709
- 484508 words of memory out of 5000000
- 27297 multiletter control sequences out of 15000+600000
- 45293 words of font info for 106 fonts, out of 8000000 for 9000
+ 24791 strings out of 494925
+ 401199 string characters out of 6178709
+ 484620 words of memory out of 5000000
+ 27301 multiletter control sequences out of 15000+600000
+ 46030 words of font info for 108 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 49i,12n,58p,10416b,1152s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,58p,10416b,1159s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/jo/.texmf-
 var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/t
@@ -2260,11 +2265,12 @@ nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Rapport.pdf (36 pages, 9990511 bytes).
+/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on Rapport.pdf (36 pages, 9997752 bytes).
 PDF statistics:
- 664 PDF objects out of 1000 (max. 8388607)
- 560 compressed objects within 6 object streams
+ 668 PDF objects out of 1000 (max. 8388607)
+ 563 compressed objects within 6 object streams
  180 named destinations out of 1000 (max. 500000)
  528 words of extra memory for PDF output out of 10000 (max. 10000000)
 

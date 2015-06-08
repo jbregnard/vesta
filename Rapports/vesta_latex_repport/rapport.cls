@@ -125,15 +125,17 @@
   stringstyle=\color{orange},
 }
 
-\lstdefinestyle{customxml}{
+
+\lstdefinestyle{customXML}
+{
   language=XML,
-	morestring=[b]",
-	morestring=[s]{>}{<},
-	morecomment=[s]{<?}{?>},
-	stringstyle=\color{black},
-	identifierstyle=\color{darkblue},
-	keywordstyle=\color{cyan},
-	identifierstyle=\itshape\color{green}
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  stringstyle=\color{black},
+  identifierstyle=\color{darkblue},
+  keywordstyle=\color{cyan},
+  morekeywords={image,vesta,item,title,sender,date,message}% list your attributes here
 }
 
 %---- Clear double page without numbering them ----%

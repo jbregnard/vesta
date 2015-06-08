@@ -1,3 +1,8 @@
+
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
 \section{Software}
 %\subsection{Description}
 The software of this project contains 3 parts:
@@ -192,9 +197,9 @@ This webpage is not finished but is fonctionnal. For security and privacy reason
 \subsubsection{Database and XML parsing}
 The MySQL database is where all the messages and pictures are stored. The webpage connects and save the datas into the database when the user send a message.
 
-An example of entries on the vesta table on the MySQL database are shown in the table\ref{tab:database}.
+An example of entries on the tablet's MySQL database are shown in the table\ref{tab:database}.
 
-\begin{table}
+\begin{table}[!htb]
 \begin{tabular}{|c|c|c|c|c|c|c|}
   \hline
   id & type & name & sender & text & img & date \\
@@ -214,14 +219,11 @@ XML is a markup language that facilitates the transfer of datas and the readabil
 An example of XML code is shown below:
 
 \lstset{
-style=customxml,
+ style=customXML,
  basicstyle=\ttfamily,
  columns=fullflexible,
- showstringspaces=false,
- commentstyle=\color{green}\upshape
+ showstringspaces=false
 }
-
-
 \begin{lstlisting}
 <?xml version="1.0"?>
 <vesta>
