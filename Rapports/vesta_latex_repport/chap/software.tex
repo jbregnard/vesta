@@ -12,7 +12,7 @@ The software of this project contains 3 parts:
 \item{The Vesta tab software that is used on the tablet to display the differents messages and pictures received by the old users.}
 \end{itemize}
 
-The concept of this software is easy to understand. Every tablet has a unique id like a phone number. The young user knows this id and can send messages and pictures to the wanted tablet through the website. The tablet just needs to be configured to connect to the wifi and get messages sent by the young user. The old people has almost nothing to do, the pictures are displayed automatically. He can naviguate in the old messages by swiping the pictures on the tablet.
+The concept of this software is easy to understand. Every tablet has a unique id like a phone number. The young user knows this id and can send messages and pictures to the wanted tablet through the website. The tablet just needs to be configured to connect to the wifi and get messages sent by the young user. The old person has almost nothing to do, the pictures are displayed automatically. He can naviguate in the old messages by swiping the pictures on the tablet.
 
 It is similar to a digital photo frame but the pictures are not put on the tablet by the tablet owner but by the young user.
 
@@ -44,7 +44,7 @@ The OS used for this project is a debian. Debian is a linux distribution and was
 The original OS is available on the beaglebone black developer website: http://beagleboard.org/latest-images
 
 The figure \ref{fig:OS} shows how the are the interactions between the OS and the hardware or the software.
- 
+
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.7\textwidth,keepaspectratio]{chap/softFig/first_diagram2}
@@ -62,7 +62,7 @@ The original OS contains:
 
 The OS manages the communications with the different hardware. The accelerometer is controled by I2C (to read datas and write configurations). The screen uses different interfaces, I2C for the touch panel and 24bit parallel for the display. The WIFI chip is connected with SDIO and it replaces the emmc memory.
 
-Every protocol and every pins input or output have to be declared in a file called device tree source. In the 3.14 kernel, this file is compiled and become a device tree blob. The compiled version of the file is executed at the OS startup. It initiates the load of the drivers and configures the pins as input, output, pwm or interrupt. Some pins can be configured as i2c, spi, SDIO or some other protocols.
+Every protocol and every pins input or output have to be declared in a file called device tree source. In the 3.14 kernel, this file is compiled and becomes a device tree blob. The compiled version of the file is executed at the OS startup. It initiates the loading of the drivers and configures the pins as input, output, pwm or interrupt. Some pins can be configured as i2c, spi, SDIO or some other protocols.
 
 
 Packets installed on the original debian OS:
@@ -78,7 +78,7 @@ Packets installed on the original debian OS:
 \subsubsection{Drivers}
 A lot of work on this linux distribution was made to be fully compatible with the chosen hardware.
 The touch screen driver edt-ft5x06 had problems with the original 3.8 kernel of the distribution used. The driver was not loading correctly from the device tree overlay. An upgrade to the 3.14 kernel resolved the problem.
-Then the scale of the touchscreen was not correct. 
+Then the scale of the touchscreen was not correct.
 When a touch event occured on the right-down corner, the mouse pointer moved to the center of the screen. Some configuration scripts had to be modified for the X11 graphical display server.
 
 The edt-ft5x06 uses an interrupt line and I2C to get the touch events and the positions of the clicks.
@@ -118,7 +118,7 @@ i2c@4802a000 corresponds to the I2C1 of the beaglebone black (even if it defines
 
 \subsubsection{Display}
 The touch screen works with a 24 bits parallel interface so the X11 configuration file had to be modified to work correctly. The LCD output was initialy configured in 16 bits parallel interface.
-The hardware management in linux is called a device tree blob. It’s a script that is compiled and is loaded at the OS startup. In this file, the driver for the touch panel was declared and the interrupt pins was defined. The resolution and frequency of the display is also configured in this script. The wifi chip also needs to load drivers at startup and tell the OS to connect to internet via this chip and with the SDIO protocol.
+In the blob file, the driver for the touch panel was declared and the interrupt pins was defined. The resolution and frequency of the display is also configured in this script. The wifi chip also needs to load drivers at startup and tell the OS to connect to internet via this chip and with the SDIO protocol.
 The file is located in /boot/dtbs/3.14xx/ and is called vesta.dtb (compiled) and the source is called vesta.dts. The file uEnv.txt located in /boot/ also needs to define which device tree blob(dtb) the OS has to load at startup.
 
 The following listing shows how to define the display output on the pins of the beaglebone black. It is a critical step and need to be declared like this.
@@ -211,9 +211,11 @@ An example of entries on the tablet's MySQL database are shown in the table\ref{
 \caption {Example of entries in the vesta table on the MySQL database}\label{tab:database}
 \end{table}
 
-When the tablet update the datas, it connects to a script contained on the server. This script connects to the database and parse the informations needed by the tablet in XML.The tablet then unparse the datas, downloads the pictures, and displays them.
+BLOB is the file format of the pictures stored in the database.
 
-XML is a markup language that facilitates the transfer of datas and the readability of them. It is mainly used in the RSS flux.
+When the tablet update the data, it connects to a script contained on the server. This script connects to the database and parses the information needed by the tablet in XML.The tablet then unparses the data, downloads the pictures, and displays them.
+
+XML is a markup language that facilitates the transfer of data and the readability of them. It is mainly used in the RSS flux.
 
 
 An example of XML code is shown below:
@@ -230,7 +232,7 @@ An example of XML code is shown below:
   <item>
     <title>family.jpg</title>
     <sender>Jean</sender>
-    <date>2015-04-18 17:08:45</date>    
+    <date>2015-04-18 17:08:45</date>
     <image>http://www.vesta-tab.com/jo/getImage.php?id=7</image>
     <message>Hello! A message for you</message>
   </item>
@@ -249,11 +251,11 @@ This XML file defines 2 messages: family.jpg and cat.jpg. The senders are Jean a
 \clearpage
 
 \subsection{Vesta software on the tablet}
-The Vesta software is used by the old users to receive and display the messages and pictures sent by the young users. It is located on the tablet and working with debian. The software is made in C++ with Qt4.8/Qt quick 1.0.
+The Vesta software is used by the old users to receive and display the messages and pictures sent by the young users. It is located on the tablet and working with debian. The software is written in C++ with Qt4.8/Qt quick 1.0.
 
 \subsubsection{Qt library}
-Qt is a free library used mainly to design softwares with graphical user interfaces (GUI). It is cross platform so with the same code it is possible to compile for linux,windows and mac.
-The library contains also a lot of utils to facilitate the development of emmbedded interfaces and manages the touchscreen events like the swipes, clicks and more. A lot of documentation is available and a lot of users develop with it.
+Qt is a free library used mainly to design software with graphical user interfaces (GUI). It is cross platform so with the same code it is possible to compile for linux,windows and mac.
+The library contains also a lot of utils to facilitate the development of emmbedded interfaces and manages the touchscreen events like swipes, clicks and more. A lot of documentation is available and a lot of users develop with it.
 
 There are differents GUI library like Gtk+, CEGUI etc... The choice of Qt was done especially because it is cross platform but also because it's compatible with emmbedded systems. Qt can be used also with android and IOS and is really made for apps with touchscreen. Qt quick is very powerful for emmbedded applications. The last version of Qt was downloaded over 1 million times and is ranked number 1 of all cross-platform tools.
 
@@ -262,7 +264,7 @@ Qt creator is the official development environnment for Qt. It is used to develo
 \clearpage
 
 \subsubsection{Overall operations}
-At the startup, the vesta tab init and check the wifi connection. The touchscreen creates an event when someone touch it and changes the image displayed. It lets the user naviguate between the different messages. Every minute the soft check if a new message is received.
+At the startup, the vesta tablet inits and checks the wifi connection. The touchscreen creates an event when someone touches it and changes the displayed image. It lets the user naviguate between the different messages. Every minute the soft checks if a new message has arrived.
 
 The software is quite simple and not a lot of functionnalities are implemented. The goal was to have a really easy to use software for old people.
 
@@ -278,7 +280,7 @@ The figure \ref{fig:soft archi} shows how the software works.
 \clearpage
 
 \subsubsection{Graphical interface}
-The graphical interface is composed of an horizontal listview and some buttons. The listview allows swipes event to naviguate between the different pictures and messages.
+The graphical interface is composed of an horizontal listview and some buttons. The listview allows swipe events to naviguate between the different pictures and messages.
 
 A task bar is always visible on the top of the GUI. The list view displays the actual picture, the date when the messages was sent and the text message.
 
@@ -307,5 +309,3 @@ The figure \ref{fig:graphical interface} shows the actual GUI.
     \caption{Vesta software graphical interface}
     \label{fig:graphical interface}
 \end{figure}
-
-

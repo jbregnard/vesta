@@ -29,7 +29,7 @@
 %---- Base and layout ----%
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+%\usepackage[french]{babel}
 \usepackage[unicode=true, pagebackref=true, colorlinks=true, plainpages=true, linkcolor=black]{hyperref}
 \usepackage{fancyhdr}
 

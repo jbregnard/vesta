@@ -1,12 +1,12 @@
 \section{Hardware}
 
-This section is dedicated to show all the chosen electronic components and how they work together. As described earlier the PCB containing all the components will be manufactured by Seeedstudio. They manufacture PCBs with other hardware components and they sell quite a number of different breakout boards and other developpement parts. A request made by CHIC managing team was to source as many components as possible at Seeedstudio. Of course not all components we needed were available by them so some of the components are from different sources.
+This section is dedicated to show all the chosen electronic components and how they work together. As described earlier the PCB containing all the components will be manufactured by Seeedstudio. They manufacture PCBs with other hardware components and they sell quite a number of different breakout boards and other developpement parts. A request made by CHIC managing team was to source as many components as possible at Seeedstudio. Of course not all components needed were available by them so some of the components are from different sources.
 
-The project was basically building a tablet. It didn't need to have the power of high end tablets of today but it still was quite a challenge. At first it was thought that it would be possible to take an open source ARM chip devellopment board, devellop our application and then take the schematics and rebuild a whole board including the processor, memory, etc.. plus all our peripherals and build the whole device from scratch. But it was quickly understood that it was much too complicated to do in a semester. So it decided to take an existing board and build an add-on board hosting our additionnal components.
+The project was basically building a tablet. However time constraints did not allow the devellopment of a tablet from scratch. There for it was decided to build an add-on to an existing processing unit.
 
-There are a number of different devellopment/tinkering boards out there. The most famous one might be the raspberry Pi, although quite capable it seemed a little limited for this application (clocked at 700 mhz for the raspberry pi 1). Another problem was that the raspberry pi is not completely open source. Indeed its schematics and gerber files are not available. At the beginning of the project thinking the whole board would be built up from scratch it was necessary to work with a totally open source platform.
+There are a number of different devellopment/tinkering boards available. The most famous one might be the raspberry Pi, although quite capable it seemed a little limited for this application (clocked at 700 mhz for the raspberry pi 1). Another problem was that the raspberry pi is not completely open source. Indeed its schematics and gerber files are not available. One of the requirements of the CHIC project was that it was necessary to work with a totally open source/open hardware platform. For these reasons the raspberry pi was discarded.
 
- Another famous boardwas chosen: the beagle bone black. Which will further be refered to as the BBB. This board clocked at 1 GHz seemed quite capable. There was lots of documentation, a wide community, and especially it is completelly open source hardware and software.
+ Another famous board was chosen: the beagle bone black. Which will further be refered to as the BBB. This board clocked at 1 GHz seemed quite capable. There was lots of documentation, a wide community, and especially it is completelly open source hardware and software.
 
 In fig.\ref{fig:hardware dependencies} the different components of the device are described.
 
@@ -30,7 +30,7 @@ The BBB uses an ARM processor from Texas Instruments, the AM335X. It is clocked 
     \caption{Beaglebone black.}
     \label{fig:bbb}
 \end{figure}
-
+The BBB capabilities include:
 \begin{itemize}
   \item{ AM335x 1GHz ARM® Cortex-A8 }
   \item{512MB DDR3 RAM}
@@ -38,9 +38,12 @@ The BBB uses an ARM processor from Texas Instruments, the AM335X. It is clocked 
   \item{Ethernet}
   \item{2x 46 pin headers}
   \item{Open source}
-  \item{...}
+  \item{On board Power Management IC}
+  \item{micro Sd card reader}
+  \item{Ethernet}
+  \item{micro HDMI output}
 \end{itemize}
-The main interface of the BBB are the 92 pins. Many pins can be configured in different modes. The pins and connection listed in fig.\ref{fig:pin modes}.
+The main interface of the BBB are the 92 pins. Many pins can be configured in different modes. The pins and connection are listed in fig.\ref{fig:pin modes}.
 \clearpage
 
 
@@ -60,7 +63,7 @@ The main interface of the BBB are the 92 pins. Many pins can be configured in di
 
 \subsection{Screen and Touchscreen}
 At the current state of the prototype the main function is to view images and text. Therefore a good screen with realistic colors is necessary to have a good user experience.
-First a resistive touchscreen BBB cape (4DCAPE-70T by 4D systems) available from Seeedstudio was ordered to see how its was made and to see if the resistive technology was applicable to the project. It was quickly realised that the resistive touchscreen was not very suitable to manipulate photos. Especially the very well known “swipe” gesture to move from one photo to another was impossible to do with the resistive touchscreen.
+First a resistive touchscreen BBB cape (4DCAPE-70T by 4D systems) available from Seeedstudio was ordered to see how its was made and to see if the resistive technology was applicable to the project. Quickly the resistive touchscreen reveiled to be unsuitable to manipulate photos. Especially the very well known “swipe” gesture to move from one photo to another was impossible to do with the resistive touchscreen.
 This screens colors were coded on 16 bits and the viewing angle was quite bad. It was decided to use a capacitive touchscreen and more colors if possible. A screen found on Mouser was chosen. It had good documentation and especially there was an existing driver for the touchscreen IC in the linux kernel planned to run on the BBB.
  The screen is actually a package containing the screen and its driver, the touch-screen and its driver and the backlight LED array. This package can be seen in fig.\ref{fig:screen package}
 
@@ -240,7 +243,7 @@ The power source of the device is of course the battery. From the battery the po
 
 \subsection{PCB}
 \label{chap:pcb}
-The PCB was designed in Altium Designer 15. Unfortunatly at this stage no prototype of the PCB has been made. All the components appart from the wl1835 have been tested with the BBB on a breadboard. The complex package of the wl1835 chip prevents from connecting it to the BBB with wires. The cape mentionned in chap.\ref{chap:wireless com}as source for the wl1835 implementation.
+The PCB was designed in Altium Designer 15. Unfortunatly at this stage no prototype of the PCB has been made. All the components apart the wl1835 have been tested with the BBB on a breadboard. The complex package of the wl1835 chip prevents from connecting it to the BBB with wires. The cape mentionned in chap.\ref{chap:wireless com}as source for the wl1835 implementation.
 
 \subsubsection{Overall description}
 
@@ -336,6 +339,14 @@ Following the guidelines of the manufacturer the antennas were placed on the edg
 \end{figure}
 
 \clearpage
+\subsection{Assembly}
+In Figure~\ref{fig:assembly} an assembly of the components of the device is shown.
+\begin{sidewaysfigure}[!htb]
+    \centering
+    \includegraphics[width=0.9\textwidth,keepaspectratio]{chap/designFig/AssemblageVestaB_290415}
+    \caption{Device assembly.}
+    \label{fig:assembly}
+\end{sidewaysfigure}
 
 \subsection{Cost estimates}
 \begin{table}[!htbp]

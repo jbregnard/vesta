@@ -1,0 +1,13 @@
+# Fdb version 3
+["pdflatex"] 1433743643 "design.tex" "design.pdf" "design" 1433743644
+  "/usr/local/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2014/texmf-dist/web2c/texmf.cnf" 1398200874 31722 4f52421e59a4b9e910cf18e64c1f2b4a ""
+  "/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1401025944 1445653 26a0aacf3d70032b1ec192e8c7792117 ""
+  "/usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt" 1433074098 3832012 fb36d5292028858199159e156182bd07 ""
+  "/usr/local/texlive/2014/texmf.cnf" 1401025936 577 a59edbde8d3a8c549d0eeaab1739e2ff ""
+  "design.aux" 1433743448 1933 10ad9769f0cd87426c5ffcc534634222 ""
+  "design.tex" 1433743640 2929 fba9cc6ad271bf0e429c3c0f7bf08269 ""
+  (generated)
+  "design.pdf"
+  "design.log"

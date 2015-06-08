@@ -1,4 +1,3 @@
-\select@language {french}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
 \contentsline {section}{\numberline {2}Problem and Solution}{2}{section.2}
@@ -7,97 +6,51 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Younger generation needs}{2}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Elderly needs}{2}{subsubsection.2.1.2}
 \contentsline {subsection}{\numberline {2.2}Solution}{3}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Vesta tab}{4}{subsection.2.3}
-\contentsline {section}{\numberline {3}Elderly market}{5}{section.3}
+\contentsline {section}{\numberline {3}Value Proposition}{5}{section.3}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {4}Value Proposition and Buisness Model}{6}{section.4}
+\contentsline {section}{\numberline {4}Industrial design}{7}{section.4}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {4.1}Value Proposition}{6}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Buisness model}{6}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}User tests}{6}{subsection.4.3}
-\contentsline {section}{\numberline {5}Industrial design}{8}{section.5}
+\contentsline {subsection}{\numberline {4.1}Tablet}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Charging station}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Software design}{9}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Visual identity}{9}{subsection.4.4}
+\contentsline {section}{\numberline {5}Hardware}{11}{section.5}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {5.1}Tablet}{8}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Charging station}{8}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Software design}{10}{subsection.5.3}
-<<<<<<< HEAD
-\contentsline {section}{\numberline {6}Materials}{11}{section.6}
+\contentsline {subsection}{\numberline {5.1}Beaglebone Black}{12}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Screen and Touchscreen}{14}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Screen}{14}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Touchscreen}{14}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Backlight}{15}{subsubsection.5.2.3}
+\contentsline {subsection}{\numberline {5.3}Wireless Communication}{15}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Wlan}{17}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Bluetooth}{17}{subsubsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.3}Power management}{17}{subsubsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.4}Buffering}{18}{subsubsection.5.3.4}
+\contentsline {subsubsection}{\numberline {5.3.5}Antennas}{18}{subsubsection.5.3.5}
+\contentsline {subsection}{\numberline {5.4}Front LED}{18}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Accelerometer}{18}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Batteries and charger}{19}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Power management}{20}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}PCB}{20}{subsection.5.8}
+\contentsline {subsubsection}{\numberline {5.8.1}Overall description}{20}{subsubsection.5.8.1}
+\contentsline {subsubsection}{\numberline {5.8.2}Antennas}{22}{subsubsection.5.8.2}
+\contentsline {subsection}{\numberline {5.9}Assembly}{24}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.10}Cost estimates}{24}{subsection.5.10}
+\contentsline {section}{\numberline {6}Software}{26}{section.6}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {7}Hardware}{12}{section.7}
+\contentsline {subsection}{\numberline {6.1}Operating system}{28}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Drivers}{29}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Display}{30}{subsubsection.6.1.2}
+\contentsline {subsection}{\numberline {6.2}Website}{31}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Webpage}{32}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Database and XML parsing}{33}{subsubsection.6.2.2}
+\contentsline {subsection}{\numberline {6.3}Vesta software on the tablet}{34}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Qt library}{34}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Overall operations}{35}{subsubsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.3}Graphical interface}{36}{subsubsection.6.3.3}
+\contentsline {section}{\numberline {7}Next steps}{37}{section.7}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {7.1}Beaglebone Black}{13}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Screen and Touchscreen}{15}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Screen}{15}{subsubsection.7.2.1}
-\contentsline {subsubsection}{\numberline {7.2.2}Touchscreen}{15}{subsubsection.7.2.2}
-\contentsline {subsubsection}{\numberline {7.2.3}Backlight}{16}{subsubsection.7.2.3}
-\contentsline {subsection}{\numberline {7.3}Wireless Communication}{16}{subsection.7.3}
-\contentsline {subsubsection}{\numberline {7.3.1}Wlan}{18}{subsubsection.7.3.1}
-\contentsline {subsubsection}{\numberline {7.3.2}Bluetooth}{18}{subsubsection.7.3.2}
-\contentsline {subsubsection}{\numberline {7.3.3}Power management}{18}{subsubsection.7.3.3}
-\contentsline {subsubsection}{\numberline {7.3.4}Buffering}{19}{subsubsection.7.3.4}
-\contentsline {subsubsection}{\numberline {7.3.5}Antennas}{19}{subsubsection.7.3.5}
-\contentsline {subsection}{\numberline {7.4}Front LED}{19}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Accelerometer}{19}{subsection.7.5}
-\contentsline {subsection}{\numberline {7.6}Batteries and charger}{20}{subsection.7.6}
-\contentsline {subsection}{\numberline {7.7}Power management}{21}{subsection.7.7}
-\contentsline {subsection}{\numberline {7.8}PCB}{21}{subsection.7.8}
-\contentsline {subsubsection}{\numberline {7.8.1}Overall description}{21}{subsubsection.7.8.1}
-\contentsline {subsubsection}{\numberline {7.8.2}Antennas}{23}{subsubsection.7.8.2}
-\contentsline {subsection}{\numberline {7.9}Cost estimates}{25}{subsection.7.9}
-\contentsline {section}{\numberline {8}Software}{26}{section.8}
+\contentsline {section}{\numberline {8}Problems encountered}{37}{section.8}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {8.1}Operating system}{28}{subsection.8.1}
-\contentsline {subsubsection}{\numberline {8.1.1}Drivers}{29}{subsubsection.8.1.1}
-\contentsline {subsubsection}{\numberline {8.1.2}Display}{29}{subsubsection.8.1.2}
-\contentsline {subsection}{\numberline {8.2}Website}{30}{subsection.8.2}
-\contentsline {subsubsection}{\numberline {8.2.1}Webpage}{31}{subsubsection.8.2.1}
-\contentsline {subsubsection}{\numberline {8.2.2}Database and XML parsing}{32}{subsubsection.8.2.2}
-\contentsline {subsection}{\numberline {8.3}Vesta software on the tablet}{33}{subsection.8.3}
-\contentsline {subsubsection}{\numberline {8.3.1}Qt library}{33}{subsubsection.8.3.1}
-\contentsline {subsubsection}{\numberline {8.3.2}Overall operations}{34}{subsubsection.8.3.2}
-\contentsline {subsubsection}{\numberline {8.3.3}Graphical interface}{35}{subsubsection.8.3.3}
-\contentsline {section}{\numberline {9}Next steps}{36}{section.9}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {10}Problems encountered}{36}{section.10}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {11}Conclusion}{37}{section.11}
-=======
-\contentsline {section}{\numberline {6}Hardware}{11}{section.6}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {6.1}Beaglebone Black}{11}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Screen and Touchscreen}{14}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Screen}{14}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Touchscreen}{14}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Backlight}{14}{subsubsection.6.2.3}
-\contentsline {subsection}{\numberline {6.3}Wireless Communication}{15}{subsection.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1}Wlan}{16}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2}Bluetooth}{17}{subsubsection.6.3.2}
-\contentsline {subsubsection}{\numberline {6.3.3}Power management}{17}{subsubsection.6.3.3}
-\contentsline {subsubsection}{\numberline {6.3.4}Buffering}{17}{subsubsection.6.3.4}
-\contentsline {subsubsection}{\numberline {6.3.5}Antennas}{17}{subsubsection.6.3.5}
-\contentsline {subsection}{\numberline {6.4}Front LED}{18}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Power management}{18}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Batteries and charger}{18}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}PCB}{18}{subsection.6.7}
-\contentsline {subsubsection}{\numberline {6.7.1}Overall description}{19}{subsubsection.6.7.1}
-\contentsline {subsubsection}{\numberline {6.7.2}Antennas}{19}{subsubsection.6.7.2}
-\contentsline {subsection}{\numberline {6.8}Cost estimates}{20}{subsection.6.8}
-\contentsline {section}{\numberline {7}Software}{21}{section.7}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {subsection}{\numberline {7.1}Operating system}{23}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}Drivers}{24}{subsubsection.7.1.1}
-\contentsline {subsubsection}{\numberline {7.1.2}Display}{25}{subsubsection.7.1.2}
-\contentsline {subsection}{\numberline {7.2}Website}{26}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Webpage}{27}{subsubsection.7.2.1}
-\contentsline {subsubsection}{\numberline {7.2.2}Database and XML parsing}{28}{subsubsection.7.2.2}
-\contentsline {subsection}{\numberline {7.3}Vesta software on the tablet}{29}{subsection.7.3}
-\contentsline {subsubsection}{\numberline {7.3.1}Qt library}{29}{subsubsection.7.3.1}
-\contentsline {subsubsection}{\numberline {7.3.2}Overall operations}{30}{subsubsection.7.3.2}
-\contentsline {subsubsection}{\numberline {7.3.3}Graphical interface}{31}{subsubsection.7.3.3}
-\contentsline {section}{\numberline {8}Next steps}{32}{section.8}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {9}Problems encountered}{32}{section.9}
-\vspace {-0.8em}\mbox {}\hrulefill \par 
-\contentsline {section}{\numberline {10}Conclusion}{33}{section.10}
->>>>>>> origin/master
+\contentsline {section}{\numberline {9}Conclusion}{38}{section.9}
 \vspace {-0.8em}\mbox {}\hrulefill \par 
